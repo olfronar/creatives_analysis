@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video_manifest.schema.json",
+  "title": "Video Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "filename",
+    "path",
+    "duration_seconds",
+    "size_bytes",
+    "width",
+    "height",
+    "fps",
+    "video_codec",
+    "audio_codec",
+    "has_audio",
+    "orientation"
+  ],
+  "properties": {
+    "filename": { "type": "string", "minLength": 1 },
+    "path": { "type": "string", "minLength": 1 },
+    "duration_seconds": { "type": "number", "exclusiveMinimum": 0 },
+    "size_bytes": { "type": "integer", "minimum": 0 },
+    "width": { "type": "integer", "exclusiveMinimum": 0 },
+    "height": { "type": "integer", "exclusiveMinimum": 0 },
+    "fps": { "type": "number", "exclusiveMinimum": 0 },
+    "video_codec": { "type": "string", "minLength": 1 },
+    "audio_codec": { "type": ["string", "null"] },
+    "has_audio": { "type": "boolean" },
+    "orientation": { "enum": ["vertical", "horizontal", "square"] }
+  }
+}

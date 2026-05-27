@@ -1,0 +1,38 @@
+[project]
+name = "creatives-analysis"
+version = "0.1.0"
+description = "Evidence-first creative deconstruction and Submagic adaptation workspace."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faster-whisper>=1.1.0",
+    "jsonschema>=4.23.0",
+    "opencv-python>=4.10.0.84",
+    "pillow>=10.4.0",
+    "pydantic>=2.8.2",
+    "pytesseract>=0.3.13",
+    "scenedetect>=0.6.4",
+    "typer>=0.12.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.2",
+]
+
+[project.scripts]
+creatives-doctor = "creatives_analysis.cli:doctor_app"
+creatives-inventory = "creatives_analysis.cli:inventory_app"
+creatives-extract = "creatives_analysis.cli:extract_app"
+creatives-validate = "creatives_analysis.cli:validate_app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/creatives_analysis"]

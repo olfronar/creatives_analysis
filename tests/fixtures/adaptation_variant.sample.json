@@ -1,0 +1,33 @@
+{
+  "variant_name": "Agency Output Multiplier",
+  "persona": "short-form agency owner",
+  "hook": "Your editor should not spend an hour making one Reel readable.",
+  "core_promise": "Turn raw client footage into branded, captioned shorts faster.",
+  "beat_script": [
+    {
+      "timestamp": "0.0-3.0",
+      "visual": "Raw talking-head clip with dull captions.",
+      "voiceover": "This is why client content takes too long.",
+      "caption": "editing should not eat the week"
+    },
+    {
+      "timestamp": "3.0-10.0",
+      "visual": "Submagic captions, cuts, zooms, and B-roll applied.",
+      "voiceover": "Submagic adds captions, B-roll, and clean cuts in one workflow.",
+      "caption": "captions + b-roll + zooms"
+    },
+    {
+      "timestamp": "10.0-18.0",
+      "visual": "Three platform-ready variants for Reels, TikTok, and Shorts.",
+      "voiceover": "Ship more client variants without rebuilding every edit.",
+      "caption": "one clip, more variants"
+    }
+  ],
+  "platform_notes": {
+    "TikTok": "Keep the first caption large and native.",
+    "Reels": "Protect lower safe zone for controls.",
+    "Shorts": "Make the promise readable without sound."
+  },
+  "submagic_features": ["AI Captions", "B-roll", "Magic Zoom", "Brand Kit"],
+  "copycat_risk": "low"
+}

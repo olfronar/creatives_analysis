@@ -1,0 +1,11 @@
+{
+  "target": "outputs/ad1/reports/deconstruct.md",
+  "valid": false,
+  "checks": [
+    {
+      "name": "timestamp_evidence",
+      "status": "warn",
+      "notes": "Sample fixture only; real report must cite concrete evidence."
+    }
+  ]
+}

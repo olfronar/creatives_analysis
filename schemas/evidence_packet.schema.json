@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence_packet.schema.json",
+  "title": "Evidence Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "video_id",
+    "source_video",
+    "manifest",
+    "timeline_evidence",
+    "artifacts",
+    "reports_generated"
+  ],
+  "properties": {
+    "video_id": { "type": "string", "minLength": 1 },
+    "source_video": { "type": "string", "minLength": 1 },
+    "manifest": { "$ref": "#/$defs/video_manifest" },
+    "timeline_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["timestamp", "source", "observation", "confidence"],
+        "properties": {
+          "timestamp": { "type": "string", "minLength": 1 },
+          "source": { "enum": ["transcript", "ocr", "keyframe", "scene", "audio", "manual"] },
+          "observation": { "type": "string", "minLength": 1 },
+          "confidence": { "enum": ["low", "medium", "high"] }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "reports_generated": {
+      "type": "array",
+      "maxItems": 0
+    }
+  },
+  "$defs": {
+    "video_manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "filename",
+        "path",
+        "duration_seconds",
+        "size_bytes",
+        "width",
+        "height",
+        "fps",
+        "video_codec",
+        "audio_codec",
+        "has_audio",
+        "orientation"
+      ],
+      "properties": {
+        "filename": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "duration_seconds": { "type": "number", "exclusiveMinimum": 0 },
+        "size_bytes": { "type": "integer", "minimum": 0 },
+        "width": { "type": "integer", "exclusiveMinimum": 0 },
+        "height": { "type": "integer", "exclusiveMinimum": 0 },
+        "fps": { "type": "number", "exclusiveMinimum": 0 },
+        "video_codec": { "type": "string", "minLength": 1 },
+        "audio_codec": { "type": ["string", "null"] },
+        "has_audio": { "type": "boolean" },
+        "orientation": { "enum": ["vertical", "horizontal", "square"] }
+      }
+    }
+  }
+}

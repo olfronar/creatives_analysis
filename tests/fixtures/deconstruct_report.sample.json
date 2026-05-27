@@ -1,0 +1,13 @@
+{
+  "video_id": "ad1",
+  "creative_signal_only": true,
+  "scores": [
+    {
+      "dimension": "hook_strength",
+      "score": 2,
+      "evidence": ["0.0-3.0: sample timestamped evidence"],
+      "confidence": "medium"
+    }
+  ],
+  "drop_off_hypotheses": ["CTA appears after the likely midpoint retention drop."]
+}

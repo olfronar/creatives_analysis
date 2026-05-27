@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "adaptation_variant.schema.json",
+  "title": "Submagic Adaptation Variant",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "variant_name",
+    "persona",
+    "hook",
+    "core_promise",
+    "beat_script",
+    "platform_notes",
+    "submagic_features",
+    "copycat_risk"
+  ],
+  "properties": {
+    "variant_name": { "type": "string", "minLength": 1 },
+    "persona": { "type": "string", "minLength": 1 },
+    "hook": { "type": "string", "minLength": 1 },
+    "core_promise": { "type": "string", "minLength": 1 },
+    "beat_script": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["timestamp", "visual", "voiceover", "caption"],
+        "properties": {
+          "timestamp": { "type": "string", "minLength": 1 },
+          "visual": { "type": "string", "minLength": 1 },
+          "voiceover": { "type": "string", "minLength": 1 },
+          "caption": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "platform_notes": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "submagic_features": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "copycat_risk": { "enum": ["low", "medium", "high"] }
+  }
+}
