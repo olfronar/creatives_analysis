@@ -12,3 +12,20 @@ Use this rubric to judge whether an adaptation idea is useful, safe, and executa
 | Evidence lineage | Explains which competitor mechanism inspired the idea without copying the asset. |
 | Copycat safety | Avoids mimicry of protected expression, branded style, exact wording, music, creator likeness, and unverifiable claims. |
 | Testability | Includes a clear creative hypothesis such as hook, caption style, proof sequence, or CTA timing. |
+| Swappability resistance | The idea depends on a specific Submagic proof scene and cannot be renamed as a generic AI editor ad. |
+| Human truth | The variant names a specific creator/agency pain rather than a broad productivity claim. |
+| Visible proof | The script shows a concrete transformation, not only a verbal feature list. |
+
+## Approved Feature Labels
+
+Use these labels in structured outputs:
+
+- AI Captions
+- Magic Clips
+- Auto Edit
+- B-roll
+- Magic Zoom
+- Brand Kit
+- Templates
+- Publishing
+- API

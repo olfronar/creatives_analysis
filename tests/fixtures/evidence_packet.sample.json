@@ -1,6 +1,12 @@
 {
   "video_id": "ad1",
   "source_video": "creatives/ad1.mp4",
+  "analysis_run": {
+    "run_id": "run_sample",
+    "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "extractor": "creatives-extract",
+    "schema_version": "evidence_packet.v2"
+  },
   "manifest": {
     "filename": "ad1.mp4",
     "path": "creatives/ad1.mp4",
@@ -16,10 +22,12 @@
   },
   "timeline_evidence": [
     {
+      "evidence_id": "ev_manifest_000",
       "timestamp": "0.0-3.0",
-      "source": "manual",
+      "source": "metadata",
       "observation": "The first future observation must describe the hook with a timestamp.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "artifact": "outputs/ad1/evidence/manifest.json"
     }
   ],
   "artifacts": {

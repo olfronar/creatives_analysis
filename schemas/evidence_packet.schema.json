@@ -7,6 +7,7 @@
   "required": [
     "video_id",
     "source_video",
+    "analysis_run",
     "manifest",
     "timeline_evidence",
     "artifacts",
@@ -15,18 +16,32 @@
   "properties": {
     "video_id": { "type": "string", "minLength": 1 },
     "source_video": { "type": "string", "minLength": 1 },
+    "analysis_run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["run_id", "source_sha256", "extractor", "schema_version"],
+      "properties": {
+        "run_id": { "type": "string", "minLength": 1 },
+        "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "extractor": { "type": "string", "minLength": 1 },
+        "schema_version": { "type": "string", "minLength": 1 }
+      }
+    },
     "manifest": { "$ref": "#/$defs/video_manifest" },
     "timeline_evidence": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["timestamp", "source", "observation", "confidence"],
+        "required": ["evidence_id", "timestamp", "source", "observation", "confidence"],
         "properties": {
+          "evidence_id": { "type": "string", "pattern": "^ev_[a-z0-9_]+$" },
           "timestamp": { "type": "string", "minLength": 1 },
-          "source": { "enum": ["transcript", "ocr", "keyframe", "scene", "audio", "manual"] },
+          "source": { "enum": ["metadata", "transcript", "ocr", "keyframe", "scene", "audio", "manual"] },
           "observation": { "type": "string", "minLength": 1 },
-          "confidence": { "enum": ["low", "medium", "high"] }
+          "confidence": { "enum": ["low", "medium", "high"] },
+          "artifact": { "type": "string" }
         }
       }
     },

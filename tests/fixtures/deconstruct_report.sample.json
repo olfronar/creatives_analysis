@@ -1,13 +1,44 @@
 {
   "video_id": "ad1",
   "creative_signal_only": true,
+  "cold_watch": {
+    "immediate_felt_reaction": "The opening should make a creator recognize editing friction immediately.",
+    "moment_of_curiosity": "The first caption implies there is a faster way to make the clip usable.",
+    "moment_of_confusion_or_boredom": "The sample fixture has no real footage, so this remains a low-confidence placeholder observation.",
+    "most_memorable_image": "Raw footage becoming a polished captioned short."
+  },
+  "evidence_timeline": [
+    {
+      "time": "0.0-3.0",
+      "observation": "Sample timestamped hook evidence.",
+      "viewer_perception": "The viewer recognizes repetitive editing labor.",
+      "mechanism": "workflow compression",
+      "evidence_ids": ["ev_manifest_000"],
+      "confidence": "medium"
+    }
+  ],
+  "core_mechanism": {
+    "name": "workflow compression",
+    "why_it_catches_attention": "It starts with a familiar editing bottleneck.",
+    "why_it_might_persuade": "It promises visible reduction in manual work.",
+    "what_cannot_be_copied": "Any competitor wording, visual identity, or exact proof scene."
+  },
   "scores": [
     {
       "dimension": "hook_strength",
       "score": 2,
-      "evidence": ["0.0-3.0: sample timestamped evidence"],
-      "confidence": "medium"
+      "evidence": ["ev_manifest_000"],
+      "confidence": "medium",
+      "improvement_note": "Real analysis must cite first-frame and first-caption evidence."
     }
   ],
-  "drop_off_hypotheses": ["CTA appears after the likely midpoint retention drop."]
+  "platform_fit": {
+    "tiktok": { "fit_score": 2, "notes": "Needs native first-frame proof." },
+    "reels": { "fit_score": 2, "notes": "Needs safe-zone caption review." },
+    "shorts": { "fit_score": 2, "notes": "Needs proof before midpoint." },
+    "meta_paid": { "fit_score": 2, "notes": "Needs earlier product visibility." },
+    "linkedin": { "fit_score": 1, "notes": "Needs clearer agency/business framing." }
+  },
+  "drop_off_hypotheses": ["CTA appears after the likely midpoint retention drop."],
+  "risks_and_unknowns": ["Sample fixture only; no real performance data."]
 }

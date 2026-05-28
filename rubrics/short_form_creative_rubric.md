@@ -27,3 +27,15 @@ Scores use a `0-3` scale.
 | Caption readability | Size, contrast, safe zones, sync, and mobile legibility. |
 | Audience fit | Fit for creators/agencies and their editing/output-volume pain. |
 | Copycat/IP risk | Whether adaptation risks copying protected expression instead of mechanism. |
+| Originality and relevance | Whether the idea is both distinctive and strategically appropriate. |
+| Human truth | Whether the creative understands a specific private frustration, desire, fear, or status tension. |
+| Swappability | Whether the ad still works if Submagic is replaced by another AI editor; lower swappability is stronger. |
+
+## Required Analysis Layers
+
+Each scored dimension should be supported by:
+
+- observation: what is visible or audible
+- viewer perception: what the viewer likely understands or feels
+- mechanism: what persuasion structure is operating
+- evidence ID: the artifact-backed source of the claim

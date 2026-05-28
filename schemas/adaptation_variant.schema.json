@@ -7,18 +7,48 @@
   "required": [
     "variant_name",
     "persona",
+    "competitor_mechanism",
+    "evidence_lineage",
     "hook",
     "core_promise",
+    "proof_scene",
     "beat_script",
+    "cta",
     "platform_notes",
     "submagic_features",
+    "test_hypothesis",
+    "swappability_check",
     "copycat_risk"
   ],
   "properties": {
     "variant_name": { "type": "string", "minLength": 1 },
     "persona": { "type": "string", "minLength": 1 },
+    "competitor_mechanism": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "safe_translation", "what_must_change"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "safe_translation": { "type": "string", "minLength": 1 },
+        "what_must_change": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evidence_lineage": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^ev_[a-z0-9_]+$" }
+    },
     "hook": { "type": "string", "minLength": 1 },
     "core_promise": { "type": "string", "minLength": 1 },
+    "proof_scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visual_transformation", "submagic_feature_proof"],
+      "properties": {
+        "visual_transformation": { "type": "string", "minLength": 1 },
+        "submagic_feature_proof": { "type": "string", "minLength": 1 }
+      }
+    },
     "beat_script": {
       "type": "array",
       "minItems": 3,
@@ -34,6 +64,7 @@
         }
       }
     },
+    "cta": { "type": "string", "minLength": 1 },
     "platform_notes": {
       "type": "object",
       "additionalProperties": { "type": "string" }
@@ -41,7 +72,29 @@
     "submagic_features": {
       "type": "array",
       "minItems": 1,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "enum": [
+          "AI Captions",
+          "Magic Clips",
+          "Auto Edit",
+          "B-roll",
+          "Magic Zoom",
+          "Brand Kit",
+          "Templates",
+          "Publishing",
+          "API"
+        ]
+      }
+    },
+    "test_hypothesis": { "type": "string", "minLength": 1 },
+    "swappability_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passes", "reason"],
+      "properties": {
+        "passes": { "type": "boolean" },
+        "reason": { "type": "string", "minLength": 1 }
+      }
     },
     "copycat_risk": { "enum": ["low", "medium", "high"] }
   }

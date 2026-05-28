@@ -25,6 +25,7 @@ V1 is intentionally build-only. It creates the research notes, prompt contracts,
 - Rubrics for short-form creative quality, platform fit, and Submagic adaptation.
 - JSON schemas and sample fixtures for evidence packets, reports, variants, and validation results.
 - Python CLI tooling for environment checks, metadata inventory, evidence extraction scaffolding, and schema validation.
+- A stricter artifact graph: evidence IDs, cold-watch perception, mechanism deconstruction, Submagic proof scenes, swappability checks, and schema-backed validation.
 
 ## Setup
 
@@ -75,6 +76,10 @@ The current workspace is grounded in official platform guidance and product rese
 - [Submagic API](https://docs.submagic.co/introduction)
 - [HF Papers: VideoAds](https://hf.co/papers/2504.09282)
 - [HF Papers: E-VAds](https://hf.co/papers/2602.08355)
+- [HF Papers: MMPersuade](https://hf.co/papers/2510.22768)
+- [HF Papers: AdTEC](https://hf.co/papers/2408.05906)
+- [HF Papers: Creative Preference Optimization](https://hf.co/papers/2505.14442)
+- [HF Papers: AD-Bench](https://hf.co/papers/2602.14257)
 - [HF Papers: Long-Term Ad Memorability](https://hf.co/papers/2309.00378)
 
 ## Verification

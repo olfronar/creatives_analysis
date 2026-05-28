@@ -1,8 +1,18 @@
 {
   "variant_name": "Agency Output Multiplier",
   "persona": "short-form agency owner",
+  "competitor_mechanism": {
+    "name": "workflow compression",
+    "safe_translation": "Show raw client footage turning into multiple branded deliverables.",
+    "what_must_change": "Use new scenes, new wording, Submagic-specific proof, and no competitor visual identity."
+  },
+  "evidence_lineage": ["ev_manifest_000"],
   "hook": "Your editor should not spend an hour making one Reel readable.",
   "core_promise": "Turn raw client footage into branded, captioned shorts faster.",
+  "proof_scene": {
+    "visual_transformation": "Raw talking-head footage becomes captioned, cut, zoomed, and B-roll-enhanced.",
+    "submagic_feature_proof": "Show AI Captions, B-roll, Magic Zoom, and Brand Kit being applied."
+  },
   "beat_script": [
     {
       "timestamp": "0.0-3.0",
@@ -23,11 +33,17 @@
       "caption": "one clip, more variants"
     }
   ],
+  "cta": "Run your next client clip through Submagic.",
   "platform_notes": {
     "TikTok": "Keep the first caption large and native.",
     "Reels": "Protect lower safe zone for controls.",
     "Shorts": "Make the promise readable without sound."
   },
   "submagic_features": ["AI Captions", "B-roll", "Magic Zoom", "Brand Kit"],
+  "test_hypothesis": "A visible raw-to-polished transformation will outperform a feature-list hook for agency owners.",
+  "swappability_check": {
+    "passes": true,
+    "reason": "The proof scene depends on Submagic's combined captions, B-roll, zoom, and brand-kit workflow."
+  },
   "copycat_risk": "low"
 }

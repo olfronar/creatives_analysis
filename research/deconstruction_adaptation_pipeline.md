@@ -6,36 +6,40 @@ Create a repeatable workflow that turns competitor MP4s into evidence packets, d
 
 ## Pipeline
 
-1. Inventory
+1. Evidence manifest
    - Read MP4 metadata with `ffprobe`.
-   - Record filename, duration, resolution, FPS, audio presence, codec, and orientation.
+   - Record filename, duration, resolution, FPS, audio presence, codec, orientation, source hash, run ID, extractor, and schema version.
 
 2. Evidence extraction
-   - Extract keyframes with `ffmpeg`.
-   - OCR sampled frames with `tesseract`.
-   - Support future transcript and scene-detection steps through the `uv` toolchain.
+   - Extract dense first-3-second frames before uniform sampling.
+   - OCR sampled frames with timestamped evidence IDs.
+   - Support transcript, scene, and audio-event steps through the `uv` toolchain.
    - Write only evidence artifacts under `outputs/<video-id>/evidence/`.
+   - Generated evidence packets must validate against `schemas/evidence_packet.schema.json`.
 
-3. Timeline reconstruction
-   - Convert raw evidence into timestamped beats: hook, setup, promise, proof, demo, objection, CTA, and end card.
-   - Require evidence pointers for every beat.
+3. Timeline verbalization
+   - Convert raw evidence into observation-only sensory timeline.
+   - Add viewer-state hypotheses separately from observations.
+   - Require evidence IDs for every beat.
 
-4. Deconstruction
+4. Mechanism deconstruction
    - Score creative dimensions from `0` to `3`.
-   - Include rationale, timestamp evidence, confidence, and drop-off hypotheses.
+   - Include cold watch, evidence timeline, core mechanism, platform fit, confidence, risks, and drop-off hypotheses.
    - Mark all scores as inferred creative signals unless performance metrics are supplied.
 
 5. Adaptation brainstorming
-   - Translate competitor tactics into Submagic-native mechanisms.
-   - Generate briefs plus scripts for creators/agencies.
-   - Map each variant to Submagic features.
+   - Translate competitor tactics into mechanism cards before scripts.
+   - Generate briefs plus scripts for creators/agencies with visible proof scenes.
+   - Map each variant to approved Submagic capability labels.
+   - Include swappability and copycat checks.
 
 6. Validation
    - Check schema validity.
-   - Check timestamp support.
+   - Check evidence IDs resolve.
    - Check no unsupported performance claims.
    - Check copycat/IP risk.
    - Check platform fit and safe-zone considerations.
+   - Check generic feature-list ideas fail the taste gate.
 
 7. Synthesis
    - Compare multiple creatives to build a pattern library.
@@ -50,6 +54,19 @@ Create a repeatable workflow that turns competitor MP4s into evidence packets, d
 - `prompts/validation/judge.md`: block weak evidence, direct copying, and unsupported claims.
 - `prompts/synthesis/pattern_library.md`: aggregate cross-video patterns.
 
+## Enforced Artifact Graph
+
+```text
+AnalysisRun
+  -> EvidenceEvent[]
+  -> TimelineVerbalization
+  -> MechanismDeconstruction
+  -> SubmagicAdaptationVariant[]
+  -> ValidationResult
+```
+
+The critical rule is that later artifacts cite earlier artifact IDs. A deconstruction score cites evidence IDs. An adaptation variant cites mechanism/evidence lineage. A validator rejects claims whose lineage cannot be resolved.
+
 ## Quality Gates
 
 - No deconstruction score without at least one evidence pointer.
@@ -57,6 +74,8 @@ Create a repeatable workflow that turns competitor MP4s into evidence packets, d
 - No performance claim without metrics.
 - No direct copy of competitor script, caption style, branded UI, music, creator identity, or proprietary claims.
 - No final report with empty sections, unsupported timestamps, or missing platform fit.
+- No generic variant that could be rebranded as another AI editor without changing the proof scene.
+- No prompt output that skips observation -> viewer perception -> mechanism before recommendation.
 
 ## V1 Command Boundary
 

@@ -17,6 +17,7 @@ Primary outputs for future runs:
 - Do not use `pip`, Conda, Poetry, or `python -m venv`.
 - Do not claim a creative is high-performing unless real performance metrics are provided.
 - Every deconstruction claim must cite timestamped evidence.
+- Prefer evidence IDs over prose timestamps in structured artifacts.
 - Adapt strategy and mechanisms only. Do not copy competitor scripts, visuals, captions, music, creator likeness, brand identity, or proprietary claims.
 - Preserve the V1 build-only boundary unless explicitly asked to run analysis: do not generate `deconstruct` or `adapt` reports for `ad1-ad5` by accident.
 
@@ -60,3 +61,12 @@ Future deconstruction reports should separate:
 - confidence: low, medium, or high
 
 Future adaptation reports should map each idea to Submagic features such as AI Captions, Magic Clips, Auto Edit, B-roll, Magic Zoom, Brand Kit, templates, publishing, or API workflows.
+
+Reject shallow outputs that skip:
+
+- cold-watch viewer perception
+- mechanism extraction
+- evidence lineage
+- visible Submagic proof scene
+- swappability check
+- copycat/IP risk rationale
