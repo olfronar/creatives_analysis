@@ -1,0 +1,1122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whiteout Survival Rescue Base Loop Ad</title>
+  <style>
+    :root {
+      --shell: #FFFCF7;
+      --paper: #FFFFFF;
+      --ink: #0B0B0D;
+      --muted: #5F5F6D;
+      --line: #ECECEF;
+      --soft: #F7F7F8;
+      --accent: #FF4F01;
+      --accent-soft: #FFF2EA;
+      --deep: #26211F;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--shell);
+      color: var(--ink);
+      font: 15px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .shell { max-width: 1120px; margin: 0 auto; padding: 18px 16px 44px; }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 900;
+    }
+    .brand-dot {
+      width: 30px;
+      height: 30px;
+      border-radius: 9px;
+      background: var(--accent);
+      box-shadow: 0 8px 24px rgba(255, 79, 1, .24);
+    }
+    .hero {
+      padding: 24px 18px 22px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      margin: 8px auto 10px;
+      max-width: 980px;
+      font-size: clamp(30px, 3.8vw, 52px);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+    h2 { margin-bottom: 12px; font-size: 22px; letter-spacing: 0; }
+    h3 { font-size: 16px; letter-spacing: 0; }
+    .hero-copy {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .section {
+      margin-top: 14px;
+      padding: 18px;
+      border-radius: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 28px rgba(38, 33, 31, .04);
+    }
+    .core-read {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .intent-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      align-items: start;
+    }
+    .intent-card {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .intent-card.primary {
+      background: var(--accent-soft);
+      border-color: rgba(255, 79, 1, .24);
+    }
+    .intent-card p {
+      margin-top: 8px;
+    }
+    .intent-facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 8px;
+      align-items: start;
+    }
+    .intent-fact {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .intent-fact p {
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 1.42;
+    }
+    .mechanism-filmstrip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+    }
+    .function-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .function-chip, .mechanism-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .function-chip {
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+    }
+    .function-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--function-accent);
+      flex: 0 0 auto;
+    }
+    .mechanism-card {
+      --function-accent: #7A7A86;
+      --function-soft: var(--soft);
+      display: grid;
+      grid-template-rows: auto auto;
+      align-content: start;
+      border: 1px solid color-mix(in srgb, var(--function-accent) 38%, var(--line));
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--paper);
+    }
+    .function-hook, .function-cta { --function-accent: var(--accent); --function-soft: var(--accent-soft); }
+    .function-pain { --function-accent: #D97706; --function-soft: #FFF7E8; }
+    .function-proof { --function-accent: #2563EB; --function-soft: #EFF6FF; }
+    .function-risk { --function-accent: #DC2626; --function-soft: #FFF1F2; }
+    .mechanism-shot {
+      height: 220px;
+      background: var(--deep);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.72);
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+    .mechanism-shot img {
+      width: auto;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .mechanism-copy {
+      padding: 10px;
+      background: linear-gradient(180deg, var(--function-soft), var(--paper) 78%);
+      border-top: 1px solid var(--line);
+    }
+    .mechanism-copy h3 {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .mechanism-title {
+      margin-top: 4px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+    .mechanism-note {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .mini-card {
+      min-height: 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .mini-card.accent {
+      background: var(--accent-soft);
+      border-color: rgba(255, 79, 1, .24);
+    }
+    .label, .timeline-meta, .chip, summary {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .mini-card p { margin-top: 8px; }
+    .contact-sheet {
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--deep);
+      display: block;
+    }
+    .timeline {
+      display: grid;
+      gap: 12px;
+    }
+    .timeline-card {
+      display: grid;
+      grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+      gap: 14px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+    .phone-frame {
+      padding: 8px;
+      border-radius: 22px;
+      background: var(--deep);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+    }
+    .shot {
+      overflow: hidden;
+      aspect-ratio: 9 / 16;
+      border-radius: 14px;
+      background: #151515;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.78);
+      text-align: center;
+    }
+    .shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #111;
+      display: block;
+    }
+    .timeline-copy { display: grid; gap: 10px; align-content: start; }
+    .timeline-copy p { color: #26262d; }
+    .story-grid, .platform-grid, .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+    }
+    .shift {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #8A2B00;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    details {
+      padding-top: 2px;
+    }
+    summary {
+      cursor: pointer;
+    }
+    .details-hub details {
+      border-top: 1px solid var(--line);
+      padding: 12px 0;
+    }
+    .details-hub h2 + details {
+      border-top: 0;
+      padding-top: 0;
+    }
+    details ul { margin-top: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .score-bar {
+      width: 92px;
+      height: 9px;
+      margin-top: 7px;
+      border-radius: 999px;
+      background: #F0F0F1;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: inherit;
+    }
+    .muted { color: var(--muted); }
+    ul { margin: 0; padding-left: 18px; }
+    li + li { margin-top: 7px; }
+    footer { color: var(--muted); margin-top: 18px; font-size: 13px; text-align: center; }
+    @media (max-width: 820px) {
+      .timeline-card, .shift, .intent-grid { grid-template-columns: 1fr; }
+      .intent-facts { grid-template-columns: 1fr; }
+      .hero, .section { padding: 18px; border-radius: 18px; }
+      .topbar { align-items: flex-start; flex-direction: column; }
+    }
+    @media print {
+      body { background: white; }
+      .shell { max-width: none; padding: 0; }
+      .section { box-shadow: none; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand-mark"><span class="brand-dot"></span>Submagic</div>
+      <div>Creative intelligence report</div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Deconstruct</div>
+      <h1>Whiteout Survival Rescue Base Loop Ad</h1>
+      <p class="hero-copy">The creative sells the game as a rescue-and-build loop where one tiny action turns frozen chaos into visible order.</p>
+    </section>
+
+    <section class="section">
+      <h2>Why this creative exists</h2>
+      <div class="intent-grid">
+        <article class="intent-card primary">
+          <div class="label">Hypothesis</div>
+          <p>If cold mobile game viewers see one worker convert a hostile frozen map into a functioning rescue base, they will understand the core loop and feel pulled to install.</p>
+        </article>
+        <div class="intent-facts">
+          <article class="intent-fact"><div class="label">Audience</div><p>Casual mobile players who like survival, idle resource loops, base building, and visible map-cleanup progression.</p></article>
+          <article class="intent-fact"><div class="label">Funnel</div><p>Cold prospecting with install intent.</p></article>
+          <article class="intent-fact"><div class="label">Likely KPI</div><p>Click-through rate, store visits, cost per install, and early gameplay engagement.</p></article>
+          <article class="intent-fact"><div class="label">Awareness</div><p>Genre-aware to product-aware mobile game viewers.</p></article>
+          <article class="intent-fact"><div class="label">Confidence</div><p>medium</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Creative mechanism</h2>
+      <div class="function-legend"><span class="function-chip function-hook"><span class="function-dot"></span>Hook</span><span class="function-chip function-pain"><span class="function-dot"></span>Pain</span><span class="function-chip function-proof"><span class="function-dot"></span>Proof</span><span class="function-chip function-cta"><span class="function-dot"></span>CTA</span><span class="function-chip function-risk"><span class="function-dot"></span>Risk</span></div><div class="mechanism-filmstrip">
+            <article class="mechanism-card function-hook">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.0-0.5 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Hook</div>
+                <h3>Step 1 / 0.0-0.5</h3>
+                <p class="mechanism-title">overwhelm-to-control opening</p>
+                <p class="mechanism-note">The viewer immediately understands scale, scarcity, and a survival problem that can be acted on with one controllable character.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_004_2.000s.jpg" alt="2.0-5.6 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 2 / 2.0-5.6</h3>
+                <p class="mechanism-title">manual action creates visible terrain change</p>
+                <p class="mechanism-note">The map changes visibly after each action, making progress feel tactile and easy to understand without voiceover.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_008_8.458s.jpg" alt="8.5-14.1 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 3 / 8.5-14.1</h3>
+                <p class="mechanism-title">next-unlock prompt</p>
+                <p class="mechanism-note">The viewer sees a simple resource gate: clear space, gather materials, then unlock the next structure.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-pain">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_012_19.734s.jpg" alt="19.7-25.4 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Pain</div>
+                <h3>Step 4 / 19.7-25.4</h3>
+                <p class="mechanism-title">queued demand turns building into rescue pressure</p>
+                <p class="mechanism-note">The base is no longer just decoration; there is external pressure from people waiting to be rescued or admitted.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_015_28.192s.jpg" alt="28.2-33.8 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 5 / 28.2-33.8</h3>
+                <p class="mechanism-title">environment healing as progress proof</p>
+                <p class="mechanism-note">The creative rewards attention with a clear before-after state: the frozen camp is becoming alive and productive.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-cta">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_024_53.565s.jpg" alt="53.6 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>CTA</div>
+                <h3>Step 6 / 53.6</h3>
+                <p class="mechanism-title">brand-and-store close</p>
+                <p class="mechanism-note">The ad shifts from simulated play to app-store style proof, but the headline legibility is weaker than the gameplay demonstration.</p>
+              </div>
+            </article>
+            </div>
+    </section>
+
+    <section class="section core-thesis-section">
+      <h2>Core Read</h2>
+      <div class="core-read">
+        <article class="mini-card accent"><div class="label">Core thesis</div><p>The creative sells the game as a rescue-and-build loop where one tiny action turns frozen chaos into visible order.</p></article>
+        <article class="mini-card accent"><div class="label">Belief shift</div><p>The viewer moves from seeing an overwhelming frozen wilderness to believing the game offers immediate control, rescue stakes, and steady settlement growth.</p></article>
+        <article class="mini-card accent"><div class="label">Submagic transfer</div><p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What to steal / What not to copy</h2>
+      <div class="story-grid">
+        <div class="mini-card"><div class="label">What to steal</div><ul><li>Open with an overwhelming state that one action can fix.</li><li>Show visible state change after every beat.</li><li>Use queued demand to create urgency.</li></ul></div>
+        <div class="mini-card"><div class="label">What not to copy</div><ul><li>Do not copy the winter map, UI, brand, or game screenshots.</li><li>Do not use unverifiable ranking claims.</li><li>Do not let the close card become less readable than the demo.</li></ul></div>
+        <div class="mini-card"><div class="label">Test next</div><ul><li>Test a shorter version that reaches survivor pressure before 15 seconds.</li><li>Test a clearer end card with one readable install reason.</li><li>Test a Submagic workflow demo built around queued creator clips.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Top diagnostics</h2>
+      <div class="story-grid">
+        <div class="mini-card"><div class="label">Top strengths</div><ul><li>Progression Proof: 3/3 - The base visibly grows from campfire to multi-structure settlement.</li><li>Hook Strength: 3/3 - The first frame is visually strong, but a clearer goal cue could broaden comprehension.</li><li>Core Loop Clarity: 3/3 - The clear-gather-build loop is readable from visuals alone.</li></ul></div>
+        <div class="mini-card"><div class="label">Top weaknesses</div><ul><li>Copycat Risk Control: 1/3 - Any adaptation must avoid the Whiteout Survival brand, winter map, UI, screenshots, and ranking claim.</li><li>End Card Clarity: 1/3 - The gameplay screenshots are clear, but headline and ranking copy are partly unreadable in the sampled end frame.</li><li>Emotional Pressure: 2/3 - Survivor queues add stakes, but they arrive after several purely mechanical beats.</li></ul></div>
+        <article class="mini-card"><div class="label">Proof gap</div><p>The midsection can feel repetitive, and the final proof card is less legible than the gameplay loop.</p></article>
+      </div>
+    </section>
+
+    <section class="section details-hub">
+      <h2>Details</h2>
+      <details>
+        <summary>Key shots</summary>
+        <div class="timeline">
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.0-0.5 shot: A tiny parka-wearing avatar starts in a small fenced clearing with a lit campfire, a green resource counter at 0, and dense snowy forest filling almost the entire vertical frame." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">0.0-0.5 / high confidence</div>
+            <h3>What happens</h3>
+            <p>A tiny parka-wearing avatar starts in a small fenced clearing with a lit campfire, a green resource counter at 0, and dense snowy forest filling almost the entire vertical frame.</p>
+            <h3>Why it works</h3>
+            <p>The viewer immediately understands scale, scarcity, and a survival problem that can be acted on with one controllable character.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible...</p>
+            <p class="muted">3 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_004_2.000s.jpg" alt="2.0-5.6 shot: The avatar carves a narrow path through the snow-packed tree wall and then harvests a bright green tree patch beside a build tile." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">2.0-5.6 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The avatar carves a narrow path through the snow-packed tree wall and then harvests a bright green tree patch beside a build tile.</p>
+            <h3>Why it works</h3>
+            <p>The map changes visibly after each action, making progress feel tactile and easy to understand without voiceover.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible...</p>
+            <p class="muted">3 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_015_28.192s.jpg" alt="28.2-33.8 shot: Inside the base, snowy land has become bright green forest, workers move through the clearing, and green cash bundles flow into the gate tile while survivors wait outside." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">28.2-33.8 / high confidence</div>
+            <h3>What happens</h3>
+            <p>Inside the base, snowy land has become bright green forest, workers move through the clearing, and green cash bundles flow into the gate tile while survivors wait outside.</p>
+            <h3>Why it works</h3>
+            <p>The creative rewards attention with a clear before-after state: the frozen camp is becoming alive and productive.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible...</p>
+            <p class="muted">2 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_024_53.565s.jpg" alt="53.6 shot: The end card overlays stacked gameplay screenshots, Whiteout Survival branding, a large partially readable headline, and a partially readable NO.1 winter-theme claim." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">53.6 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>The end card overlays stacked gameplay screenshots, Whiteout Survival branding, a large partially readable headline, and a partially readable NO.1 winter-theme claim.</p>
+            <h3>Why it works</h3>
+            <p>The ad shifts from simulated play to app-store style proof, but the headline legibility is weaker than the gameplay demonstration.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible...</p>
+            <p class="muted">2 Evidence sources</p>
+          </div>
+        </article>
+
+        </div>
+      </details>
+
+      <details>
+        <summary>Contact sheet</summary>
+        <img class="contact-sheet" src="../evidence/keyframes/contact_sheet.jpg" alt="Contact sheet of sampled creative keyframes" loading="lazy">
+      </details>
+
+      <details>
+        <summary>Creative intent evidence</summary>
+        <div class="story-grid">
+          <article class="mini-card"><div class="label">Offer strategy</div><p>Replace a discount or feature list with a satisfying playable-looking loop and a branded end card.</p></article>
+          <article class="mini-card"><div class="label">Marketer job-to-be-done</div><p>Make the game instantly legible as a rescue-and-build loop before the viewer scrolls away.</p></article>
+          <div class="mini-card"><div class="label">Intent unknowns</div><ul><li>No media-buy, store-page, install, retention, or ROAS data is available.</li><li>The video does not prove whether the shown gameplay matches the first playable session.</li><li>End-card text is partially unreadable in the sampled frame.</li></ul></div>
+          <div class="mini-card"><div class="label">Intent evidence</div>
+      <details>
+        <summary>6 evidence IDs</summary>
+        <ul><li>ev_manifest_000</li><li>ev_keyframe_001</li><li>ev_keyframe_007</li><li>ev_keyframe_012</li><li>ev_keyframe_018</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </div>
+        </div>
+      </details>
+      <details>
+        <summary>Full evidence timeline</summary>
+        <h3>Evidence timeline</h3>
+        <div class="timeline">
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.0-0.5 shot: A tiny parka-wearing avatar starts in a small fenced clearing with a lit campfire, a green resource counter at 0, and dense snowy forest filling almost the entire vertical frame." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">0.0-0.5 / high confidence</div>
+            <h3>What happens</h3>
+            <p>A tiny parka-wearing avatar starts in a small fenced clearing with a lit campfire, a green resource counter at 0, and dense snowy forest filling almost the entire vertical frame.</p>
+            <h3>Why it works</h3>
+            <p>The viewer immediately understands scale, scarcity, and a survival problem that can be acted on with one controllable character.</p>
+
+            <h3>Mechanism</h3>
+            <p>overwhelm-to-control opening</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_manifest_000</span><span class="chip">ev_keyframe_001</span><span class="chip">ev_keyframe_002</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_manifest_000: metadata at 0.000-56.384</li><li>ev_keyframe_001: keyframe at 0.000</li><li>ev_keyframe_002: keyframe at 0.500</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_004_2.000s.jpg" alt="2.0-5.6 shot: The avatar carves a narrow path through the snow-packed tree wall and then harvests a bright green tree patch beside a build tile." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">2.0-5.6 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The avatar carves a narrow path through the snow-packed tree wall and then harvests a bright green tree patch beside a build tile.</p>
+            <h3>Why it works</h3>
+            <p>The map changes visibly after each action, making progress feel tactile and easy to understand without voiceover.</p>
+
+            <h3>Mechanism</h3>
+            <p>manual action creates visible terrain change</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_004</span><span class="chip">ev_keyframe_005</span><span class="chip">ev_keyframe_007</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_004: keyframe at 2.000</li><li>ev_keyframe_005: keyframe at 2.819</li><li>ev_keyframe_007: keyframe at 5.638</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_008_8.458s.jpg" alt="8.5-14.1 shot: The camera returns to the campfire hub, where a building icon with a 120 requirement appears while the avatar continues clearing snowy trees nearby." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">8.5-14.1 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The camera returns to the campfire hub, where a building icon with a 120 requirement appears while the avatar continues clearing snowy trees nearby.</p>
+            <h3>Why it works</h3>
+            <p>The viewer sees a simple resource gate: clear space, gather materials, then unlock the next structure.</p>
+
+            <h3>Mechanism</h3>
+            <p>next-unlock prompt</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_008</span><span class="chip">ev_keyframe_010</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_008: keyframe at 8.458</li><li>ev_keyframe_010: keyframe at 14.096</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_012_19.734s.jpg" alt="19.7-25.4 shot: A large queue of yellow-jacket survivors waits outside the base gate while the avatar applies green resource bundles to the entrance tile." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">19.7-25.4 / high confidence</div>
+            <h3>What happens</h3>
+            <p>A large queue of yellow-jacket survivors waits outside the base gate while the avatar applies green resource bundles to the entrance tile.</p>
+            <h3>Why it works</h3>
+            <p>The base is no longer just decoration; there is external pressure from people waiting to be rescued or admitted.</p>
+
+            <h3>Mechanism</h3>
+            <p>queued demand turns building into rescue pressure</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_012</span><span class="chip">ev_keyframe_014</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_012: keyframe at 19.734</li><li>ev_keyframe_014: keyframe at 25.373</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_015_28.192s.jpg" alt="28.2-33.8 shot: Inside the base, snowy land has become bright green forest, workers move through the clearing, and green cash bundles flow into the gate tile while survivors wait outside." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">28.2-33.8 / high confidence</div>
+            <h3>What happens</h3>
+            <p>Inside the base, snowy land has become bright green forest, workers move through the clearing, and green cash bundles flow into the gate tile while survivors wait outside.</p>
+            <h3>Why it works</h3>
+            <p>The creative rewards attention with a clear before-after state: the frozen camp is becoming alive and productive.</p>
+
+            <h3>Mechanism</h3>
+            <p>environment healing as progress proof</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_015</span><span class="chip">ev_keyframe_017</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_015: keyframe at 28.192</li><li>ev_keyframe_017: keyframe at 33.830</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_018_36.650s.jpg" alt="36.6-39.5 shot: A blue-roofed hut and sawmill-like machine appear, with the avatar spending green currency and carrying a long stack of wood to a 100-cost tile." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">36.6-39.5 / high confidence</div>
+            <h3>What happens</h3>
+            <p>A blue-roofed hut and sawmill-like machine appear, with the avatar spending green currency and carrying a long stack of wood to a 100-cost tile.</p>
+            <h3>Why it works</h3>
+            <p>The ad layers a production loop on top of the rescue loop, suggesting depth without explaining menus or strategy systems.</p>
+
+            <h3>Mechanism</h3>
+            <p>base-building escalation</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_018</span><span class="chip">ev_keyframe_019</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_018: keyframe at 36.650</li><li>ev_keyframe_019: keyframe at 39.469</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_020_42.288s.jpg" alt="42.3-47.9 shot: The base now contains campfire, hut, sawmill, stacked lumber, green forest patches, survivor lanes, and a 200 resource counter while the avatar spends on another tile." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">42.3-47.9 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The base now contains campfire, hut, sawmill, stacked lumber, green forest patches, survivor lanes, and a 200 resource counter while the avatar spends on another tile.</p>
+            <h3>Why it works</h3>
+            <p>The player fantasy shifts from surviving alone to managing a growing settlement with multiple simultaneous needs.</p>
+
+            <h3>Mechanism</h3>
+            <p>single-worker loop expands into system management</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_020</span><span class="chip">ev_keyframe_021</span><span class="chip">ev_keyframe_022</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_020: keyframe at 42.288</li><li>ev_keyframe_021: keyframe at 45.107</li><li>ev_keyframe_022: keyframe at 47.926</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_023_50.746s.jpg" alt="50.7 shot: A zoomed-out view shows a multi-room base carved out of the snow forest, long survivor queues, and multiple 300-cost build tiles still waiting." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">50.7 / high confidence</div>
+            <h3>What happens</h3>
+            <p>A zoomed-out view shows a multi-room base carved out of the snow forest, long survivor queues, and multiple 300-cost build tiles still waiting.</p>
+            <h3>Why it works</h3>
+            <p>The unfinished build pads create completion tension: the viewer can imagine the next upgrades before the ad ends.</p>
+
+            <h3>Mechanism</h3>
+            <p>unfinished-map tension</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_023</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_023: keyframe at 50.746</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_024_53.565s.jpg" alt="53.6 shot: The end card overlays stacked gameplay screenshots, Whiteout Survival branding, a large partially readable headline, and a partially readable NO.1 winter-theme claim." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">53.6 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>The end card overlays stacked gameplay screenshots, Whiteout Survival branding, a large partially readable headline, and a partially readable NO.1 winter-theme claim.</p>
+            <h3>Why it works</h3>
+            <p>The ad shifts from simulated play to app-store style proof, but the headline legibility is weaker than the gameplay demonstration.</p>
+
+            <h3>Mechanism</h3>
+            <p>brand-and-store close</p>
+
+            <h3>Submagic lesson</h3>
+            <p>For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_024</span><span class="chip">ev_ocr_024</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_024: keyframe at 53.565</li><li>ev_ocr_024: ocr at 53.565</li></ul>
+      </details>
+
+          </div>
+        </article>
+    </div>
+      </details>
+      <details>
+        <summary>Full proof ladder</summary>
+        <h3>Proof ladder</h3>
+
+      <table>
+        <thead><tr><th>#</th><th>Claim</th><th>Proof type</th><th>Weakness</th><th>Evidence</th></tr></thead>
+        <tbody>
+            <tr>
+              <td>1</td>
+              <td>The world starts hostile and resource-scarce.</td>
+              <td>first-frame scale contrast and zero resource UI</td>
+              <td>The opening has no explicit caption explaining the goal.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Player actions visibly change the map.</td>
+              <td>path clearing and harvesting animation</td>
+              <td>The ad does not show whether these actions are actual player controls or staged creative.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_004</li><li>ev_keyframe_005</li><li>ev_keyframe_007</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>The base has external rescue pressure.</td>
+              <td>survivor queue and gate resource payment</td>
+              <td>The survivors&#x27; exact role is inferred visually, not stated in text.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_014</li><li>ev_keyframe_017</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>The loop escalates into base management.</td>
+              <td>hut, sawmill, lumber stacks, multiple build pads, and resource counters</td>
+              <td>The ad shows many objects but no clear feature explanation.</td>
+              <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_018</li><li>ev_keyframe_019</li><li>ev_keyframe_020</li><li>ev_keyframe_022</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>The brand and install prompt arrive after the gameplay proof.</td>
+              <td>stacked screenshot end card and Whiteout Survival branding</td>
+              <td>The sampled end-card text is partly unreadable.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_024</li><li>ev_ocr_024</li></ul>
+      </details>
+    </td>
+            </tr>
+            </tbody>
+      </table>
+
+      </details>
+      <details>
+        <summary>Core-understanding notes</summary>
+        <div class="story-grid">
+          <article class="mini-card"><div class="label">Human truth</div><p>People enjoy feeling that a chaotic system can be made safe, productive, and complete through a series of small obvious actions.</p></article>
+          <article class="mini-card"><div class="label">Skeptic read</div><p>A skeptical viewer may read this as polished ad-only gameplay because the loop is highly simplified, UI costs jump quickly, and the end-card ranking claim is not independently substantiated in the video.</p></article>
+          <article class="mini-card"><div class="label">Counterfactuals</div><p>If survivor pressure appeared earlier, the creative would likely become more emotionally legible before the first retention drop. If the ad opened with only the end card, it would lose the tactile proof that makes the loop understandable. If every resource action had a clearer before-after label, non-game viewers might understand the stakes faster.</p></article>
+          <article class="mini-card"><div class="label">Tension stack</div><p>The avatar is tiny compared with the huge snowy forest. The resource counter begins at 0, making scarcity explicit. Build tiles show numeric costs that are not yet affordable. Survivors queue outside the gate, giving the base-building a human deadline. Unfinished pads remain visible near the end, keeping completion pressure open.</p></article>
+        </div>
+        <h3>Viewer state timeline</h3>
+
+      <table>
+        <thead><tr><th>Time</th><th>Viewer state</th><th>Trigger</th><th>Evidence</th></tr></thead>
+        <tbody>
+            <tr>
+              <td>0.0-0.5</td>
+              <td>orientation</td>
+              <td>Tiny avatar, warm campfire, resource counter at 0, and overwhelming snow forest.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>2.0-5.6</td>
+              <td>agency</td>
+              <td>Path clearing and harvesting create visible progress.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_004</li><li>ev_keyframe_005</li><li>ev_keyframe_007</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>19.7-25.4</td>
+              <td>pressure</td>
+              <td>Survivors queue outside the gate while the avatar spends resources to unlock access.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_014</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>36.6-47.9</td>
+              <td>competence</td>
+              <td>Hut, sawmill, lumber stacks, and resource payments make the player look increasingly capable.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_018</li><li>ev_keyframe_019</li><li>ev_keyframe_020</li><li>ev_keyframe_022</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>50.7-53.6</td>
+              <td>completion itch</td>
+              <td>Zoomed-out base and end card show unfinished pads, screenshots, and brand close.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_023</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+            </tr>
+            </tbody>
+      </table>
+
+      </details>
+      <details>
+        <summary>Full score matrix</summary>
+        <table>
+          <thead>
+            <tr><th>Dimension</th><th>Score</th><th>Weakness / next improvement</th><th>Evidence</th></tr>
+          </thead>
+          <tbody>
+      <tr>
+        <td><strong>Copycat Risk Control</strong><br><span class="muted">high confidence</span></td>
+        <td>1/3<div class="score-bar"><div class="score-bar-fill" style="width:33%"></div></div></td>
+        <td>Any adaptation must avoid the Whiteout Survival brand, winter map, UI, screenshots, and ranking claim.</td>
+        <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>End Card Clarity</strong><br><span class="muted">medium confidence</span></td>
+        <td>1/3<div class="score-bar"><div class="score-bar-fill" style="width:33%"></div></div></td>
+        <td>The gameplay screenshots are clear, but headline and ranking copy are partly unreadable in the sampled end frame.</td>
+        <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_024</li><li>ev_ocr_024</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Emotional Pressure</strong><br><span class="muted">high confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>Survivor queues add stakes, but they arrive after several purely mechanical beats.</td>
+        <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_014</li><li>ev_keyframe_021</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Pacing Efficiency</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The 56-second runtime gives proof depth but repeats harvesting and spending beats.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_manifest_000</li><li>ev_keyframe_007</li><li>ev_keyframe_010</li><li>ev_keyframe_017</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Submagic Transferability</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The state-change mechanism transfers well; the game surface and brand assets do not.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_007</li><li>ev_keyframe_012</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Core Loop Clarity</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The clear-gather-build loop is readable from visuals alone.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_004</li><li>ev_keyframe_007</li><li>ev_keyframe_018</li><li>ev_keyframe_019</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Hook Strength</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The first frame is visually strong, but a clearer goal cue could broaden comprehension.</td>
+        <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Progression Proof</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The base visibly grows from campfire to multi-structure settlement.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_018</li><li>ev_keyframe_020</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </td>
+      </tr>
+    </tbody>
+        </table>
+      </details>
+      <details>
+        <summary>Platform fit</summary>
+        <div class="platform-grid">
+      <article class="mini-card">
+        <div class="label">Tiktok</div>
+        <h3>3/3 fit</h3>
+        <p>Strong vertical visual hook and satisfying loop; survivor stakes should arrive sooner for short attention spans.</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Reels</div>
+        <h3>2/3 fit</h3>
+        <p>The visual transformation fits Reels, but small UI and late end-card text may be harder to read on quick scroll.</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Shorts</div>
+        <h3>2/3 fit</h3>
+        <p>The loop is understandable, but the runtime is long for a purely mechanical demo without spoken structure.</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Meta Paid</div>
+        <h3>3/3 fit</h3>
+        <p>Playable-style progression and install-oriented end card fit paid mobile-game acquisition creative.</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Linkedin</div>
+        <h3>0/3 fit</h3>
+        <p>The creative is consumer mobile-game acquisition and has no business or professional framing.</p>
+      </article>
+    </div>
+      </details>
+      <details>
+        <summary>Drop-off and risk notes</summary>
+        <div class="list-grid">
+          <div class="mini-card"><div class="label">Likely drop-off points</div><ul><li>Non-game viewers may drop during the first 8 seconds if they do not infer the goal from the campfire, resource counter, and clearing action.</li><li>The 14-34 second stretch may lose attention because it repeats clearing, spending, and waiting-line beats before a major new payoff.</li><li>The final CTA may underperform relative to the gameplay proof because the sampled end-card copy is less legible than the gameplay visuals.</li></ul></div>
+          <div class="mini-card"><div class="label">Risks and unknowns</div><ul><li>No real performance metrics are provided, so all scores are creative-signal judgments only.</li><li>The video does not establish whether the shown loop is representative of actual first-session gameplay.</li><li>The OCR is mostly noisy, so visual evidence carries most claims.</li><li>The partially readable NO.1 winter-theme claim should not be reused without independent substantiation.</li><li>Submagic adaptation should borrow the transformation mechanism, not the competitor&#x27;s script, visuals, captions, brand identity, gameplay, music, or proprietary claims.</li></ul></div>
+        </div>
+      </details>
+    </section>
+
+    <footer>
+      Creative-signal report only. Use performance metrics before treating any score as proven market truth.
+    </footer>
+  </main>
+</body>
+</html>

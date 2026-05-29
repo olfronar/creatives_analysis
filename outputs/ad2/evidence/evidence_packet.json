@@ -1,0 +1,321 @@
+{
+  "analysis_run": {
+    "extractor": "creatives-extract",
+    "run_id": "run_a9c6ac98ad454d3d839d3aaccdd84558",
+    "schema_version": "evidence_packet.v2",
+    "source_sha256": "6c76bfff7e5f6e218fb94379f0d312fcc68f17da47b7fdf643fbc5d4dd1100fb"
+  },
+  "artifacts": {
+    "keyframes_dir": "outputs/ad2/evidence/keyframes",
+    "manifest": "outputs/ad2/evidence/manifest.json",
+    "ocr": "outputs/ad2/evidence/ocr.json",
+    "scene_status": "not_run",
+    "transcript_status": "not_run"
+  },
+  "manifest": {
+    "audio_codec": "aac",
+    "duration_seconds": 30.336,
+    "filename": "ad2.mp4",
+    "fps": 30.0,
+    "has_audio": true,
+    "height": 640,
+    "orientation": "vertical",
+    "path": "creatives/ad2.mp4",
+    "size_bytes": 1431064,
+    "video_codec": "h264",
+    "width": 360
+  },
+  "reports_generated": [],
+  "source_video": "creatives/ad2.mp4",
+  "timeline_evidence": [
+    {
+      "artifact": "outputs/ad2/evidence/manifest.json",
+      "confidence": "high",
+      "evidence_id": "ev_manifest_000",
+      "observation": "ad2.mp4 is a vertical 360x640 video, 30.34s long, fps=30.00, audio=present.",
+      "source": "metadata",
+      "timestamp": "0.000-30.336"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_001_0.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_001",
+      "observation": "Sampled keyframe at 0.000.",
+      "source": "keyframe",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_002_0.500s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_002",
+      "observation": "Sampled keyframe at 0.500.",
+      "source": "keyframe",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_003_1.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_003",
+      "observation": "Sampled keyframe at 1.000.",
+      "source": "keyframe",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_004_1.517s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_004",
+      "observation": "Sampled keyframe at 1.517.",
+      "source": "keyframe",
+      "timestamp": "1.517"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_005_2.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_005",
+      "observation": "Sampled keyframe at 2.000.",
+      "source": "keyframe",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_006_3.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_006",
+      "observation": "Sampled keyframe at 3.000.",
+      "source": "keyframe",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_007_3.034s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_007",
+      "observation": "Sampled keyframe at 3.034.",
+      "source": "keyframe",
+      "timestamp": "3.034"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_008_4.550s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_008",
+      "observation": "Sampled keyframe at 4.550.",
+      "source": "keyframe",
+      "timestamp": "4.550"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_009_6.067s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_009",
+      "observation": "Sampled keyframe at 6.067.",
+      "source": "keyframe",
+      "timestamp": "6.067"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_010_7.584s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_010",
+      "observation": "Sampled keyframe at 7.584.",
+      "source": "keyframe",
+      "timestamp": "7.584"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_011_9.101s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_011",
+      "observation": "Sampled keyframe at 9.101.",
+      "source": "keyframe",
+      "timestamp": "9.101"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_012_10.618s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_012",
+      "observation": "Sampled keyframe at 10.618.",
+      "source": "keyframe",
+      "timestamp": "10.618"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_013_12.134s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_013",
+      "observation": "Sampled keyframe at 12.134.",
+      "source": "keyframe",
+      "timestamp": "12.134"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_014_13.651s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_014",
+      "observation": "Sampled keyframe at 13.651.",
+      "source": "keyframe",
+      "timestamp": "13.651"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_015_15.168s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_015",
+      "observation": "Sampled keyframe at 15.168.",
+      "source": "keyframe",
+      "timestamp": "15.168"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_016_16.685s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_016",
+      "observation": "Sampled keyframe at 16.685.",
+      "source": "keyframe",
+      "timestamp": "16.685"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_017_18.202s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_017",
+      "observation": "Sampled keyframe at 18.202.",
+      "source": "keyframe",
+      "timestamp": "18.202"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_018_19.718s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_018",
+      "observation": "Sampled keyframe at 19.718.",
+      "source": "keyframe",
+      "timestamp": "19.718"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_019_21.235s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_019",
+      "observation": "Sampled keyframe at 21.235.",
+      "source": "keyframe",
+      "timestamp": "21.235"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_020_22.752s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_020",
+      "observation": "Sampled keyframe at 22.752.",
+      "source": "keyframe",
+      "timestamp": "22.752"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_021_24.269s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_021",
+      "observation": "Sampled keyframe at 24.269.",
+      "source": "keyframe",
+      "timestamp": "24.269"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_022_25.786s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_022",
+      "observation": "Sampled keyframe at 25.786.",
+      "source": "keyframe",
+      "timestamp": "25.786"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_023_27.302s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_023",
+      "observation": "Sampled keyframe at 27.302.",
+      "source": "keyframe",
+      "timestamp": "27.302"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/keyframes/frame_024_28.819s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_024",
+      "observation": "Sampled keyframe at 28.819.",
+      "source": "keyframe",
+      "timestamp": "28.819"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_006",
+      "observation": "OCR text: o@\no\na\n4\n3\n\u00b0\n\u00b0\nrT)\nCy",
+      "source": "ocr",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_007",
+      "observation": "OCR text: tm\n\u20180\na\n2\n3\n\u00b0\n\u00b0\nrT)\nCy",
+      "source": "ocr",
+      "timestamp": "3.034"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_015",
+      "observation": "OCR text: Roce\n\nEvery Beginner 94 Chess Game Fast 93\nShould Know\n\nBost Chess Tactics \u2018common Chess\npert camoaate, 92 wietakes na How OT\nPlayers to Aver Tem",
+      "source": "ocr",
+      "timestamp": "15.168"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_016",
+      "observation": "OCR text: * OGrmence of\n\nfor intermediate Mistakes and How\nPlayers to Avold Them\n\nhess Endgame Think Like\nMe CnCNed a) aoecmeer | OC",
+      "source": "ocr",
+      "timestamp": "16.685"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_018",
+      "observation": "OCR text: i and graphics\n\nwitw al\n\ncer\nSTARTED",
+      "source": "ocr",
+      "timestamp": "19.718"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_019",
+      "observation": "OCR text: Cancel \u2018Add post.\n\n+ @ee@\n\nann",
+      "source": "ocr",
+      "timestamp": "21.235"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_020",
+      "observation": "OCR text: Choose a plan\n\nMonthly Yearly\n\nSave up to 50% with annual billing\n\nPro\n$29USD $14.5 USDimo\n1x 1pack\n\nStart your free trial\n\n$174 billed annually \u00a9\n\n3,600 credits \u00a9 per year, available\nInstantly\n\nTeam workspace with 2 seats\n\n2 brand templates\n\n6 social account connections",
+      "source": "ocr",
+      "timestamp": "22.752"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_021",
+      "observation": "OCR text: Choose a plan\n\nMonthly. Yearly\n\nSave up to 50% with annual billing\n\nPro\n\nFor professional creators, marketers, & teams\n\n$29-USD $14.5 USD/mo\n\n1x \u2018pack\n\nStart your free trial\n\n$174 billed annually @\n\n3,600 credits () per year, available\ninstantly\nTeam workspace with 2 seats\n\nY 2brand templates\n\n6 social account connections",
+      "source": "ocr",
+      "timestamp": "24.269"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_022",
+      "observation": "OCR text: fessional creators, marketers, & tea\n\nHSB $14.5 USDymo\n\n1 pack\n\nStart your free trial\nNo credit card required\n\nled annually @\n\n600 credits (@) per year, available\nstantly\n\nam workspace with 2 seats",
+      "source": "ocr",
+      "timestamp": "25.786"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_023",
+      "observation": "OCR text: Get Clips",
+      "source": "ocr",
+      "timestamp": "27.302"
+    },
+    {
+      "artifact": "outputs/ad2/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_024",
+      "observation": "OCR text: 4, Download on the\n\n@ App Store\n\nGet Clips",
+      "source": "ocr",
+      "timestamp": "28.819"
+    }
+  ],
+  "video_id": "ad2"
+}

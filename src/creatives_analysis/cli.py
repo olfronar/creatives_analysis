@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .doctor import collect_doctor_status, doctor_has_failures
 from .extraction import build_evidence_packet
+from .html_report import write_deconstruction_html_report
 from .inventory import collect_inventory, inventory_as_json, inventory_as_table
 from .validation import validate_fixture_files
 
@@ -74,3 +75,24 @@ def validate_app() -> None:
         raise SystemExit(1)
     if not all(result.valid for result in results):
         raise SystemExit(1)
+
+
+def render_report_app() -> None:
+    parser = argparse.ArgumentParser(
+        prog="creatives-render-report",
+        description=(
+            "Render a concise HTML deconstruction report from a validated "
+            "deconstruct JSON file and evidence packet."
+        ),
+    )
+    parser.add_argument("--deconstruct", required=True)
+    parser.add_argument("--evidence", required=True)
+    parser.add_argument("--output", required=True)
+    args = parser.parse_args()
+
+    output_path = write_deconstruction_html_report(
+        deconstruct_path=Path(args.deconstruct),
+        evidence_path=Path(args.evidence),
+        output_path=Path(args.output),
+    )
+    print(output_path)

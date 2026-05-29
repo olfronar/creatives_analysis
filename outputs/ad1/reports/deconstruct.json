@@ -1,0 +1,297 @@
+{
+  "video_id": "ad1",
+  "creative_signal_only": true,
+  "cold_watch": {
+    "immediate_felt_reaction": "The opening feels like a fast kitchen-table diagnosis: the creator turns not eating greens into concrete daily symptoms with labeled cups and a direct headline (ev_keyframe_001, ev_ocr_001).",
+    "moment_of_curiosity": "Curiosity peaks when each symptom cup gets mapped to a nutrient in red overlays, starting with the 'Can't poop?' to zinc pairing and continuing through energy, brain fog, and body aches (ev_keyframe_002, ev_keyframe_008, ev_keyframe_011).",
+    "moment_of_confusion_or_boredom": "The weakest early moment is the long symptom-to-nutrient sequence, because several health associations are asserted quickly without substantiation beyond the creator's props and overlays (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_009, ev_keyframe_011).",
+    "most_memorable_image": "The most memorable image is the row of plastic cups with sticky-note symptoms, followed by the Gruns packet being positioned as the item that contains the listed vitamins and minerals (ev_keyframe_001, ev_keyframe_012, ev_keyframe_014)."
+  },
+  "evidence_timeline": [
+    {
+      "time": "0.000-0.500",
+      "observation": "The creator stands in a kitchen behind five clear cups labeled with symptom notes; the top caption says 'If you don't eat your GREENS..' and the first cup reads 'CAN'T POOP?'. A red overlay maps 'Can't [poop]?' to 'Zinc'.",
+      "viewer_perception": "The viewer is pushed into a quick self-check: the ad reframes a vague nutrition habit as a list of embarrassing or uncomfortable daily problems.",
+      "mechanism": "symptom-led hook",
+      "evidence_ids": ["ev_keyframe_001", "ev_ocr_001", "ev_keyframe_002", "ev_ocr_002"],
+      "confidence": "high"
+    },
+    {
+      "time": "2.000-8.070",
+      "observation": "The creator repeats the cup reveal pattern: 'Feeling sick?' maps to vitamin A and C, 'Low energy?' maps to iron, 'Brain fog?' maps to vitamin E, and 'Body aches?' maps to niacin/niacine in red overlays.",
+      "viewer_perception": "The repetition turns scattered symptoms into a checklist, making the viewer wait for their own problem to appear.",
+      "mechanism": "diagnostic ladder",
+      "evidence_ids": ["ev_keyframe_005", "ev_ocr_005", "ev_keyframe_008", "ev_keyframe_009", "ev_keyframe_011", "ev_ocr_011"],
+      "confidence": "high"
+    },
+    {
+      "time": "9.415-12.105",
+      "observation": "The camera switches to handheld product footage near the cups and a Gruns packet; captions say 'if you guys didn't know' and 'these Gruns gummies have all those vitamins and minerals I just listed' while the bag's supplement facts panel is shown.",
+      "viewer_perception": "The ad tries to convert the symptom checklist into a bundled-product answer, using the product label as a proof cue.",
+      "mechanism": "bundle proof pivot",
+      "evidence_ids": ["ev_keyframe_012", "ev_ocr_012", "ev_keyframe_013", "ev_keyframe_014", "ev_ocr_014"],
+      "confidence": "medium"
+    },
+    {
+      "time": "13.450-16.140",
+      "observation": "The creator holds a Gruns daily packet close to camera while captions say it 'actually tastes really good,' is 'easy to eat,' and that 'you and your kids will enjoy them'.",
+      "viewer_perception": "After the health-problem setup, the ad reduces usage friction by promising taste, ease, and family acceptance.",
+      "mechanism": "friction reducer",
+      "evidence_ids": ["ev_keyframe_015", "ev_keyframe_016", "ev_ocr_016", "ev_keyframe_017", "ev_ocr_017"],
+      "confidence": "high"
+    },
+    {
+      "time": "17.485-20.175",
+      "observation": "The creator opens a large Gruns bag full of small packets; captions say 'if you wanna grab yourself this huge bag,' 'that comes with 28 of these small packs,' and 'I put a link right here for you'.",
+      "viewer_perception": "The product moves from health answer to tangible purchase unit: a big bag, many daily packs, and a direct link cue.",
+      "mechanism": "package-value and link transition",
+      "evidence_ids": ["ev_keyframe_018", "ev_ocr_018", "ev_keyframe_019", "ev_keyframe_020", "ev_ocr_020"],
+      "confidence": "high"
+    },
+    {
+      "time": "21.520-25.555",
+      "observation": "The creator returns to a close-up with several packets and captions say there is a 'massive sale,' it 'ends in a couple days,' the product has been 'selling out like crazy,' and viewers should 'try to get them if you can'.",
+      "viewer_perception": "The ad closes with scarcity and urgency, but the sale and sell-out claims are not independently proven in the video.",
+      "mechanism": "urgency close",
+      "evidence_ids": ["ev_keyframe_021", "ev_keyframe_022", "ev_ocr_022", "ev_keyframe_023", "ev_keyframe_024", "ev_ocr_024"],
+      "confidence": "high"
+    }
+  ],
+  "core_mechanism": {
+    "name": "symptom checklist to bundled supplement answer",
+    "why_it_catches_attention": "It opens with a direct, slightly provocative greens headline and immediately turns nutrition avoidance into visible symptom props on a kitchen counter.",
+    "why_it_might_persuade": "It gives viewers a simple ladder: recognize a symptom, see a nutrient association, then see a single product framed as containing the listed vitamins and minerals.",
+    "what_cannot_be_copied": "Do not copy the Gruns brand, health claims, symptom-to-nutrient mappings, creator likeness, kitchen setup, captions, music, sale language, or scarcity claims."
+  },
+  "creative_intent": {
+    "creative_label": "Gruns Symptom-Ladder UGC Ad",
+    "creative_type": "UGC / creator testimonial / direct-response supplement offer",
+    "likely_hypothesis": "If viewers connect skipped greens with common discomforts, one daily packet will feel like a convenient fix and increase click or purchase intent.",
+    "target_audience": "Health-curious, convenience-seeking adults or parents who know they should eat greens but do not consistently do it.",
+    "awareness_stage": "Problem-aware to solution-aware.",
+    "funnel_stage": "Cold prospecting direct-response creative with conversion intent.",
+    "likely_kpi": "Click-through, offer-page visits, first purchase, CAC, and ROAS.",
+    "offer_strategy": "Use a symptom self-check to create personal relevance, then use product proof and sale urgency to push action.",
+    "marketer_job_to_be_done": "Turn a vague nutrition habit into an urgent, personal reason to try a convenient supplement pack.",
+    "evidence_ids": ["ev_keyframe_001", "ev_keyframe_012", "ev_keyframe_020", "ev_keyframe_024"],
+    "confidence": "medium",
+    "unknowns": [
+      "No media-buy targeting, landing-page analytics, spend, CAC, ROAS, or conversion data were provided.",
+      "The report infers funnel and KPI from visible creative signals only."
+    ]
+  },
+  "distilled_core": {
+    "core_thesis": "The creative converts a vague greens habit into a symptom checklist, then positions one packet as the convenient bundled answer.",
+    "mechanism_formula": "greens neglect -> symptom self-check -> nutrient mapping -> packet proof -> taste/ease reassurance -> scarcity CTA",
+    "belief_shift_summary": "The viewer is moved from 'greens are optional' to 'my daily discomforts might be solvable through one easy supplement routine.'",
+    "why_it_works": "It uses self-diagnosis and visible props to make an abstract nutrition promise feel immediate, personal, and easy to act on.",
+    "where_it_breaks": "The proof is thin because symptom-to-nutrient links, family acceptance, sale urgency, and sell-out claims are asserted rather than verified.",
+    "submagic_transfer": "Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.",
+    "steal": [
+      "Open with a concrete self-check instead of a generic product promise.",
+      "Use repeated physical labels to make invisible pain feel inspectable.",
+      "Bridge from pain to product with a clear bundled-solution moment."
+    ],
+    "avoid": [
+      "Do not borrow the brand, health claims, creator identity, captions, or scarcity language.",
+      "Do not make unsupported performance or outcome claims.",
+      "Do not let the diagnostic ladder run longer than the proof can support."
+    ],
+    "test_next": [
+      "Test a shorter three-problem ladder against the full five-problem ladder.",
+      "Test putting the product proof before the fourth symptom card.",
+      "Test verified social proof instead of unverified sell-out urgency."
+    ]
+  },
+  "core_understanding": {
+    "human_truth": "People often know they should eat better, but they respond faster when a broad health habit is connected to a specific annoyance they already feel.",
+    "belief_shift": {
+      "before": "Not eating greens is a vague wellness miss that can be postponed.",
+      "after": "Not eating greens may be tied to concrete discomforts, and one easy daily packet may cover the nutrients the viewer is missing.",
+      "bridge": "The ad bridges the gap with sticky-note symptom props, fast nutrient overlays, visible product packaging, and a scarcity CTA."
+    },
+    "tension_stack": [
+      "Fear: the viewer may recognize one of the symptom labels and feel they are neglecting a basic health habit (ev_keyframe_001, ev_keyframe_005, ev_keyframe_008, ev_keyframe_011).",
+      "Desire: the viewer wants a simpler routine than cooking or consistently eating greens (ev_keyframe_016, ev_ocr_016).",
+      "Objection: supplements can taste bad or be hard for a family to adopt, so the creator claims taste, ease, and kid acceptance (ev_keyframe_015, ev_keyframe_017).",
+      "Proof need: the product must plausibly contain the listed nutrients, so the bag and supplement facts panel are shown, though the label is not fully legible (ev_keyframe_013, ev_keyframe_014).",
+      "Urgency pressure: the ad adds sale, deadline, and sell-out claims at the end, but those claims are unverified inside the video (ev_keyframe_021, ev_keyframe_022, ev_keyframe_023, ev_keyframe_024)."
+    ],
+    "proof_ladder": [
+      {
+        "claim": "Skipping greens is associated in the creative with common discomforts.",
+        "proof_type": "visual symptom props and headline",
+        "evidence_ids": ["ev_keyframe_001", "ev_ocr_001"],
+        "weakness": "The association is a persuasive setup, not verified medical proof."
+      },
+      {
+        "claim": "Each named discomfort can be mapped to a nutrient.",
+        "proof_type": "red overlay mappings beside labeled cups",
+        "evidence_ids": ["ev_keyframe_002", "ev_keyframe_005", "ev_keyframe_008", "ev_keyframe_009", "ev_keyframe_011"],
+        "weakness": "The mappings are asserted quickly without citations or dosage context."
+      },
+      {
+        "claim": "The product contains the vitamins and minerals just listed.",
+        "proof_type": "product packet, bag, and supplement facts panel",
+        "evidence_ids": ["ev_keyframe_012", "ev_keyframe_013", "ev_keyframe_014", "ev_ocr_014"],
+        "weakness": "The panel is visible but not readable enough to independently verify every listed nutrient."
+      },
+      {
+        "claim": "The product reduces adoption friction by tasting good and being easy to eat.",
+        "proof_type": "creator testimonial captions with packet held close to camera",
+        "evidence_ids": ["ev_keyframe_015", "ev_keyframe_016", "ev_ocr_016"],
+        "weakness": "Taste and ease are subjective claims from the creator."
+      },
+      {
+        "claim": "The purchase unit offers many small daily packs.",
+        "proof_type": "open bag and captioned 28-pack claim",
+        "evidence_ids": ["ev_keyframe_018", "ev_keyframe_019"],
+        "weakness": "The video shows multiple packs but does not independently prove the exact count."
+      },
+      {
+        "claim": "There is urgency because of a sale, deadline, and sell-out pressure.",
+        "proof_type": "captioned urgency close",
+        "evidence_ids": ["ev_keyframe_021", "ev_keyframe_022", "ev_keyframe_023", "ev_keyframe_024"],
+        "weakness": "No inventory, price, or campaign source is shown."
+      }
+    ],
+    "viewer_state_timeline": [
+      {
+        "time": "0.000-0.500",
+        "state": "self-check",
+        "trigger": "A blunt greens headline and symptom cups make the viewer scan for a problem they recognize.",
+        "evidence_ids": ["ev_keyframe_001", "ev_ocr_001", "ev_keyframe_002"]
+      },
+      {
+        "time": "2.000-8.070",
+        "state": "diagnostic momentum",
+        "trigger": "The creator repeats symptom-to-nutrient reveals across multiple cups.",
+        "evidence_ids": ["ev_keyframe_005", "ev_keyframe_008", "ev_keyframe_009", "ev_keyframe_011"]
+      },
+      {
+        "time": "9.415-12.105",
+        "state": "solution recognition",
+        "trigger": "The product packet and supplement facts appear after the symptom list.",
+        "evidence_ids": ["ev_keyframe_012", "ev_keyframe_013", "ev_keyframe_014"]
+      },
+      {
+        "time": "13.450-16.140",
+        "state": "friction check",
+        "trigger": "Taste, ease, and family enjoyment are stated while the packet is held in hand.",
+        "evidence_ids": ["ev_keyframe_015", "ev_keyframe_016", "ev_keyframe_017"]
+      },
+      {
+        "time": "17.485-20.175",
+        "state": "purchase sizing",
+        "trigger": "The bag is opened and the 28 small packs claim is introduced before the link cue.",
+        "evidence_ids": ["ev_keyframe_018", "ev_keyframe_019", "ev_keyframe_020"]
+      },
+      {
+        "time": "21.520-25.555",
+        "state": "urgency pressure",
+        "trigger": "The closing captions stack sale, deadline, sell-out, and 'get them if you can' language.",
+        "evidence_ids": ["ev_keyframe_021", "ev_keyframe_022", "ev_keyframe_023", "ev_keyframe_024"]
+      }
+    ],
+    "skeptic_read": "A skeptical viewer may reject the ad because the nutrient mappings, health implications, sale deadline, and sell-out pressure are visible claims but not substantiated with citations, pricing, inventory proof, or third-party validation.",
+    "transfer_principle_for_submagic": "Use labeled pains as a diagnostic ladder, then collapse them into one visible workflow proof scene that only Submagic can own: captions, cuts, zooms, B-roll, brand styling, and publish-ready output.",
+    "counterfactuals": [
+      "If the product proof appeared earlier, the ad would likely feel less like unsupported symptom mapping and more like a concrete supplement demo.",
+      "If the symptom ladder used fewer examples, the hook could feel sharper and leave more time for credible proof.",
+      "If the urgency close included visible price or inventory context, the scarcity claim would feel less generic.",
+      "If the creator opened with the bag instead of the symptom cups, the ad would likely lose its strongest self-diagnostic hook."
+    ]
+  },
+  "scores": [
+    {
+      "dimension": "hook_strength",
+      "score": 3,
+      "evidence": ["ev_keyframe_001", "ev_ocr_001", "ev_keyframe_002"],
+      "confidence": "high",
+      "improvement_note": "The hook is visually legible and problem-specific, but the first proof should arrive sooner."
+    },
+    {
+      "dimension": "problem_clarity",
+      "score": 3,
+      "evidence": ["ev_keyframe_001", "ev_keyframe_005", "ev_keyframe_008", "ev_keyframe_009", "ev_keyframe_011"],
+      "confidence": "high",
+      "improvement_note": "The cups make the pain stack easy to scan."
+    },
+    {
+      "dimension": "proof_specificity",
+      "score": 1,
+      "evidence": ["ev_keyframe_012", "ev_keyframe_013", "ev_keyframe_014", "ev_ocr_014"],
+      "confidence": "medium",
+      "improvement_note": "The supplement facts panel is a proof cue, but the claims are not readable or independently supported."
+    },
+    {
+      "dimension": "product_visibility",
+      "score": 3,
+      "evidence": ["ev_keyframe_012", "ev_keyframe_017", "ev_keyframe_018", "ev_keyframe_019", "ev_keyframe_020"],
+      "confidence": "high",
+      "improvement_note": "The packet and bag are repeatedly shown after the setup."
+    },
+    {
+      "dimension": "friction_reduction",
+      "score": 2,
+      "evidence": ["ev_keyframe_015", "ev_keyframe_016", "ev_keyframe_017"],
+      "confidence": "high",
+      "improvement_note": "Taste and ease are addressed, but they remain creator assertions."
+    },
+    {
+      "dimension": "pacing",
+      "score": 2,
+      "evidence": ["ev_keyframe_002", "ev_keyframe_005", "ev_keyframe_008", "ev_keyframe_009", "ev_keyframe_011", "ev_keyframe_012"],
+      "confidence": "medium",
+      "improvement_note": "The repeated symptom pattern builds momentum but may overstay before the product appears."
+    },
+    {
+      "dimension": "cta_urgency",
+      "score": 2,
+      "evidence": ["ev_keyframe_020", "ev_keyframe_021", "ev_keyframe_022", "ev_keyframe_023", "ev_keyframe_024"],
+      "confidence": "high",
+      "improvement_note": "The CTA is explicit, but the sale and sell-out proof is unsupported."
+    },
+    {
+      "dimension": "copycat_safety",
+      "score": 1,
+      "evidence": ["ev_keyframe_001", "ev_keyframe_002", "ev_keyframe_018", "ev_keyframe_024"],
+      "confidence": "high",
+      "improvement_note": "The surface execution is heavily tied to the competitor brand, product claims, and creator setup; only the mechanism should transfer."
+    }
+  ],
+  "platform_fit": {
+    "tiktok": {
+      "fit_score": 3,
+      "notes": "Native talking-head framing, large captions, prop-led hook, and direct link language fit TikTok patterns, though health proof remains weak (ev_keyframe_001, ev_keyframe_020, ev_keyframe_024)."
+    },
+    "reels": {
+      "fit_score": 2,
+      "notes": "The vertical kitchen demo and readable top captions fit Reels, but the long symptom ladder may need tighter compression for cold paid placements (ev_keyframe_005, ev_keyframe_008, ev_keyframe_011)."
+    },
+    "shorts": {
+      "fit_score": 2,
+      "notes": "The self-check hook can work on Shorts, but product proof does not appear clearly until around 9.415s, which may be late for low-intent viewers (ev_keyframe_012)."
+    },
+    "meta_paid": {
+      "fit_score": 1,
+      "notes": "Meta paid would likely need stronger compliance review and substantiation for symptom, nutrient, sale, and sell-out claims (ev_keyframe_002, ev_keyframe_014, ev_keyframe_021, ev_keyframe_023)."
+    },
+    "linkedin": {
+      "fit_score": 0,
+      "notes": "The consumer supplement hook, bathroom-adjacent symptom language, and scarcity close do not naturally fit LinkedIn's business context (ev_keyframe_001, ev_keyframe_024)."
+    }
+  },
+  "drop_off_hypotheses": [
+    "Viewers who do not identify with the first symptom may wait for the next cup, but the repeated ladder could lose them before product proof appears at 9.415s (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_012).",
+    "Health-skeptical viewers may drop when nutrient mappings are asserted without sources or dosage context (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_011).",
+    "Viewers who dislike scarcity tactics may discount the final sale and sell-out claims because no external proof is shown (ev_keyframe_021, ev_keyframe_022, ev_keyframe_023, ev_keyframe_024)."
+  ],
+  "risks_and_unknowns": [
+    "No performance metrics were provided, so this report treats all judgments as creative-signal hypotheses only.",
+    "The video contains health-adjacent symptom and nutrient claims; this deconstruction records the claims as visible ad content, not as medical facts (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_011).",
+    "The sale, deadline, and sell-out claims are visible in captions but not independently verified (ev_keyframe_021, ev_keyframe_022, ev_keyframe_023, ev_keyframe_024).",
+    "OCR was noisy for several mid-roll and end-card captions, so keyframe inspection carries more weight than raw OCR in those sections (ev_ocr_012, ev_ocr_018, ev_ocr_022, ev_ocr_024).",
+    "Only the mechanism should be adapted for Submagic; the brand identity, product claims, exact symptom labels, creator likeness, kitchen setup, caption wording, and urgency language should not be copied."
+  ]
+}

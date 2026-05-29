@@ -25,6 +25,7 @@ creatives-doctor = "creatives_analysis.cli:doctor_app"
 creatives-inventory = "creatives_analysis.cli:inventory_app"
 creatives-extract = "creatives_analysis.cli:extract_app"
 creatives-validate = "creatives_analysis.cli:validate_app"
+creatives-render-report = "creatives_analysis.cli:render_report_app"
 
 [build-system]
 requires = ["hatchling"]

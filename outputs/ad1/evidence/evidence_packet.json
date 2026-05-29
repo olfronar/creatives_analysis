@@ -1,0 +1,377 @@
+{
+  "analysis_run": {
+    "extractor": "creatives-extract",
+    "run_id": "run_bb94ee7447274a4fa6dbb6b6d31b9955",
+    "schema_version": "evidence_packet.v2",
+    "source_sha256": "4b3317ffb4c7cd53ffabed7a319e01960a472fe6811e43d2a17b0d49788b390b"
+  },
+  "artifacts": {
+    "keyframes_dir": "outputs/ad1/evidence/keyframes",
+    "manifest": "outputs/ad1/evidence/manifest.json",
+    "ocr": "outputs/ad1/evidence/ocr.json",
+    "scene_status": "not_run",
+    "transcript_status": "not_run"
+  },
+  "manifest": {
+    "audio_codec": "aac",
+    "duration_seconds": 26.9,
+    "filename": "ad1.mp4",
+    "fps": 30.0,
+    "has_audio": true,
+    "height": 848,
+    "orientation": "vertical",
+    "path": "creatives/ad1.mp4",
+    "size_bytes": 4338977,
+    "video_codec": "h264",
+    "width": 480
+  },
+  "reports_generated": [],
+  "source_video": "creatives/ad1.mp4",
+  "timeline_evidence": [
+    {
+      "artifact": "outputs/ad1/evidence/manifest.json",
+      "confidence": "high",
+      "evidence_id": "ev_manifest_000",
+      "observation": "ad1.mp4 is a vertical 480x848 video, 26.90s long, fps=30.00, audio=present.",
+      "source": "metadata",
+      "timestamp": "0.000-26.900"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_001_0.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_001",
+      "observation": "Sampled keyframe at 0.000.",
+      "source": "keyframe",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_002_0.500s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_002",
+      "observation": "Sampled keyframe at 0.500.",
+      "source": "keyframe",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_003_1.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_003",
+      "observation": "Sampled keyframe at 1.000.",
+      "source": "keyframe",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_004_1.345s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_004",
+      "observation": "Sampled keyframe at 1.345.",
+      "source": "keyframe",
+      "timestamp": "1.345"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_005_2.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_005",
+      "observation": "Sampled keyframe at 2.000.",
+      "source": "keyframe",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_006_2.690s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_006",
+      "observation": "Sampled keyframe at 2.690.",
+      "source": "keyframe",
+      "timestamp": "2.690"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_007_3.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_007",
+      "observation": "Sampled keyframe at 3.000.",
+      "source": "keyframe",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_008_4.035s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_008",
+      "observation": "Sampled keyframe at 4.035.",
+      "source": "keyframe",
+      "timestamp": "4.035"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_009_5.380s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_009",
+      "observation": "Sampled keyframe at 5.380.",
+      "source": "keyframe",
+      "timestamp": "5.380"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_010_6.725s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_010",
+      "observation": "Sampled keyframe at 6.725.",
+      "source": "keyframe",
+      "timestamp": "6.725"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_011_8.070s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_011",
+      "observation": "Sampled keyframe at 8.070.",
+      "source": "keyframe",
+      "timestamp": "8.070"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_012_9.415s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_012",
+      "observation": "Sampled keyframe at 9.415.",
+      "source": "keyframe",
+      "timestamp": "9.415"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_013_10.760s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_013",
+      "observation": "Sampled keyframe at 10.760.",
+      "source": "keyframe",
+      "timestamp": "10.760"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_014_12.105s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_014",
+      "observation": "Sampled keyframe at 12.105.",
+      "source": "keyframe",
+      "timestamp": "12.105"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_015_13.450s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_015",
+      "observation": "Sampled keyframe at 13.450.",
+      "source": "keyframe",
+      "timestamp": "13.450"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_016_14.795s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_016",
+      "observation": "Sampled keyframe at 14.795.",
+      "source": "keyframe",
+      "timestamp": "14.795"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_017_16.140s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_017",
+      "observation": "Sampled keyframe at 16.140.",
+      "source": "keyframe",
+      "timestamp": "16.140"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_018_17.485s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_018",
+      "observation": "Sampled keyframe at 17.485.",
+      "source": "keyframe",
+      "timestamp": "17.485"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_019_18.830s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_019",
+      "observation": "Sampled keyframe at 18.830.",
+      "source": "keyframe",
+      "timestamp": "18.830"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_020_20.175s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_020",
+      "observation": "Sampled keyframe at 20.175.",
+      "source": "keyframe",
+      "timestamp": "20.175"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_021_21.520s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_021",
+      "observation": "Sampled keyframe at 21.520.",
+      "source": "keyframe",
+      "timestamp": "21.520"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_022_22.865s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_022",
+      "observation": "Sampled keyframe at 22.865.",
+      "source": "keyframe",
+      "timestamp": "22.865"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_023_24.210s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_023",
+      "observation": "Sampled keyframe at 24.210.",
+      "source": "keyframe",
+      "timestamp": "24.210"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/keyframes/frame_024_25.555s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_024",
+      "observation": "Sampled keyframe at 25.555.",
+      "source": "keyframe",
+      "timestamp": "25.555"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_001",
+      "observation": "OCR text: )\n\n.\nIf you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_002",
+      "observation": "OCR text: If you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_003",
+      "observation": "OCR text: eo\n\nIf you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_004",
+      "observation": "OCR text: If you don't eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "1.345"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_005",
+      "observation": "OCR text: e&\n\nIf you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_006",
+      "observation": "OCR text: If you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "2.690"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_007",
+      "observation": "OCR text: If you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_008",
+      "observation": "OCR text: 7\n\nyou don\u2019t eat your\nGREENS...",
+      "source": "ocr",
+      "timestamp": "4.035"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_009",
+      "observation": "OCR text: If you don\u2019t eat your\nGREENS.. 3",
+      "source": "ocr",
+      "timestamp": "5.380"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_011",
+      "observation": "OCR text: If you don\u2019t eat your\nGREENS..@",
+      "source": "ocr",
+      "timestamp": "8.070"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_012",
+      "observation": "OCR text: if you'guys",
+      "source": "ocr",
+      "timestamp": "9.415"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_014",
+      "observation": "OCR text: vitamins and minerals | just\nlisted\n\n4)",
+      "source": "ocr",
+      "timestamp": "12.105"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_016",
+      "observation": "OCR text: ateleasyjtoleat",
+      "source": "ocr",
+      "timestamp": "14.795"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_017",
+      "observation": "OCR text: youland\\yournkids\\willlenjoy,\nthem)",
+      "source": "ocr",
+      "timestamp": "16.140"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_018",
+      "observation": "OCR text: _\u2014\n\nfyouwenma gral younsent\nithisihUge|bag)\n\nns",
+      "source": "ocr",
+      "timestamp": "17.485"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_020",
+      "observation": "OCR text: ons\ndally",
+      "source": "ocr",
+      "timestamp": "20.175"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_022",
+      "observation": "OCR text: Lutitencsinaceyslockys",
+      "source": "ocr",
+      "timestamp": "22.865"
+    },
+    {
+      "artifact": "outputs/ad1/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_024",
+      "observation": "OCR text: \u2014_\u2014.",
+      "source": "ocr",
+      "timestamp": "25.555"
+    }
+  ],
+  "video_id": "ad1"
+}

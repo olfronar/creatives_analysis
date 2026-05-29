@@ -1,0 +1,458 @@
+{
+  "video_id": "ad2",
+  "creative_signal_only": true,
+  "cold_watch": {
+    "immediate_felt_reaction": "The opening feels like a native street-challenge clip: a creator with a mic interrupts a beach chess game and asks to play, which makes the ad feel like entertainment before it feels like software (ev_keyframe_001, ev_keyframe_002, ev_keyframe_003).",
+    "moment_of_curiosity": "Curiosity peaks when the chess-course seller says he edits clips himself and the interviewer pulls out a phone to show something that can handle 'all your clips' (ev_keyframe_011, ev_keyframe_012, ev_keyframe_013, ev_keyframe_014).",
+    "moment_of_confusion_or_boredom": "The product demo moves quickly from ranked chess clips into editing tools, social posting, pricing, and an app end card; without a full transcript, some claims depend on visual UI cues and sampled captions rather than a complete narration (ev_keyframe_015, ev_keyframe_018, ev_keyframe_019, ev_keyframe_020, ev_manifest_000).",
+    "most_memorable_image": "The most memorable image is the phone screen showing chess-video thumbnails with green ranking numbers while the caption says the AI knows, chooses, and ranks clips (ev_keyframe_015, ev_keyframe_016, ev_keyframe_017)."
+  },
+  "evidence_timeline": [
+    {
+      "time": "0.000-1.000",
+      "observation": "On a beach, a pink-haired interviewer with a handheld mic approaches a seated chess player and asks to play quickly; captions show 'Can I play', 'real quick?', and the player replying 'Sure, man'.",
+      "viewer_perception": "The viewer reads this as a native street-interview challenge, not an immediate SaaS pitch, so the setup earns a few seconds of curiosity.",
+      "mechanism": "borrowed street-challenge hook",
+      "narrative_function": "hook",
+      "evidence_ids": [
+        "ev_keyframe_001",
+        "ev_keyframe_002",
+        "ev_keyframe_003"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "1.517-7.584",
+      "observation": "During the chess interaction, the interviewer asks about the player's skill and online work; sampled captions show 'So how', 'good are you?', 'sell courses', 'like, quick', 'all day, bruh', and 'your page alone?'.",
+      "viewer_perception": "The skit turns the chess player into a recognizable creator archetype: someone with expertise, content, and a distribution burden.",
+      "mechanism": "creator identity qualification",
+      "narrative_function": "pain",
+      "evidence_ids": [
+        "ev_keyframe_004",
+        "ev_keyframe_005",
+        "ev_keyframe_006",
+        "ev_keyframe_008",
+        "ev_keyframe_009",
+        "ev_keyframe_010"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "9.101-13.651",
+      "observation": "The player says 'I edit it myself too'; the interviewer says 'check this out', hands over a phone, and the sampled captions move through 'all your clips' and 'What is this?'.",
+      "viewer_perception": "The ad frames manual editing as the bottleneck, then creates a small reveal moment where the product feels like a hidden advantage.",
+      "mechanism": "manual-work pain to tool reveal",
+      "narrative_function": "pain",
+      "evidence_ids": [
+        "ev_keyframe_011",
+        "ev_keyframe_012",
+        "ev_keyframe_013",
+        "ev_keyframe_014"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "15.168-18.202",
+      "observation": "The phone shows a grid of chess-video thumbnails with green scores such as 94, 93, 96, 94, 91, 88, 87, and 85; captions say 'The AI knows', 'so it chooses', and 'ranks them'.",
+      "viewer_perception": "The viewer is shown a concrete selection layer: the AI appears to find promising clips inside a larger content library instead of asking the creator to hunt manually.",
+      "mechanism": "ranked-output proof",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_015",
+        "ev_ocr_015",
+        "ev_keyframe_016",
+        "ev_ocr_016",
+        "ev_keyframe_017"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "19.718-21.235",
+      "observation": "The phone switches to an editing/export surface with a short video preview, a highlighted caption/graphic region, controls labeled for animation, font, AI highlights, lines, and AI emoji, then an 'Add post' screen with social account toggles and caption text.",
+      "viewer_perception": "The product proof expands from clip selection into polish and distribution, implying the tool covers the workflow after finding the clip.",
+      "mechanism": "workflow compression proof",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_018",
+        "ev_ocr_018",
+        "ev_keyframe_019",
+        "ev_ocr_019"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "22.752-25.786",
+      "observation": "A plan screen shows 'Choose a plan', monthly/yearly toggle, 'Save up to 50% with annual billing', Pro pricing around $14.5 USD/mo, 'Start your free trial', 3,600 credits per year, team workspace with two seats, brand templates, and six social account connections.",
+      "viewer_perception": "The ad turns the demo into a direct-response offer and makes the trial, annual discount, and creator/team feature bundle visible.",
+      "mechanism": "discounted trial offer",
+      "narrative_function": "cta",
+      "evidence_ids": [
+        "ev_keyframe_020",
+        "ev_ocr_020",
+        "ev_keyframe_021",
+        "ev_ocr_021",
+        "ev_keyframe_022",
+        "ev_ocr_022"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "27.302-28.819",
+      "observation": "The closing screen overlays the OpusClip logo on the blurred beach scene with App Store copy, the line 'Create 10x Faster', and a 'Get Clips' button.",
+      "viewer_perception": "The close compresses the desired action into a mobile download and speed promise, but the '10x faster' claim is not substantiated inside the visible evidence.",
+      "mechanism": "mobile-install speed CTA",
+      "narrative_function": "cta",
+      "evidence_ids": [
+        "ev_keyframe_023",
+        "ev_ocr_023",
+        "ev_keyframe_024",
+        "ev_ocr_024"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "core_mechanism": {
+    "name": "street challenge to AI repurposing proof",
+    "why_it_catches_attention": "It borrows the format of a beach chess challenge and delays the software reveal, giving the viewer a human situation before showing product UI.",
+    "why_it_might_persuade": "It identifies a creator with real content and editing workload, then shows AI ranking, editing, social posting, pricing, and download cues as one compressed workflow.",
+    "what_cannot_be_copied": "Do not copy the OpusClip brand, chess premise, creator/interviewer likeness, phone UI, ranking visuals, caption wording, app-store end card, music, or exact speed/pricing claims."
+  },
+  "creative_intent": {
+    "creative_label": "OpusClip Chess Hustle AI-Clips Demo Ad",
+    "creative_type": "UGC street-interview skit / product demo / direct-response SaaS app ad",
+    "likely_hypothesis": "If creators see a relatable expert struggle with editing and then watch AI rank, edit, and post clips, they will believe the app can save time and start a trial or download.",
+    "target_audience": "Creators, coaches, course sellers, marketers, and small teams repurposing long-form content into short clips.",
+    "awareness_stage": "Problem-aware to solution-aware: viewers know editing and distribution are slow, then see AI clipping as the answer.",
+    "funnel_stage": "Cold prospecting with direct-response conversion cues, plus possible retargeting because pricing and trial details appear on screen.",
+    "likely_kpi": "App downloads, free-trial starts, pricing-page clicks, paid conversions, CAC, and ROAS.",
+    "offer_strategy": "Use entertainment to earn attention, expose creator editing pain, prove workflow automation on a phone, then push an annual discount and free trial.",
+    "marketer_job_to_be_done": "Make AI clip repurposing feel concrete, fast, and worth trying for creators who do not want to manually edit and post everything.",
+    "evidence_ids": [
+      "ev_keyframe_001",
+      "ev_keyframe_011",
+      "ev_keyframe_015",
+      "ev_keyframe_018",
+      "ev_keyframe_020",
+      "ev_keyframe_023"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "No targeting, spend, click, trial, CAC, ROAS, or retention data were provided.",
+      "The report infers KPI and funnel stage from visible creative signals only.",
+      "No complete transcript was available; sampled captions and UI evidence carry the analysis."
+    ]
+  },
+  "distilled_core": {
+    "core_thesis": "The creative hides an AI repurposing pitch inside a beach chess skit, then shows the app turning creator workload into ranked, edited, post-ready clips.",
+    "mechanism_formula": "street challenge -> creator pain reveal -> phone handoff -> AI ranking proof -> editing/posting workflow -> trial/download CTA",
+    "belief_shift_summary": "The viewer moves from 'editing clips is a manual chore' to 'AI can pick, polish, and publish my best content from a phone.'",
+    "why_it_works": "It combines native entertainment, creator empathy, and visible UI proof so an abstract AI promise becomes a concrete workflow.",
+    "where_it_breaks": "The proof leans on interface speed and ranking scores, but it does not verify output quality, real time saved, or the 10x speed claim.",
+    "submagic_transfer": "Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.",
+    "steal": [
+      "Delay the product reveal until a creator pain is visible.",
+      "Show AI doing selection and polish, not only the final result.",
+      "End with a clear trial or download path after the proof scene."
+    ],
+    "avoid": [
+      "Do not copy the chess setup, OpusClip UI, brand, captions, or end card.",
+      "Do not use unsupported speed or quality claims.",
+      "Do not let pricing appear before viewers understand the workflow proof."
+    ],
+    "test_next": [
+      "Test replacing the chess skit with a Submagic-native creator deadline scenario.",
+      "Test a before-after clip quality reveal before pricing.",
+      "Test one proof screen focused on captions, Magic Clips, Auto Edit, and publishing."
+    ]
+  },
+  "core_understanding": {
+    "human_truth": "Creators do not only want more editing features; they want the confidence that their best moments will be found, shaped, and posted without spending the whole day managing clips.",
+    "belief_shift": {
+      "before": "Making short clips from expertise content is slow, manual, and dependent on the creator's own editing discipline.",
+      "after": "An AI clip tool can identify the promising moments, polish them, and push them toward publication with less manual work.",
+      "bridge": "The ad bridges the gap with a creator-coded skit, a manual editing admission, a phone handoff, ranked clip UI, editing controls, social posting, pricing, and app download cues."
+    },
+    "tension_stack": [
+      "Attention tension: the viewer expects a chess challenge, so the product reveal has room to surprise (ev_keyframe_001, ev_keyframe_003).",
+      "Identity tension: the player is not just a chess player; sampled captions identify him as someone selling courses and running a page (ev_keyframe_006, ev_keyframe_010).",
+      "Labor tension: he says he edits it himself too, making the pain concrete before the phone demo appears (ev_keyframe_011, ev_keyframe_012).",
+      "Proof need: the app must show more than generic AI, so the demo displays ranked chess clips, editing controls, and posting UI (ev_keyframe_015, ev_keyframe_018, ev_keyframe_019).",
+      "Conversion tension: the ad asks for trial/download action after showing pricing, annual savings, credits, and App Store CTA (ev_keyframe_020, ev_keyframe_023, ev_keyframe_024)."
+    ],
+    "proof_ladder": [
+      {
+        "claim": "The ad can hold attention as entertainment before revealing software.",
+        "proof_type": "street chess challenge setup with microphone, beach location, and dialogue captions",
+        "evidence_ids": [
+          "ev_keyframe_001",
+          "ev_keyframe_002",
+          "ev_keyframe_003"
+        ],
+        "weakness": "The chess setup is engaging but loosely related to clip editing until the creator identity is introduced."
+      },
+      {
+        "claim": "The target user has creator-workflow pain.",
+        "proof_type": "sampled captions about selling courses, running a page, and editing himself",
+        "evidence_ids": [
+          "ev_keyframe_006",
+          "ev_keyframe_010",
+          "ev_keyframe_011"
+        ],
+        "weakness": "The report has no complete transcript, so the exact conversation is reconstructed from sampled captions."
+      },
+      {
+        "claim": "The AI can identify and rank promising clips.",
+        "proof_type": "phone UI with chess-video thumbnails and green ranking numbers",
+        "evidence_ids": [
+          "ev_keyframe_015",
+          "ev_ocr_015",
+          "ev_keyframe_016",
+          "ev_ocr_016",
+          "ev_keyframe_017"
+        ],
+        "weakness": "The ranking scores are visible but not explained or validated against performance data."
+      },
+      {
+        "claim": "The product helps with editing polish and social posting.",
+        "proof_type": "editing screen with caption/graphic controls and an add-post screen with social accounts",
+        "evidence_ids": [
+          "ev_keyframe_018",
+          "ev_ocr_018",
+          "ev_keyframe_019",
+          "ev_ocr_019"
+        ],
+        "weakness": "The screens show capability cues, but the finished exported clip quality is not clearly demonstrated."
+      },
+      {
+        "claim": "The offer is positioned as a trial with annual discount and creator/team features.",
+        "proof_type": "pricing screen with Pro plan, free trial, annual billing savings, credits, seats, templates, and social connections",
+        "evidence_ids": [
+          "ev_keyframe_020",
+          "ev_ocr_020",
+          "ev_keyframe_021",
+          "ev_ocr_021",
+          "ev_keyframe_022"
+        ],
+        "weakness": "Pricing and credit details may be time-sensitive and were not verified outside the creative."
+      },
+      {
+        "claim": "The app promises faster clip creation.",
+        "proof_type": "OpusClip end card with App Store CTA and 'Create 10x Faster' copy",
+        "evidence_ids": [
+          "ev_keyframe_023",
+          "ev_keyframe_024",
+          "ev_ocr_024"
+        ],
+        "weakness": "The 10x claim is visible as ad copy but not substantiated with measurement or comparison evidence."
+      }
+    ],
+    "viewer_state_timeline": [
+      {
+        "time": "0.000-1.000",
+        "state": "watching a challenge",
+        "trigger": "A beach chess scene and microphone approach create a familiar street-content setup.",
+        "evidence_ids": [
+          "ev_keyframe_001",
+          "ev_keyframe_002",
+          "ev_keyframe_003"
+        ]
+      },
+      {
+        "time": "1.517-7.584",
+        "state": "identifying the creator",
+        "trigger": "The conversation shifts from chess skill to selling courses and running a page.",
+        "evidence_ids": [
+          "ev_keyframe_004",
+          "ev_keyframe_006",
+          "ev_keyframe_010"
+        ]
+      },
+      {
+        "time": "9.101-13.651",
+        "state": "recognizing the pain",
+        "trigger": "The player says he edits himself and reacts to the phone reveal.",
+        "evidence_ids": [
+          "ev_keyframe_011",
+          "ev_keyframe_012",
+          "ev_keyframe_014"
+        ]
+      },
+      {
+        "time": "15.168-18.202",
+        "state": "evaluating AI selection",
+        "trigger": "The app displays ranked chess clips and captions that say the AI knows, chooses, and ranks them.",
+        "evidence_ids": [
+          "ev_keyframe_015",
+          "ev_keyframe_016",
+          "ev_keyframe_017"
+        ]
+      },
+      {
+        "time": "19.718-21.235",
+        "state": "testing workflow completeness",
+        "trigger": "The demo shows caption/graphic editing and an add-post screen, suggesting the workflow continues beyond clip discovery.",
+        "evidence_ids": [
+          "ev_keyframe_018",
+          "ev_keyframe_019"
+        ]
+      },
+      {
+        "time": "22.752-28.819",
+        "state": "conversion check",
+        "trigger": "The creative shows plan pricing, free trial, annual savings, App Store CTA, and a speed promise.",
+        "evidence_ids": [
+          "ev_keyframe_020",
+          "ev_keyframe_021",
+          "ev_keyframe_023",
+          "ev_keyframe_024"
+        ]
+      }
+    ],
+    "skeptic_read": "A skeptical viewer may like the skit but question whether the AI rankings produce genuinely better clips, whether posting is as automatic as implied, whether the 10x speed claim is measured, and whether the visible price or plan details are current.",
+    "transfer_principle_for_submagic": "Use a creator-native situation to surface editing labor, then show Submagic performing a visibly complete transformation: Magic Clips selection, AI Captions, Auto Edit, Magic Zoom, B-roll, Brand Kit styling, and publish-ready variants.",
+    "counterfactuals": [
+      "If the ad opened directly on pricing, it would lose the native entertainment hook and creator empathy.",
+      "If the demo showed an exported before-after clip before pricing, the quality proof would likely feel stronger.",
+      "If the ranking screen were replaced by a generic AI claim, the mechanism would become less tangible.",
+      "If the skit stayed in chess too long, the product reveal would feel disconnected from the editing pain."
+    ]
+  },
+  "scores": [
+    {
+      "dimension": "hook_strength",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_002",
+        "ev_keyframe_003"
+      ],
+      "confidence": "high",
+      "improvement_note": "The street-challenge setup is native and clear, though it needs the creator-workflow pivot to justify the chess premise."
+    },
+    {
+      "dimension": "problem_clarity",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_006",
+        "ev_keyframe_010",
+        "ev_keyframe_011"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The editing burden is visible, but the exact pain relies on sampled captions rather than a full transcript."
+    },
+    {
+      "dimension": "proof_specificity",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_015",
+        "ev_ocr_015",
+        "ev_keyframe_016",
+        "ev_ocr_016",
+        "ev_keyframe_018",
+        "ev_keyframe_019"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The UI proof is specific, but output quality, ranking method, and time-saved claims are not independently substantiated."
+    },
+    {
+      "dimension": "product_visibility",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_015",
+        "ev_keyframe_018",
+        "ev_keyframe_019",
+        "ev_keyframe_020",
+        "ev_keyframe_023"
+      ],
+      "confidence": "high",
+      "improvement_note": "The product appears across ranking, editing, posting, pricing, and end-card moments."
+    },
+    {
+      "dimension": "friction_reduction",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_015",
+        "ev_keyframe_018",
+        "ev_keyframe_019",
+        "ev_keyframe_020"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The workflow appears compressed from selection to posting, but the exported result is not shown clearly."
+    },
+    {
+      "dimension": "pacing",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_011",
+        "ev_keyframe_015",
+        "ev_keyframe_018",
+        "ev_keyframe_020",
+        "ev_keyframe_023"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The ad covers many steps in 30 seconds; the proof is energetic but crowded."
+    },
+    {
+      "dimension": "cta_urgency",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_020",
+        "ev_ocr_020",
+        "ev_keyframe_021",
+        "ev_ocr_021",
+        "ev_keyframe_023",
+        "ev_keyframe_024"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The free trial, discount, and app CTA are visible, but there is no deadline or proof of urgency beyond offer framing."
+    },
+    {
+      "dimension": "copycat_safety",
+      "score": 1,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_015",
+        "ev_keyframe_020",
+        "ev_keyframe_023"
+      ],
+      "confidence": "high",
+      "improvement_note": "The surface execution is tightly tied to OpusClip, the chess skit, and visible product UI; only the strategic mechanism should transfer."
+    }
+  ],
+  "platform_fit": {
+    "tiktok": {
+      "fit_score": 3,
+      "notes": "The street challenge, large captions, quick human setup, and phone UI demo fit TikTok's native discovery patterns, with the caveat that product proof is crowded (ev_keyframe_001, ev_keyframe_015, ev_keyframe_018)."
+    },
+    "reels": {
+      "fit_score": 3,
+      "notes": "The beach skit, vertical captions, creator-workflow pain, and clean app CTA are Reels-compatible, especially for creator and marketer audiences (ev_keyframe_003, ev_keyframe_011, ev_keyframe_023)."
+    },
+    "shorts": {
+      "fit_score": 2,
+      "notes": "The hook can work on Shorts, but the product reveal and pricing sequence may need a clearer before-after result to hold viewers through the full 30 seconds (ev_keyframe_015, ev_keyframe_020, ev_keyframe_024)."
+    },
+    "meta_paid": {
+      "fit_score": 2,
+      "notes": "The demo and offer are suitable for Meta paid testing, but claims around AI ranking and 10x faster creation should be substantiated or softened for compliance and trust (ev_keyframe_015, ev_keyframe_024)."
+    },
+    "linkedin": {
+      "fit_score": 1,
+      "notes": "The creator-productivity problem can fit LinkedIn, but the beach chess skit and mobile app-store close feel more casual than a business feed usually rewards (ev_keyframe_001, ev_keyframe_023)."
+    }
+  },
+  "drop_off_hypotheses": [
+    "Viewers who do not care about chess may drop before the ad reveals that the real problem is clip editing and distribution (ev_keyframe_001, ev_keyframe_006, ev_keyframe_011).",
+    "Creators may understand the ranked clip UI but still hesitate because the ad does not clearly show the finished output quality before pricing appears (ev_keyframe_015, ev_keyframe_018, ev_keyframe_020).",
+    "Skeptical viewers may discount the 'Create 10x Faster' promise because the creative shows a speed claim but not a measured comparison or time study (ev_keyframe_024)."
+  ],
+  "risks_and_unknowns": [
+    "No performance metrics were provided, so this report treats all judgments as creative-signal hypotheses only.",
+    "The video has audio, but no transcript was generated; sampled visual captions and UI screens are the evidence base (ev_manifest_000).",
+    "OCR is noisy on several product screens, so visible keyframe inspection carries more weight than raw OCR text (ev_ocr_015, ev_ocr_018, ev_ocr_019).",
+    "The visible price, annual discount, App Store state, and plan features may be time-sensitive and were not verified outside the creative (ev_keyframe_020, ev_keyframe_021).",
+    "The AI ranking and 10x speed claims are visible advertising claims, not validated performance facts (ev_keyframe_015, ev_keyframe_024).",
+    "For Submagic adaptation, use only the mechanism; do not copy OpusClip brand identity, product UI, ranking screen, chess setup, creator/interviewer likeness, captions, music, or exact claims."
+  ]
+}

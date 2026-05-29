@@ -1,0 +1,330 @@
+{
+  "analysis_run": {
+    "extractor": "creatives-extract",
+    "run_id": "run_25001b00ebfe4a8a86b103399c4dba05",
+    "schema_version": "evidence_packet.v2",
+    "source_sha256": "b81347901bf0fc1f2bc0a8892ec767b68a2ed47972bba7b6d37aab466251a736"
+  },
+  "artifacts": {
+    "contact_sheet": "outputs/ad4/evidence/keyframes/contact_sheet.jpg",
+    "keyframes_dir": "outputs/ad4/evidence/keyframes",
+    "manifest": "outputs/ad4/evidence/manifest.json",
+    "ocr": "outputs/ad4/evidence/ocr.json",
+    "scene_status": "not_run",
+    "transcript_status": "not_run"
+  },
+  "manifest": {
+    "audio_codec": "aac",
+    "duration_seconds": 27.633333,
+    "filename": "ad4.mp4",
+    "fps": 30.0,
+    "has_audio": true,
+    "height": 832,
+    "orientation": "vertical",
+    "path": "creatives/ad4.mp4",
+    "size_bytes": 4257909,
+    "video_codec": "h264",
+    "width": 464
+  },
+  "reports_generated": [],
+  "source_video": "creatives/ad4.mp4",
+  "timeline_evidence": [
+    {
+      "artifact": "outputs/ad4/evidence/manifest.json",
+      "confidence": "high",
+      "evidence_id": "ev_manifest_000",
+      "observation": "ad4.mp4 is a vertical 464x832 video, 27.63s long, fps=30.00, audio=present.",
+      "source": "metadata",
+      "timestamp": "0.000-27.633"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_001_0.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_001",
+      "observation": "Sampled keyframe at 0.000.",
+      "source": "keyframe",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_002_0.500s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_002",
+      "observation": "Sampled keyframe at 0.500.",
+      "source": "keyframe",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_003_1.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_003",
+      "observation": "Sampled keyframe at 1.000.",
+      "source": "keyframe",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_004_2.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_004",
+      "observation": "Sampled keyframe at 2.000.",
+      "source": "keyframe",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_005_2.303s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_005",
+      "observation": "Sampled keyframe at 2.303.",
+      "source": "keyframe",
+      "timestamp": "2.303"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_006_3.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_006",
+      "observation": "Sampled keyframe at 3.000.",
+      "source": "keyframe",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_007_4.606s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_007",
+      "observation": "Sampled keyframe at 4.606.",
+      "source": "keyframe",
+      "timestamp": "4.606"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_008_6.908s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_008",
+      "observation": "Sampled keyframe at 6.908.",
+      "source": "keyframe",
+      "timestamp": "6.908"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_009_9.211s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_009",
+      "observation": "Sampled keyframe at 9.211.",
+      "source": "keyframe",
+      "timestamp": "9.211"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_010_11.514s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_010",
+      "observation": "Sampled keyframe at 11.514.",
+      "source": "keyframe",
+      "timestamp": "11.514"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_011_13.817s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_011",
+      "observation": "Sampled keyframe at 13.817.",
+      "source": "keyframe",
+      "timestamp": "13.817"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_012_16.119s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_012",
+      "observation": "Sampled keyframe at 16.119.",
+      "source": "keyframe",
+      "timestamp": "16.119"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_013_18.422s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_013",
+      "observation": "Sampled keyframe at 18.422.",
+      "source": "keyframe",
+      "timestamp": "18.422"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_014_20.725s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_014",
+      "observation": "Sampled keyframe at 20.725.",
+      "source": "keyframe",
+      "timestamp": "20.725"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_015_23.028s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_015",
+      "observation": "Sampled keyframe at 23.028.",
+      "source": "keyframe",
+      "timestamp": "23.028"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_016_25.331s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_016",
+      "observation": "Sampled keyframe at 25.331.",
+      "source": "keyframe",
+      "timestamp": "25.331"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_001",
+      "observation": "OCR text: HOw",
+      "source": "ocr",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_003",
+      "observation": "OCR text: I\n\na\n\nHOW",
+      "source": "ocr",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_004",
+      "observation": "OCR text: HOW I SAVE",
+      "source": "ocr",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_005",
+      "observation": "OCR text: HOW | SAVE",
+      "source": "ocr",
+      "timestamp": "2.303"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_006",
+      "observation": "OCR text: HOW ISAVE",
+      "source": "ocr",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_008",
+      "observation": "OCR text: experienced",
+      "source": "ocr",
+      "timestamp": "6.908"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_009",
+      "observation": "OCR text: x Select your clips\n\nCaptions Cloud Recents Favorites",
+      "source": "ocr",
+      "timestamp": "9.211"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_010",
+      "observation": "OCR text: New video\n\nManual edit\n\nCaptions\n\nselect Aledit,\n\nCreate project",
+      "source": "ocr",
+      "timestamp": "11.514"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_011",
+      "observation": "OCR text: Browse\n\nNew Basic Hollywood Business Trending\n\n+ P ]\n\nThe keyiis\nstay active\n\ntheres\n\u2018one thing,\n\nIgnite Clarity\n\nRecess\n\na\nei!\n| REMEMBER, KEEP THE\n\nSelect Paper Il",
+      "source": "ocr",
+      "timestamp": "13.817"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_012",
+      "observation": "OCR text: this video'Smpit right\n\nst |\n\n7 nies \u00abTaking Hood\n\nO) sory",
+      "source": "ocr",
+      "timestamp": "16.119"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_013",
+      "observation": "OCR text: Y\n\naS\n\n(> ee Bcipstyie >\n\nDin Se",
+      "source": "ocr",
+      "timestamp": "18.422"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_001_0.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_001",
+      "observation": "Opening frame shows a creator in a bedroom/studio setting with a large headline reading \"HOW I SAVE TIME EDITING\" and smaller text \"with the Captions App.\"",
+      "source": "manual",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_003_1.000s.jpg",
+      "confidence": "medium",
+      "evidence_id": "ev_manual_002",
+      "observation": "The opening stays on the creator under the same headline while center captions build the accusation \"You're lazy.\"",
+      "source": "manual",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_006_3.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_003",
+      "observation": "The creator sits closer to camera under the headline while the center caption reads \"own videos?\" after the lazy/editing setup.",
+      "source": "manual",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_009_9.211s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_004",
+      "observation": "The video cuts to a phone UI on a bright pink background showing \"Select your clips,\" a grid of recent clips, and a selected talking-head clip.",
+      "source": "manual",
+      "timestamp": "9.211"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_010_11.514s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_005",
+      "observation": "The phone UI shows a \"New video\" setup with one clip, Manual edit and AI Edit options, a Captions toggle, and a Create project button.",
+      "source": "manual",
+      "timestamp": "11.514"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_011_13.817s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_006",
+      "observation": "The app browse screen shows caption/style templates with category tabs including New, Basic, Hollywood, Business, and Trending, plus a \"Select Paper II\" button.",
+      "source": "manual",
+      "timestamp": "13.817"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_012_16.119s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_007",
+      "observation": "The editor screen shows a preview, an Export button, a timeline, an \"AI Edit - Talking Head\" layer, and a named style layer.",
+      "source": "manual",
+      "timestamp": "16.119"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_013_18.422s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_manual_008",
+      "observation": "The editor screen remains visible with a clip-style control, caption/text track, timeline thumbnails, and editing controls such as Add, Curve, Delete, and Delete All.",
+      "source": "manual",
+      "timestamp": "18.422"
+    },
+    {
+      "artifact": "outputs/ad4/evidence/keyframes/frame_016_25.331s.jpg",
+      "confidence": "medium",
+      "evidence_id": "ev_manual_009",
+      "observation": "The video returns to the creator, who points downward while the word \"Captions\" appears large on his shirt area, functioning as a branded end cue.",
+      "source": "manual",
+      "timestamp": "25.331"
+    }
+  ],
+  "video_id": "ad4"
+}

@@ -1,0 +1,266 @@
+{
+  "analysis_run": {
+    "extractor": "creatives-extract",
+    "run_id": "run_7b8b34c603c14afa87f0a92b92d2143b",
+    "schema_version": "evidence_packet.v2",
+    "source_sha256": "853925e16783b1addb22b3ac7e135b73c6eb8f0ff743a54351d3b65cf4b1ffbb"
+  },
+  "artifacts": {
+    "contact_sheet": "outputs/ad5/evidence/keyframes/contact_sheet.jpg",
+    "keyframes_dir": "outputs/ad5/evidence/keyframes",
+    "manifest": "outputs/ad5/evidence/manifest.json",
+    "ocr": "outputs/ad5/evidence/ocr.json",
+    "scene_status": "not_run",
+    "transcript_status": "not_run"
+  },
+  "manifest": {
+    "audio_codec": "aac",
+    "duration_seconds": 56.384,
+    "filename": "ad5.mp4",
+    "fps": 30.0,
+    "has_audio": true,
+    "height": 1280,
+    "orientation": "vertical",
+    "path": "creatives/ad5.mp4",
+    "size_bytes": 6361462,
+    "video_codec": "h264",
+    "width": 720
+  },
+  "reports_generated": [],
+  "source_video": "creatives/ad5.mp4",
+  "timeline_evidence": [
+    {
+      "artifact": "outputs/ad5/evidence/manifest.json",
+      "confidence": "high",
+      "evidence_id": "ev_manifest_000",
+      "observation": "ad5.mp4 is a vertical 720x1280 video, 56.38s long, fps=30.00, audio=present.",
+      "source": "metadata",
+      "timestamp": "0.000-56.384"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_001_0.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_001",
+      "observation": "Opening frame shows a tiny parka-wearing avatar in a small fenced clearing with a lit campfire, surrounded by dense blue snow-covered trees; the green resource counter reads 0 and Whiteout Survival branding is visible.",
+      "source": "keyframe",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_002_0.500s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_002",
+      "observation": "Avatar faces the campfire and a small resource bubble appears above it, while the starting resource counter still reads 0.",
+      "source": "keyframe",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_003_1.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_003",
+      "observation": "Sampled keyframe at 1.000.",
+      "source": "keyframe",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_004_2.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_004",
+      "observation": "Avatar begins carving a narrow path out of the fenced clearing through the packed snowy forest.",
+      "source": "keyframe",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_005_2.819s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_005",
+      "observation": "A curved corridor of cleared snow extends farther from the starting clearing, creating a visible exploration path into the tree wall.",
+      "source": "keyframe",
+      "timestamp": "2.819"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_006_3.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_006",
+      "observation": "Sampled keyframe at 3.000.",
+      "source": "keyframe",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_007_5.638s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_007",
+      "observation": "The avatar uses a long tool to remove a dense green tree patch next to a black build tile marked 0, with wood-chip particles indicating harvesting.",
+      "source": "keyframe",
+      "timestamp": "5.638"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_008_8.458s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_008",
+      "observation": "The camera returns to the campfire hub; a new adjacent build tile shows a building icon and a 120 resource requirement.",
+      "source": "keyframe",
+      "timestamp": "8.458"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_009_11.277s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_009",
+      "observation": "Sampled keyframe at 11.277.",
+      "source": "keyframe",
+      "timestamp": "11.277"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_010_14.096s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_010",
+      "observation": "The avatar clears snowy trees from the lower-right area near the 120-cost build tile while the camp hub remains visible.",
+      "source": "keyframe",
+      "timestamp": "14.096"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_011_16.915s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_011",
+      "observation": "Sampled keyframe at 16.915.",
+      "source": "keyframe",
+      "timestamp": "16.915"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_012_19.734s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_012",
+      "observation": "A large queue of yellow-jacket survivors waits outside the base gate, while the avatar applies green resource bundles to open or repair the gate.",
+      "source": "keyframe",
+      "timestamp": "19.734"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_013_22.554s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_013",
+      "observation": "Sampled keyframe at 22.554.",
+      "source": "keyframe",
+      "timestamp": "22.554"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_014_25.373s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_014",
+      "observation": "The gate area shows waiting survivors, the campfire, and a green payment tile at the entrance; the avatar is positioned by the wall as if unlocking access.",
+      "source": "keyframe",
+      "timestamp": "25.373"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_015_28.192s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_015",
+      "observation": "A formerly snowy patch inside the base is now bright green forest, while workers move around the clearing and survivors remain queued near the road.",
+      "source": "keyframe",
+      "timestamp": "28.192"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_016_31.011s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_016",
+      "observation": "Sampled keyframe at 31.011.",
+      "source": "keyframe",
+      "timestamp": "31.011"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_017_33.830s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_017",
+      "observation": "The resource counter reads 80 and green cash bundles flow into the gate tile as the survivor queue waits outside.",
+      "source": "keyframe",
+      "timestamp": "33.830"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_018_36.650s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_018",
+      "observation": "A small blue-roofed hut appears inside the base, the resource counter reads 100, and the avatar spends green currency on a 250-cost build tile.",
+      "source": "keyframe",
+      "timestamp": "36.650"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_019_39.469s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_019",
+      "observation": "A sawmill-like machine with a large circular blade is now built, and the avatar applies a long stack of wood to a 100-cost production or upgrade tile.",
+      "source": "keyframe",
+      "timestamp": "39.469"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_020_42.288s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_020",
+      "observation": "The base includes campfire, hut, sawmill, stacked lumber, green forest patches, and survivor lines at the gate; several build pads remain visible.",
+      "source": "keyframe",
+      "timestamp": "42.288"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_021_45.107s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_021",
+      "observation": "Two lanes of survivors in different jacket colors queue on the road outside the base while the avatar works near wood stacks and the gate.",
+      "source": "keyframe",
+      "timestamp": "45.107"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_022_47.926s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_022",
+      "observation": "The resource counter reads 200 as the avatar spends green currency on a 100-cost tile beside the hut; the base now has multiple production structures.",
+      "source": "keyframe",
+      "timestamp": "47.926"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_023_50.746s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_023",
+      "observation": "Zoomed-out view shows a multi-room base carved out of a vast snowy forest, with multiple 300-cost build tiles and long survivor queues approaching from the road.",
+      "source": "keyframe",
+      "timestamp": "50.746"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/keyframes/frame_024_53.565s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_024",
+      "observation": "End card overlays stacked gameplay screenshots, large partially readable headline text, Whiteout Survival branding, and a partially readable NO.1 winter-theme claim over a blurred map background.",
+      "source": "keyframe",
+      "timestamp": "53.565"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_007",
+      "observation": "OCR text: 4 ha\n\ni iy\n\nPEELED E| nes\n\n%",
+      "source": "ocr",
+      "timestamp": "5.638"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_016",
+      "observation": "OCR text: Oe",
+      "source": "ocr",
+      "timestamp": "31.011"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_023",
+      "observation": "OCR text: a A Peete a z 4 oy a eed he\n\nCF eee ns me Meg ) sig? Qne:,,, on ~ \u2018 * eee\nreece ee : A ee\n\n< \u2018af oe Js i < . \u20ac hes",
+      "source": "ocr",
+      "timestamp": "50.746"
+    },
+    {
+      "artifact": "outputs/ad5/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_024",
+      "observation": "OCR text: TTT xe eg\ndef Te cee\n\n:\n:\n*\ny :\n> : _ '\n\u2019 y \u00bb\nr >\u00bb . '\n* .\n\u2018 : -. \u2019\nhud olen \u2018age oI",
+      "source": "ocr",
+      "timestamp": "53.565"
+    }
+  ],
+  "video_id": "ad5"
+}

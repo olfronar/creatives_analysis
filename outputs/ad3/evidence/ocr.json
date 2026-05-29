@@ -1,0 +1,146 @@
+[
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_001",
+    "frame": "outputs/ad3/evidence/keyframes/frame_001_0.000s.jpg",
+    "status": "ok",
+    "text": "\u201cA\n\nEpic Marketing Hack\nj\n\nOVER 10,000",
+    "timestamp": "0.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_002",
+    "frame": "outputs/ad3/evidence/keyframes/frame_002_0.500s.jpg",
+    "status": "ok",
+    "text": "A\n\n\u00bb\nEpic Marketing Hack",
+    "timestamp": "0.500"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_003",
+    "frame": "outputs/ad3/evidence/keyframes/frame_003_1.000s.jpg",
+    "status": "ok",
+    "text": "A\n\nA\nEpic Marketing Hack\n\nMARKETERS",
+    "timestamp": "1.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_004",
+    "frame": "outputs/ad3/evidence/keyframes/frame_004_2.000s.jpg",
+    "status": "ok",
+    "text": "A\n\n\u00bb\nEpic Marketing Hack\n\nBY THIS TOOL",
+    "timestamp": "2.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_005",
+    "frame": "outputs/ad3/evidence/keyframes/frame_005_3.000s.jpg",
+    "status": "ok",
+    "text": "a dos\n\n\u2018alone en\n\n> Tong vided, 10 viral Clips. Create 10% faeter.x\n\n2a 93492\n\u00a9 ido BH Bes Yom \u00a9",
+    "timestamp": "3.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_006",
+    "frame": "outputs/ad3/evidence/keyframes/frame_006_4.256s.jpg",
+    "status": "ok",
+    "text": "1 long video, ian viral clips. Create 10x faster.\n\n+",
+    "timestamp": "4.256"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_007",
+    "frame": "outputs/ad3/evidence/keyframes/frame_007_8.512s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "8.512"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_008",
+    "frame": "outputs/ad3/evidence/keyframes/frame_008_12.768s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "12.768"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_009",
+    "frame": "outputs/ad3/evidence/keyframes/frame_009_17.024s.jpg",
+    "status": "ok",
+    "text": "eaad",
+    "timestamp": "17.024"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_010",
+    "frame": "outputs/ad3/evidence/keyframes/frame_010_21.280s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "21.280"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_011",
+    "frame": "outputs/ad3/evidence/keyframes/frame_011_25.536s.jpg",
+    "status": "ok",
+    "text": "sccm!\n\u2014\u2014\n\nws |\neS ee\nie\n\n0. cEr",
+    "timestamp": "25.536"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_012",
+    "frame": "outputs/ad3/evidence/keyframes/frame_012_29.792s.jpg",
+    "status": "ok",
+    "text": "> @ \u00a9 Simca | nt | 4706\n\nwonge AN\n\nnlp Ast gurls Meo \"\n\n\u00a9 Nevo",
+    "timestamp": "29.792"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_013",
+    "frame": "outputs/ad3/evidence/keyframes/frame_013_34.048s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "34.048"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_014",
+    "frame": "outputs/ad3/evidence/keyframes/frame_014_38.304s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "38.304"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_015",
+    "frame": "outputs/ad3/evidence/keyframes/frame_015_42.560s.jpg",
+    "status": "ok",
+    "text": "), 10 viral clips. Crez",
+    "timestamp": "42.560"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_016",
+    "frame": "outputs/ad3/evidence/keyframes/frame_016_46.816s.jpg",
+    "status": "ok",
+    "text": "us\ns the\nal\n\nn the\n\n2s And\n\nng SO RA\ns are\n\ntop \u00bb\n\n$ auto \\ Pa\nAND POST IT\n\nther PS Ada Ral\n\nfeah\n\nee O on6\n\nt have\n\na",
+    "timestamp": "46.816"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_017",
+    "frame": "outputs/ad3/evidence/keyframes/frame_017_51.072s.jpg",
+    "status": "ok",
+    "text": "Q) #31 Overcoming\n\u2018ail. Purpose",
+    "timestamp": "51.072"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_018",
+    "frame": "outputs/ad3/evidence/keyframes/frame_018_55.328s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "55.328"
+  }
+]

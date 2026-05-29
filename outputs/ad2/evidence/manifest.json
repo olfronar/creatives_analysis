@@ -1,0 +1,13 @@
+{
+  "audio_codec": "aac",
+  "duration_seconds": 30.336,
+  "filename": "ad2.mp4",
+  "fps": 30.0,
+  "has_audio": true,
+  "height": 640,
+  "orientation": "vertical",
+  "path": "creatives/ad2.mp4",
+  "size_bytes": 1431064,
+  "video_codec": "h264",
+  "width": 360
+}

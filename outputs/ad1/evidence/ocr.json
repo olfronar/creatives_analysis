@@ -1,0 +1,194 @@
+[
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_001",
+    "frame": "outputs/ad1/evidence/keyframes/frame_001_0.000s.jpg",
+    "status": "ok",
+    "text": ")\n\n.\nIf you don\u2019t eat your\nGREENS..@",
+    "timestamp": "0.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_002",
+    "frame": "outputs/ad1/evidence/keyframes/frame_002_0.500s.jpg",
+    "status": "ok",
+    "text": "If you don\u2019t eat your\nGREENS..@",
+    "timestamp": "0.500"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_003",
+    "frame": "outputs/ad1/evidence/keyframes/frame_003_1.000s.jpg",
+    "status": "ok",
+    "text": "eo\n\nIf you don\u2019t eat your\nGREENS..@",
+    "timestamp": "1.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_004",
+    "frame": "outputs/ad1/evidence/keyframes/frame_004_1.345s.jpg",
+    "status": "ok",
+    "text": "If you don't eat your\nGREENS..@",
+    "timestamp": "1.345"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_005",
+    "frame": "outputs/ad1/evidence/keyframes/frame_005_2.000s.jpg",
+    "status": "ok",
+    "text": "e&\n\nIf you don\u2019t eat your\nGREENS..@",
+    "timestamp": "2.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_006",
+    "frame": "outputs/ad1/evidence/keyframes/frame_006_2.690s.jpg",
+    "status": "ok",
+    "text": "If you don\u2019t eat your\nGREENS..@",
+    "timestamp": "2.690"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_007",
+    "frame": "outputs/ad1/evidence/keyframes/frame_007_3.000s.jpg",
+    "status": "ok",
+    "text": "If you don\u2019t eat your\nGREENS..@",
+    "timestamp": "3.000"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_008",
+    "frame": "outputs/ad1/evidence/keyframes/frame_008_4.035s.jpg",
+    "status": "ok",
+    "text": "7\n\nyou don\u2019t eat your\nGREENS...",
+    "timestamp": "4.035"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_009",
+    "frame": "outputs/ad1/evidence/keyframes/frame_009_5.380s.jpg",
+    "status": "ok",
+    "text": "If you don\u2019t eat your\nGREENS.. 3",
+    "timestamp": "5.380"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_010",
+    "frame": "outputs/ad1/evidence/keyframes/frame_010_6.725s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "6.725"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_011",
+    "frame": "outputs/ad1/evidence/keyframes/frame_011_8.070s.jpg",
+    "status": "ok",
+    "text": "If you don\u2019t eat your\nGREENS..@",
+    "timestamp": "8.070"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_012",
+    "frame": "outputs/ad1/evidence/keyframes/frame_012_9.415s.jpg",
+    "status": "ok",
+    "text": "if you'guys",
+    "timestamp": "9.415"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_013",
+    "frame": "outputs/ad1/evidence/keyframes/frame_013_10.760s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "10.760"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_014",
+    "frame": "outputs/ad1/evidence/keyframes/frame_014_12.105s.jpg",
+    "status": "ok",
+    "text": "vitamins and minerals | just\nlisted\n\n4)",
+    "timestamp": "12.105"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_015",
+    "frame": "outputs/ad1/evidence/keyframes/frame_015_13.450s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "13.450"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_016",
+    "frame": "outputs/ad1/evidence/keyframes/frame_016_14.795s.jpg",
+    "status": "ok",
+    "text": "ateleasyjtoleat",
+    "timestamp": "14.795"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_017",
+    "frame": "outputs/ad1/evidence/keyframes/frame_017_16.140s.jpg",
+    "status": "ok",
+    "text": "youland\\yournkids\\willlenjoy,\nthem)",
+    "timestamp": "16.140"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_018",
+    "frame": "outputs/ad1/evidence/keyframes/frame_018_17.485s.jpg",
+    "status": "ok",
+    "text": "_\u2014\n\nfyouwenma gral younsent\nithisihUge|bag)\n\nns",
+    "timestamp": "17.485"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_019",
+    "frame": "outputs/ad1/evidence/keyframes/frame_019_18.830s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "18.830"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_020",
+    "frame": "outputs/ad1/evidence/keyframes/frame_020_20.175s.jpg",
+    "status": "ok",
+    "text": "ons\ndally",
+    "timestamp": "20.175"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_021",
+    "frame": "outputs/ad1/evidence/keyframes/frame_021_21.520s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "21.520"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_022",
+    "frame": "outputs/ad1/evidence/keyframes/frame_022_22.865s.jpg",
+    "status": "ok",
+    "text": "Lutitencsinaceyslockys",
+    "timestamp": "22.865"
+  },
+  {
+    "confidence": "low",
+    "evidence_id": "ev_ocr_023",
+    "frame": "outputs/ad1/evidence/keyframes/frame_023_24.210s.jpg",
+    "status": "ok",
+    "text": "",
+    "timestamp": "24.210"
+  },
+  {
+    "confidence": "medium",
+    "evidence_id": "ev_ocr_024",
+    "frame": "outputs/ad1/evidence/keyframes/frame_024_25.555s.jpg",
+    "status": "ok",
+    "text": "\u2014_\u2014.",
+    "timestamp": "25.555"
+  }
+]

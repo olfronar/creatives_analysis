@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ creative_intent.creative_label }}</title>
+</head>
+<body>
+  <main>
+    <section aria-labelledby="report-title">
+      <p>Submagic creative intelligence</p>
+      <h1 id="report-title">{{ creative_intent.creative_label }}</h1>
+      <p>{{ distilled_core.core_thesis }}</p>
+    </section>
+
+    <section aria-labelledby="intent-title">
+      <h2 id="intent-title">Why this creative exists</h2>
+      <div class="intent-grid">
+        <article>Hypothesis: {{ creative_intent.likely_hypothesis }}</article>
+        <div class="intent-facts">
+          <article>Audience: {{ creative_intent.target_audience }}</article>
+          <article>Funnel: {{ creative_intent.funnel_stage }}</article>
+          <article>Likely KPI: {{ creative_intent.likely_kpi }}</article>
+          <article>Awareness: {{ creative_intent.awareness_stage }}</article>
+          <article>Confidence: {{ creative_intent.confidence }}</article>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="mechanism-title">
+      <h2 id="mechanism-title">Creative mechanism</h2>
+      {{#each key_evidence_timeline}}
+      <article class="mechanism-card function-{{ narrative_function }}">
+        <img src="{{ shot_artifact }}" alt="{{ time }} mechanism step shot">
+        <p>{{ narrative_function }}</p>
+        <p>Step {{ index }} / {{ time }}</p>
+        <p>{{ mechanism }}</p>
+        <p>{{ viewer_perception }}</p>
+      </article>
+      {{/each}}
+    </section>
+
+    <section aria-labelledby="core-read-title">
+      <h2 id="core-read-title">Core Read</h2>
+      <div class="core-read">
+        <article>Core thesis: {{ distilled_core.core_thesis }}</article>
+        <article>Belief shift: {{ distilled_core.belief_shift_summary }}</article>
+        <article>Submagic transfer: {{ distilled_core.submagic_transfer }}</article>
+      </div>
+    </section>
+
+    <section aria-labelledby="actions-title">
+      <h2 id="actions-title">What to steal / What not to copy</h2>
+      <article>What to steal: {{ distilled_core.steal }}</article>
+      <article>What not to copy: {{ distilled_core.avoid }}</article>
+      <article>Test next: {{ distilled_core.test_next }}</article>
+    </section>
+
+    <section aria-labelledby="diagnostics-title">
+      <h2 id="diagnostics-title">Top diagnostics</h2>
+      <article>Top strengths: {{ top_strengths }}</article>
+      <article>Top weaknesses: {{ top_weaknesses }}</article>
+      <article>Proof gap: {{ distilled_core.where_it_breaks }}</article>
+    </section>
+
+    <section aria-labelledby="details-title">
+      <h2 id="details-title">Details</h2>
+
+      <details>
+        <summary>Key shots</summary>
+        {{#each key_evidence_timeline}}
+        <article>
+          {{#if shot_artifact}}
+          <img src="{{ shot_artifact }}" alt="{{ time }} shot: {{ observation }}">
+          {{else}}
+          <p>No shot available for this beat</p>
+          {{/if}}
+          <h3>{{ time }} / {{ confidence }} confidence</h3>
+          <p><strong>What happens:</strong> {{ observation }}</p>
+          <p><strong>Why it works:</strong> {{ viewer_perception }}</p>
+          <p><strong>Submagic lesson:</strong> {{ distilled_core.submagic_transfer }}</p>
+          <p>{{ evidence_source_count }} evidence sources</p>
+        </article>
+        {{/each}}
+      </details>
+
+      <details>
+        <summary>Creative intent evidence</summary>
+        <article>Offer strategy: {{ creative_intent.offer_strategy }}</article>
+        <article>Marketer job-to-be-done: {{ creative_intent.marketer_job_to_be_done }}</article>
+        <article>Unknowns: {{ creative_intent.unknowns }}</article>
+        <details><summary>Intent evidence IDs</summary>{{ creative_intent.evidence_ids }}</details>
+      </details>
+
+      <details>
+        <summary>Contact sheet</summary>
+        <img src="{{ contact_sheet }}" alt="Contact sheet of sampled creative keyframes">
+      </details>
+
+      <details>
+        <summary>Full evidence timeline</summary>
+        {{#each evidence_timeline}}
+        <article>
+          <h3>{{ time }} / {{ confidence }} confidence</h3>
+          <p>{{ observation }}</p>
+          <p>{{ viewer_perception }}</p>
+          <p>{{ mechanism }}</p>
+          <details><summary>Evidence sources</summary>{{ evidence_ids }}</details>
+        </article>
+        {{/each}}
+      </details>
+
+      <details>
+        <summary>Full proof ladder</summary>
+        {{#each core_understanding.proof_ladder}}
+        <article>
+          <h3>{{ claim }}</h3>
+          <p>{{ proof_type }}</p>
+          <p>{{ weakness }}</p>
+          <details><summary>Evidence IDs</summary>{{ evidence_ids }}</details>
+        </article>
+        {{/each}}
+      </details>
+
+      <details>
+        <summary>Full score matrix</summary>
+        {{#each scores}}
+        <article>
+          <h3>{{ dimension }}: {{ score }}/3</h3>
+          <p>{{ confidence }} confidence</p>
+          <p>{{ improvement_note }}</p>
+          <details><summary>Evidence IDs</summary>{{ evidence }}</details>
+        </article>
+        {{/each}}
+      </details>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,276 @@
+{
+  "video_id": "ad4",
+  "creative_signal_only": true,
+  "cold_watch": {
+    "immediate_felt_reaction": "The ad opens like a blunt creator confession: editing feels like a chore, and this app is the shortcut.",
+    "moment_of_curiosity": "The switch from the creator's room to the pink-backed phone UI makes the viewer wait to see whether the shortcut is real.",
+    "moment_of_confusion_or_boredom": "The final return to the creator is less specific than the product-demo middle, so the action step becomes implicit.",
+    "most_memorable_image": "A bold 'HOW I SAVE TIME EDITING' headline above a creator, followed by a phone screen showing AI Edit and template controls."
+  },
+  "evidence_timeline": [
+    {
+      "time": "0.0-3.0",
+      "observation": "Creator appears in a vertical bedroom/studio shot under a large 'HOW I SAVE TIME EDITING' headline with 'with the Captions App' beside it; captions build toward 'You're lazy.'",
+      "viewer_perception": "The viewer is put inside a familiar guilt loop: wanting output without wanting to do the editing labor.",
+      "mechanism": "self-accusation hook",
+      "narrative_function": "hook",
+      "evidence_ids": ["ev_keyframe_001", "ev_keyframe_003", "ev_ocr_004", "ev_manual_001", "ev_manual_002"],
+      "confidence": "high"
+    },
+    {
+      "time": "3.0-6.9",
+      "observation": "The same creator-facing shot continues while the visible caption asks about editing one's own videos and later shows the word 'experienced.'",
+      "viewer_perception": "The problem is narrowed from general editing fatigue to the insecurity that editing requires skill or effort the viewer does not want to spend.",
+      "mechanism": "pain narrowing",
+      "narrative_function": "pain",
+      "evidence_ids": ["ev_keyframe_006", "ev_keyframe_008", "ev_ocr_008", "ev_manual_003"],
+      "confidence": "medium"
+    },
+    {
+      "time": "9.2-11.5",
+      "observation": "The ad cuts to a phone UI on a bright pink background: first a clip picker, then a new-video screen with Manual edit, AI Edit, Captions, and Create project controls.",
+      "viewer_perception": "The shortcut becomes concrete because the app flow starts from an ordinary raw clip rather than an abstract feature list.",
+      "mechanism": "workflow proof by interface",
+      "narrative_function": "proof",
+      "evidence_ids": ["ev_keyframe_009", "ev_keyframe_010", "ev_ocr_009", "ev_ocr_010", "ev_manual_004", "ev_manual_005"],
+      "confidence": "high"
+    },
+    {
+      "time": "13.8",
+      "observation": "The browse screen shows style/template cards with categories such as New, Basic, Hollywood, Business, and Trending, plus a 'Select Paper II' button.",
+      "viewer_perception": "The app is positioned as taste and format selection, not only caption transcription.",
+      "mechanism": "style abundance proof",
+      "narrative_function": "proof",
+      "evidence_ids": ["ev_keyframe_011", "ev_ocr_011", "ev_manual_006"],
+      "confidence": "high"
+    },
+    {
+      "time": "16.1-18.4",
+      "observation": "The editor view shows a preview, timeline thumbnails, Export, a Clip style control, an AI Edit - Talking Head layer, and editing actions such as Add, Curve, Delete, and Delete All.",
+      "viewer_perception": "The viewer sees the promise turn into an editable artifact, which makes the AI shortcut feel controllable instead of magical.",
+      "mechanism": "editable-output proof",
+      "narrative_function": "proof",
+      "evidence_ids": ["ev_keyframe_012", "ev_keyframe_013", "ev_ocr_012", "ev_manual_007", "ev_manual_008"],
+      "confidence": "high"
+    },
+    {
+      "time": "20.7-23.0",
+      "observation": "The ad returns from the phone UI to the creator in the room, with short center captions such as 'go back' and 'me.'",
+      "viewer_perception": "The human creator presence reappears, but the proof density drops because the screen no longer shows a product state.",
+      "mechanism": "creator reassurance with proof fade",
+      "narrative_function": "risk",
+      "evidence_ids": ["ev_keyframe_014", "ev_keyframe_015"],
+      "confidence": "medium"
+    },
+    {
+      "time": "25.3",
+      "observation": "The creator points downward while 'Captions' appears large across his shirt area as a branded end cue.",
+      "viewer_perception": "The viewer gets a simple brand memory cue, but the next action is less explicit than the product demonstration.",
+      "mechanism": "branded implicit CTA",
+      "narrative_function": "cta",
+      "evidence_ids": ["ev_keyframe_016", "ev_manual_009"],
+      "confidence": "medium"
+    }
+  ],
+  "core_mechanism": {
+    "name": "lazy-editor shortcut proof",
+    "why_it_catches_attention": "It uses a provocative self-accusation around laziness, then immediately names the desired outcome: saving editing time.",
+    "why_it_might_persuade": "The middle shows a raw-clip-to-AI-edit workflow, templates, and timeline controls, so the promise is backed by visible interface proof.",
+    "what_cannot_be_copied": "Do not copy the competitor's exact headline, creator likeness, room setup, pink product-demo framing, app UI, captions, music, or brand cues."
+  },
+  "creative_intent": {
+    "creative_label": "Captions App Lazy Editor Workflow Shortcut UGC",
+    "creative_type": "Creator UGC / app walkthrough / workflow-shortcut direct response",
+    "likely_hypothesis": "If creators feel called out for avoiding edits and then see AI Edit plus templates, they may believe the app removes enough labor to try it.",
+    "target_audience": "Short-form creators and social teams who have raw footage but resist repetitive manual editing.",
+    "awareness_stage": "Problem-aware to solution-aware.",
+    "funnel_stage": "Cold prospecting with app-trial or install intent.",
+    "likely_kpi": "Click-through, app install, trial start, signup, or project creation.",
+    "offer_strategy": "Turn editing avoidance into a quick app workflow proof, then leave the brand cue as the action bridge.",
+    "marketer_job_to_be_done": "Make AI editing feel easy, creator-native, and less intimidating than manual timeline work.",
+    "evidence_ids": ["ev_manual_001", "ev_manual_004", "ev_manual_005", "ev_manual_006", "ev_manual_007", "ev_manual_009"],
+    "confidence": "medium",
+    "unknowns": [
+      "No spend, retention, click-through, install, or conversion metrics are available.",
+      "The actual targeting and campaign objective are not visible.",
+      "The audio transcript was not generated; analysis relies on visible captions and keyframes."
+    ]
+  },
+  "distilled_core": {
+    "core_thesis": "The creative makes editing avoidance feel normal, then resolves it with visible AI-edit workflow proof inside the app.",
+    "mechanism_formula": "lazy-callout hook -> editing-effort pain -> raw-clip app flow -> style/editor proof -> branded cue",
+    "belief_shift_summary": "The viewer moves from 'editing my videos is annoying and skill-heavy' to 'I can start with raw clips and let the app do most of it.'",
+    "why_it_works": "It pairs identity-level friction with concrete UI proof, so the viewer gets both emotional permission and a visible shortcut.",
+    "where_it_breaks": "The ending is weaker than the middle because the CTA is mostly a brand cue rather than an explicit next step or finished-output reveal.",
+    "submagic_transfer": "For Submagic, translate the tactic into a raw-clip-to-polished-output proof showing AI Captions, Auto Edit, Magic Clips, B-roll, and Brand Kit controls.",
+    "steal": [
+      "Open with the creator's hidden editing avoidance, not a generic AI feature claim.",
+      "Show the workflow path from raw clip to editable output.",
+      "Make style selection feel fast and creator-native."
+    ],
+    "avoid": [
+      "Do not copy the lazy wording, the Captions App UI, the creator, or the branded visual system.",
+      "Do not end with only a soft brand cue if the product proof is the strongest asset."
+    ],
+    "test_next": [
+      "Test an explicit finished-video before-after reveal before the end cue.",
+      "Test a clearer Submagic CTA tied to a first project or template outcome."
+    ]
+  },
+  "core_understanding": {
+    "human_truth": "Creators often want the status of posting consistently but feel embarrassed by how much editing labor they avoid.",
+    "belief_shift": {
+      "before": "Editing my own clips takes time, skill, and patience I may not have.",
+      "after": "A guided AI workflow can turn my raw footage into an editable short without starting from scratch.",
+      "bridge": "The ad moves from a guilt-based creator hook to specific product screens: clip picker, AI Edit, templates, timeline, and export."
+    },
+    "tension_stack": [
+      "The creator wants output volume but resents repetitive editing labor.",
+      "The creator wants the result to look intentional, not like a raw upload.",
+      "The creator distrusts vague AI promises unless the actual app path is visible.",
+      "The creator needs to feel in control after AI automation, which the timeline and editing controls partially solve."
+    ],
+    "proof_ladder": [
+      {
+        "claim": "This app saves editing time.",
+        "proof_type": "headline and creator hook",
+        "evidence_ids": ["ev_manual_001", "ev_ocr_004"],
+        "weakness": "The first seconds name the benefit but do not yet show the finished result."
+      },
+      {
+        "claim": "The workflow can start from raw clips.",
+        "proof_type": "clip picker and selected talking-head clip",
+        "evidence_ids": ["ev_keyframe_009", "ev_manual_004"],
+        "weakness": "The selected clip context is visible, but the ad does not quantify the time saved."
+      },
+      {
+        "claim": "AI can replace manual edit setup.",
+        "proof_type": "AI Edit option and captions toggle",
+        "evidence_ids": ["ev_keyframe_010", "ev_manual_005"],
+        "weakness": "The UI implies automation, but the exact AI choices are not fully explained."
+      },
+      {
+        "claim": "The output can match a chosen style.",
+        "proof_type": "template browse screen and editor layers",
+        "evidence_ids": ["ev_keyframe_011", "ev_keyframe_012", "ev_keyframe_013", "ev_manual_006", "ev_manual_007", "ev_manual_008"],
+        "weakness": "The template options are visible, but the final exported comparison is not clearly shown."
+      }
+    ],
+    "viewer_state_timeline": [
+      {
+        "time": "0.0-3.0",
+        "state": "recognition and defensiveness",
+        "trigger": "A bold time-saving headline plus a lazy-callout caption makes editing avoidance personal.",
+        "evidence_ids": ["ev_manual_001", "ev_manual_002"]
+      },
+      {
+        "time": "3.0-6.9",
+        "state": "problem acceptance",
+        "trigger": "The caption sequence frames the viewer as someone who does not want to edit their own videos.",
+        "evidence_ids": ["ev_manual_003", "ev_ocr_008"]
+      },
+      {
+        "time": "9.2-13.8",
+        "state": "solution inspection",
+        "trigger": "The product screen shows raw clip selection, AI Edit, captions, and template browsing.",
+        "evidence_ids": ["ev_manual_004", "ev_manual_005", "ev_manual_006"]
+      },
+      {
+        "time": "16.1-18.4",
+        "state": "control reassurance",
+        "trigger": "The editor timeline and layers show that the automated result can still be adjusted.",
+        "evidence_ids": ["ev_manual_007", "ev_manual_008"]
+      },
+      {
+        "time": "25.3",
+        "state": "brand recall",
+        "trigger": "The creator points down as the Captions brand appears as the final memory cue.",
+        "evidence_ids": ["ev_manual_009"]
+      }
+    ],
+    "skeptic_read": "A skeptical creator may accept that the app has AI-edit controls but still wonder whether the final output is actually better than a simple captioned clip.",
+    "transfer_principle_for_submagic": "Use a creator's avoided editing task as the hook, then prove the shortcut with an in-product path from raw clip to polished, editable, branded output.",
+    "counterfactuals": [
+      "A first-three-seconds before-after preview could make the time-saving claim feel more concrete.",
+      "A stronger final CTA could convert the product proof into a clearer next action.",
+      "Removing the product UI middle would leave only a creator claim and significantly weaken believability."
+    ]
+  },
+  "scores": [
+    {
+      "dimension": "hook_strength",
+      "score": 3,
+      "evidence": ["ev_manual_001", "ev_manual_002", "ev_ocr_004"],
+      "confidence": "high",
+      "improvement_note": "The hook is bold and benefit-led; the main improvement is showing the finished output sooner."
+    },
+    {
+      "dimension": "pain_clarity",
+      "score": 2,
+      "evidence": ["ev_manual_002", "ev_manual_003", "ev_ocr_008"],
+      "confidence": "medium",
+      "improvement_note": "The editing-avoidance pain is clear, but some caption text is only partially captured by OCR."
+    },
+    {
+      "dimension": "product_proof",
+      "score": 3,
+      "evidence": ["ev_manual_004", "ev_manual_005", "ev_manual_006", "ev_manual_007", "ev_manual_008"],
+      "confidence": "high",
+      "improvement_note": "The UI proof is strong; add a clearer exported before-after moment for extra conviction."
+    },
+    {
+      "dimension": "belief_shift",
+      "score": 2,
+      "evidence": ["ev_manual_001", "ev_manual_005", "ev_manual_007"],
+      "confidence": "medium",
+      "improvement_note": "The shift from manual editing to AI-assisted editing is visible, but time saved is not quantified."
+    },
+    {
+      "dimension": "cta_clarity",
+      "score": 1,
+      "evidence": ["ev_keyframe_016", "ev_manual_009"],
+      "confidence": "medium",
+      "improvement_note": "The brand cue is visible, but the viewer is not shown a precise next action."
+    },
+    {
+      "dimension": "submagic_transferability",
+      "score": 3,
+      "evidence": ["ev_manual_004", "ev_manual_005", "ev_manual_006", "ev_manual_007"],
+      "confidence": "high",
+      "improvement_note": "The mechanism maps cleanly to Submagic workflows if surface execution and competitor UI are not copied."
+    }
+  ],
+  "platform_fit": {
+    "tiktok": {
+      "fit_score": 3,
+      "notes": "Native creator framing, direct-to-camera energy, and fast app-screen proof fit TikTok creative conventions."
+    },
+    "reels": {
+      "fit_score": 2,
+      "notes": "The hook and product demo fit Reels, but the large top headline and small UI text need safe-zone review."
+    },
+    "shorts": {
+      "fit_score": 2,
+      "notes": "The benefit is clear, though YouTube Shorts may need an earlier before-after payoff to hold broad viewers."
+    },
+    "meta_paid": {
+      "fit_score": 2,
+      "notes": "The workflow proof is useful for prospecting, but the CTA and offer are softer than typical direct-response Meta ads."
+    },
+    "linkedin": {
+      "fit_score": 1,
+      "notes": "The casual lazy-callout style is less aligned with business buyers unless reframed around agency throughput."
+    }
+  },
+  "drop_off_hypotheses": [
+    "Viewers who do not identify with 'lazy editor' humor may drop before the product demo.",
+    "The app-screen section could lose viewers on smaller displays if UI text becomes too hard to read.",
+    "The final creator-only beat may underperform the product-demo middle because it gives less new information."
+  ],
+  "risks_and_unknowns": [
+    "No performance metrics are available, so all judgments are creative-signal inferences only.",
+    "OCR is imperfect and no full audio transcript was produced; visible keyframes and manual visual notes carry the analysis.",
+    "Sampling may miss intermediate micro-beats between keyframes.",
+    "Submagic adaptations should borrow the mechanism, not the competitor UI, creator likeness, wording, colors, or brand cues."
+  ]
+}

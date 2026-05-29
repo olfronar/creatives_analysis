@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpusClip Chess Hustle AI-Clips Demo Ad</title>
+  <style>
+    :root {
+      --shell: #FFFCF7;
+      --paper: #FFFFFF;
+      --ink: #0B0B0D;
+      --muted: #5F5F6D;
+      --line: #ECECEF;
+      --soft: #F7F7F8;
+      --accent: #FF4F01;
+      --accent-soft: #FFF2EA;
+      --deep: #26211F;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--shell);
+      color: var(--ink);
+      font: 15px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .shell { max-width: 1120px; margin: 0 auto; padding: 18px 16px 44px; }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 900;
+    }
+    .brand-dot {
+      width: 30px;
+      height: 30px;
+      border-radius: 9px;
+      background: var(--accent);
+      box-shadow: 0 8px 24px rgba(255, 79, 1, .24);
+    }
+    .hero {
+      padding: 24px 18px 22px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      margin: 8px auto 10px;
+      max-width: 980px;
+      font-size: clamp(30px, 3.8vw, 52px);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+    h2 { margin-bottom: 12px; font-size: 22px; letter-spacing: 0; }
+    h3 { font-size: 16px; letter-spacing: 0; }
+    .hero-copy {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .section {
+      margin-top: 14px;
+      padding: 18px;
+      border-radius: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 28px rgba(38, 33, 31, .04);
+    }
+    .core-read {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .intent-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      align-items: start;
+    }
+    .intent-card {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .intent-card.primary {
+      background: var(--accent-soft);
+      border-color: rgba(255, 79, 1, .24);
+    }
+    .intent-card p {
+      margin-top: 8px;
+    }
+    .intent-facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 8px;
+      align-items: start;
+    }
+    .intent-fact {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .intent-fact p {
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 1.42;
+    }
+    .mechanism-filmstrip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+    }
+    .function-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .function-chip, .mechanism-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .function-chip {
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+    }
+    .function-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--function-accent);
+      flex: 0 0 auto;
+    }
+    .mechanism-card {
+      --function-accent: #7A7A86;
+      --function-soft: var(--soft);
+      display: grid;
+      grid-template-rows: auto auto;
+      align-content: start;
+      border: 1px solid color-mix(in srgb, var(--function-accent) 38%, var(--line));
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--paper);
+    }
+    .function-hook, .function-cta { --function-accent: var(--accent); --function-soft: var(--accent-soft); }
+    .function-pain { --function-accent: #D97706; --function-soft: #FFF7E8; }
+    .function-proof { --function-accent: #2563EB; --function-soft: #EFF6FF; }
+    .function-risk { --function-accent: #DC2626; --function-soft: #FFF1F2; }
+    .mechanism-shot {
+      height: 220px;
+      background: var(--deep);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.72);
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+    .mechanism-shot img {
+      width: auto;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .mechanism-copy {
+      padding: 10px;
+      background: linear-gradient(180deg, var(--function-soft), var(--paper) 78%);
+      border-top: 1px solid var(--line);
+    }
+    .mechanism-copy h3 {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .mechanism-title {
+      margin-top: 4px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+    .mechanism-note {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .mini-card {
+      min-height: 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .mini-card.accent {
+      background: var(--accent-soft);
+      border-color: rgba(255, 79, 1, .24);
+    }
+    .label, .timeline-meta, .chip, summary {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .mini-card p { margin-top: 8px; }
+    .contact-sheet {
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--deep);
+      display: block;
+    }
+    .timeline {
+      display: grid;
+      gap: 12px;
+    }
+    .timeline-card {
+      display: grid;
+      grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+      gap: 14px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+    .phone-frame {
+      padding: 8px;
+      border-radius: 22px;
+      background: var(--deep);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+    }
+    .shot {
+      overflow: hidden;
+      aspect-ratio: 9 / 16;
+      border-radius: 14px;
+      background: #151515;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.78);
+      text-align: center;
+    }
+    .shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #111;
+      display: block;
+    }
+    .timeline-copy { display: grid; gap: 10px; align-content: start; }
+    .timeline-copy p { color: #26262d; }
+    .story-grid, .platform-grid, .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+    }
+    .shift {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #8A2B00;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    details {
+      padding-top: 2px;
+    }
+    summary {
+      cursor: pointer;
+    }
+    .details-hub details {
+      border-top: 1px solid var(--line);
+      padding: 12px 0;
+    }
+    .details-hub h2 + details {
+      border-top: 0;
+      padding-top: 0;
+    }
+    details ul { margin-top: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .score-bar {
+      width: 92px;
+      height: 9px;
+      margin-top: 7px;
+      border-radius: 999px;
+      background: #F0F0F1;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: inherit;
+    }
+    .muted { color: var(--muted); }
+    ul { margin: 0; padding-left: 18px; }
+    li + li { margin-top: 7px; }
+    footer { color: var(--muted); margin-top: 18px; font-size: 13px; text-align: center; }
+    @media (max-width: 820px) {
+      .timeline-card, .shift, .intent-grid { grid-template-columns: 1fr; }
+      .intent-facts { grid-template-columns: 1fr; }
+      .hero, .section { padding: 18px; border-radius: 18px; }
+      .topbar { align-items: flex-start; flex-direction: column; }
+    }
+    @media print {
+      body { background: white; }
+      .shell { max-width: none; padding: 0; }
+      .section { box-shadow: none; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand-mark"><span class="brand-dot"></span>Submagic</div>
+      <div>Creative intelligence report</div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Deconstruct</div>
+      <h1>OpusClip Chess Hustle AI-Clips Demo Ad</h1>
+      <p class="hero-copy">The creative hides an AI repurposing pitch inside a beach chess skit, then shows the app turning creator workload into ranked, edited, post-ready clips.</p>
+    </section>
+
+    <section class="section">
+      <h2>Why this creative exists</h2>
+      <div class="intent-grid">
+        <article class="intent-card primary">
+          <div class="label">Hypothesis</div>
+          <p>If creators see a relatable expert struggle with editing and then watch AI rank, edit, and post clips, they will believe the app can save time and start a trial or download.</p>
+        </article>
+        <div class="intent-facts">
+          <article class="intent-fact"><div class="label">Audience</div><p>Creators, coaches, course sellers, marketers, and small teams repurposing long-form content into short clips.</p></article>
+          <article class="intent-fact"><div class="label">Funnel</div><p>Cold prospecting with direct-response conversion cues, plus possible retargeting because pricing and trial details appear on screen.</p></article>
+          <article class="intent-fact"><div class="label">Likely KPI</div><p>App downloads, free-trial starts, pricing-page clicks, paid conversions, CAC, and ROAS.</p></article>
+          <article class="intent-fact"><div class="label">Awareness</div><p>Problem-aware to solution-aware: viewers know editing and distribution are slow, then see AI clipping as the answer.</p></article>
+          <article class="intent-fact"><div class="label">Confidence</div><p>medium</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Creative mechanism</h2>
+      <div class="function-legend"><span class="function-chip function-hook"><span class="function-dot"></span>Hook</span><span class="function-chip function-pain"><span class="function-dot"></span>Pain</span><span class="function-chip function-proof"><span class="function-dot"></span>Proof</span><span class="function-chip function-cta"><span class="function-dot"></span>CTA</span><span class="function-chip function-risk"><span class="function-dot"></span>Risk</span></div><div class="mechanism-filmstrip">
+            <article class="mechanism-card function-hook">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.000-1.000 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Hook</div>
+                <h3>Step 1 / 0.000-1.000</h3>
+                <p class="mechanism-title">borrowed street-challenge hook</p>
+                <p class="mechanism-note">The viewer reads this as a native street-interview challenge, not an immediate SaaS pitch, so the setup earns a few seconds of curiosity.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-pain">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_004_1.517s.jpg" alt="1.517-7.584 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Pain</div>
+                <h3>Step 2 / 1.517-7.584</h3>
+                <p class="mechanism-title">creator identity qualification</p>
+                <p class="mechanism-note">The skit turns the chess player into a recognizable creator archetype: someone with expertise, content, and a distribution burden.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-pain">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_011_9.101s.jpg" alt="9.101-13.651 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Pain</div>
+                <h3>Step 3 / 9.101-13.651</h3>
+                <p class="mechanism-title">manual-work pain to tool reveal</p>
+                <p class="mechanism-note">The ad frames manual editing as the bottleneck, then creates a small reveal moment where the product feels like a hidden advantage.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_015_15.168s.jpg" alt="15.168-18.202 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 4 / 15.168-18.202</h3>
+                <p class="mechanism-title">ranked-output proof</p>
+                <p class="mechanism-note">The viewer is shown a concrete selection layer: the AI appears to find promising clips inside a larger content library instead of asking the creator to hunt manually.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_018_19.718s.jpg" alt="19.718-21.235 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 5 / 19.718-21.235</h3>
+                <p class="mechanism-title">workflow compression proof</p>
+                <p class="mechanism-note">The product proof expands from clip selection into polish and distribution, implying the tool covers the workflow after finding the clip.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-cta">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_023_27.302s.jpg" alt="27.302-28.819 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>CTA</div>
+                <h3>Step 6 / 27.302-28.819</h3>
+                <p class="mechanism-title">mobile-install speed CTA</p>
+                <p class="mechanism-note">The close compresses the desired action into a mobile download and speed promise, but the &#x27;10x faster&#x27; claim is not substantiated inside the visible evidence.</p>
+              </div>
+            </article>
+            </div>
+    </section>
+
+    <section class="section core-thesis-section">
+      <h2>Core Read</h2>
+      <div class="core-read">
+        <article class="mini-card accent"><div class="label">Core thesis</div><p>The creative hides an AI repurposing pitch inside a beach chess skit, then shows the app turning creator workload into ranked, edited, post-ready clips.</p></article>
+        <article class="mini-card accent"><div class="label">Belief shift</div><p>The viewer moves from &#x27;editing clips is a manual chore&#x27; to &#x27;AI can pick, polish, and publish my best content from a phone.&#x27;</p></article>
+        <article class="mini-card accent"><div class="label">Submagic transfer</div><p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What to steal / What not to copy</h2>
+      <div class="story-grid">
+        <div class="mini-card"><div class="label">What to steal</div><ul><li>Delay the product reveal until a creator pain is visible.</li><li>Show AI doing selection and polish, not only the final result.</li><li>End with a clear trial or download path after the proof scene.</li></ul></div>
+        <div class="mini-card"><div class="label">What not to copy</div><ul><li>Do not copy the chess setup, OpusClip UI, brand, captions, or end card.</li><li>Do not use unsupported speed or quality claims.</li><li>Do not let pricing appear before viewers understand the workflow proof.</li></ul></div>
+        <div class="mini-card"><div class="label">Test next</div><ul><li>Test replacing the chess skit with a Submagic-native creator deadline scenario.</li><li>Test a before-after clip quality reveal before pricing.</li><li>Test one proof screen focused on captions, Magic Clips, Auto Edit, and publishing.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Top diagnostics</h2>
+      <div class="story-grid">
+        <div class="mini-card"><div class="label">Top strengths</div><ul><li>Friction Reduction: 3/3 - The workflow appears compressed from selection to posting, but the exported result is not shown clearly.</li><li>Product Visibility: 3/3 - The product appears across ranking, editing, posting, pricing, and end-card moments.</li><li>Hook Strength: 3/3 - The street-challenge setup is native and clear, though it needs the creator-workflow pivot to justify the chess premise.</li></ul></div>
+        <div class="mini-card"><div class="label">Top weaknesses</div><ul><li>Copycat Safety: 1/3 - The surface execution is tightly tied to OpusClip, the chess skit, and visible product UI; only the strategic mechanism should transfer.</li><li>Cta Urgency: 2/3 - The free trial, discount, and app CTA are visible, but there is no deadline or proof of urgency beyond offer framing.</li><li>Pacing: 2/3 - The ad covers many steps in 30 seconds; the proof is energetic but crowded.</li></ul></div>
+        <article class="mini-card"><div class="label">Proof gap</div><p>The proof leans on interface speed and ranking scores, but it does not verify output quality, real time saved, or the 10x speed claim.</p></article>
+      </div>
+    </section>
+
+    <section class="section details-hub">
+      <h2>Details</h2>
+      <details>
+        <summary>Key shots</summary>
+        <div class="timeline">
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.000-1.000 shot: On a beach, a pink-haired interviewer with a handheld mic approaches a seated chess player and asks to play quickly; captions show &#x27;Can I play&#x27;, &#x27;real quick?&#x27;, and the player replying &#x27;Sure, man&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">0.000-1.000 / high confidence</div>
+            <h3>What happens</h3>
+            <p>On a beach, a pink-haired interviewer with a handheld mic approaches a seated chess player and asks to play quickly; captions show &#x27;Can I play&#x27;, &#x27;real quick?&#x27;, and the player replying &#x27;Sure, man&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The viewer reads this as a native street-interview challenge, not an immediate SaaS pitch, so the setup earns a few seconds of curiosity.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned,...</p>
+            <p class="muted">3 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_004_1.517s.jpg" alt="1.517-7.584 shot: During the chess interaction, the interviewer asks about the player&#x27;s skill and online work; sampled captions show &#x27;So how&#x27;, &#x27;good are you?&#x27;, &#x27;sell courses&#x27;, &#x27;like, quick&#x27;, &#x27;all day, bruh&#x27;, and &#x27;your page alone?&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">1.517-7.584 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>During the chess interaction, the interviewer asks about the player&#x27;s skill and online work; sampled captions show &#x27;So how&#x27;, &#x27;good are you?&#x27;, &#x27;sell courses&#x27;, &#x27;like, quick&#x27;, &#x27;all day, bruh&#x27;, and &#x27;your page alone?&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The skit turns the chess player into a recognizable creator archetype: someone with expertise, content, and a distribution burden.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned,...</p>
+            <p class="muted">6 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_015_15.168s.jpg" alt="15.168-18.202 shot: The phone shows a grid of chess-video thumbnails with green scores such as 94, 93, 96, 94, 91, 88, 87, and 85; captions say &#x27;The AI knows&#x27;, &#x27;so it chooses&#x27;, and &#x27;ranks them&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">15.168-18.202 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The phone shows a grid of chess-video thumbnails with green scores such as 94, 93, 96, 94, 91, 88, 87, and 85; captions say &#x27;The AI knows&#x27;, &#x27;so it chooses&#x27;, and &#x27;ranks them&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The viewer is shown a concrete selection layer: the AI appears to find promising clips inside a larger content library instead of asking the creator to hunt manually.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned,...</p>
+            <p class="muted">5 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_023_27.302s.jpg" alt="27.302-28.819 shot: The closing screen overlays the OpusClip logo on the blurred beach scene with App Store copy, the line &#x27;Create 10x Faster&#x27;, and a &#x27;Get Clips&#x27; button." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">27.302-28.819 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>The closing screen overlays the OpusClip logo on the blurred beach scene with App Store copy, the line &#x27;Create 10x Faster&#x27;, and a &#x27;Get Clips&#x27; button.</p>
+            <h3>Why it works</h3>
+            <p>The close compresses the desired action into a mobile download and speed promise, but the &#x27;10x faster&#x27; claim is not substantiated inside the visible evidence.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned,...</p>
+            <p class="muted">4 Evidence sources</p>
+          </div>
+        </article>
+
+        </div>
+      </details>
+
+      <details>
+        <summary>Contact sheet</summary>
+        <img class="contact-sheet" src="../evidence/keyframes/contact_sheet.jpg" alt="Contact sheet of sampled creative keyframes" loading="lazy">
+      </details>
+
+      <details>
+        <summary>Creative intent evidence</summary>
+        <div class="story-grid">
+          <article class="mini-card"><div class="label">Offer strategy</div><p>Use entertainment to earn attention, expose creator editing pain, prove workflow automation on a phone, then push an annual discount and free trial.</p></article>
+          <article class="mini-card"><div class="label">Marketer job-to-be-done</div><p>Make AI clip repurposing feel concrete, fast, and worth trying for creators who do not want to manually edit and post everything.</p></article>
+          <div class="mini-card"><div class="label">Intent unknowns</div><ul><li>No targeting, spend, click, trial, CAC, ROAS, or retention data were provided.</li><li>The report infers KPI and funnel stage from visible creative signals only.</li><li>No complete transcript was available; sampled captions and UI evidence carry the analysis.</li></ul></div>
+          <div class="mini-card"><div class="label">Intent evidence</div>
+      <details>
+        <summary>6 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_011</li><li>ev_keyframe_015</li><li>ev_keyframe_018</li><li>ev_keyframe_020</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </div>
+        </div>
+      </details>
+      <details>
+        <summary>Full evidence timeline</summary>
+        <h3>Evidence timeline</h3>
+        <div class="timeline">
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.000-1.000 shot: On a beach, a pink-haired interviewer with a handheld mic approaches a seated chess player and asks to play quickly; captions show &#x27;Can I play&#x27;, &#x27;real quick?&#x27;, and the player replying &#x27;Sure, man&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">0.000-1.000 / high confidence</div>
+            <h3>What happens</h3>
+            <p>On a beach, a pink-haired interviewer with a handheld mic approaches a seated chess player and asks to play quickly; captions show &#x27;Can I play&#x27;, &#x27;real quick?&#x27;, and the player replying &#x27;Sure, man&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The viewer reads this as a native street-interview challenge, not an immediate SaaS pitch, so the setup earns a few seconds of curiosity.</p>
+
+            <h3>Mechanism</h3>
+            <p>borrowed street-challenge hook</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_001</span><span class="chip">ev_keyframe_002</span><span class="chip">ev_keyframe_003</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_001: keyframe at 0.000</li><li>ev_keyframe_002: keyframe at 0.500</li><li>ev_keyframe_003: keyframe at 1.000</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_004_1.517s.jpg" alt="1.517-7.584 shot: During the chess interaction, the interviewer asks about the player&#x27;s skill and online work; sampled captions show &#x27;So how&#x27;, &#x27;good are you?&#x27;, &#x27;sell courses&#x27;, &#x27;like, quick&#x27;, &#x27;all day, bruh&#x27;, and &#x27;your page alone?&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">1.517-7.584 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>During the chess interaction, the interviewer asks about the player&#x27;s skill and online work; sampled captions show &#x27;So how&#x27;, &#x27;good are you?&#x27;, &#x27;sell courses&#x27;, &#x27;like, quick&#x27;, &#x27;all day, bruh&#x27;, and &#x27;your page alone?&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The skit turns the chess player into a recognizable creator archetype: someone with expertise, content, and a distribution burden.</p>
+
+            <h3>Mechanism</h3>
+            <p>creator identity qualification</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_004</span><span class="chip">ev_keyframe_005</span><span class="chip">ev_keyframe_006</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_004: keyframe at 1.517</li><li>ev_keyframe_005: keyframe at 2.000</li><li>ev_keyframe_006: keyframe at 3.000</li><li>ev_keyframe_008: keyframe at 4.550</li><li>ev_keyframe_009: keyframe at 6.067</li><li>ev_keyframe_010: keyframe at 7.584</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_011_9.101s.jpg" alt="9.101-13.651 shot: The player says &#x27;I edit it myself too&#x27;; the interviewer says &#x27;check this out&#x27;, hands over a phone, and the sampled captions move through &#x27;all your clips&#x27; and &#x27;What is this?&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">9.101-13.651 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The player says &#x27;I edit it myself too&#x27;; the interviewer says &#x27;check this out&#x27;, hands over a phone, and the sampled captions move through &#x27;all your clips&#x27; and &#x27;What is this?&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The ad frames manual editing as the bottleneck, then creates a small reveal moment where the product feels like a hidden advantage.</p>
+
+            <h3>Mechanism</h3>
+            <p>manual-work pain to tool reveal</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_011</span><span class="chip">ev_keyframe_012</span><span class="chip">ev_keyframe_013</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_011: keyframe at 9.101</li><li>ev_keyframe_012: keyframe at 10.618</li><li>ev_keyframe_013: keyframe at 12.134</li><li>ev_keyframe_014: keyframe at 13.651</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_015_15.168s.jpg" alt="15.168-18.202 shot: The phone shows a grid of chess-video thumbnails with green scores such as 94, 93, 96, 94, 91, 88, 87, and 85; captions say &#x27;The AI knows&#x27;, &#x27;so it chooses&#x27;, and &#x27;ranks them&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">15.168-18.202 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The phone shows a grid of chess-video thumbnails with green scores such as 94, 93, 96, 94, 91, 88, 87, and 85; captions say &#x27;The AI knows&#x27;, &#x27;so it chooses&#x27;, and &#x27;ranks them&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The viewer is shown a concrete selection layer: the AI appears to find promising clips inside a larger content library instead of asking the creator to hunt manually.</p>
+
+            <h3>Mechanism</h3>
+            <p>ranked-output proof</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_015</span><span class="chip">ev_ocr_015</span><span class="chip">ev_keyframe_016</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_015: keyframe at 15.168</li><li>ev_ocr_015: ocr at 15.168</li><li>ev_keyframe_016: keyframe at 16.685</li><li>ev_ocr_016: ocr at 16.685</li><li>ev_keyframe_017: keyframe at 18.202</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_018_19.718s.jpg" alt="19.718-21.235 shot: The phone switches to an editing/export surface with a short video preview, a highlighted caption/graphic region, controls labeled for animation, font, AI highlights, lines, and AI emoji, then an &#x27;Add post&#x27; screen with social account toggles and caption text." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">19.718-21.235 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>The phone switches to an editing/export surface with a short video preview, a highlighted caption/graphic region, controls labeled for animation, font, AI highlights, lines, and AI emoji, then an &#x27;Add post&#x27; screen with social account toggles and caption text.</p>
+            <h3>Why it works</h3>
+            <p>The product proof expands from clip selection into polish and distribution, implying the tool covers the workflow after finding the clip.</p>
+
+            <h3>Mechanism</h3>
+            <p>workflow compression proof</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_018</span><span class="chip">ev_ocr_018</span><span class="chip">ev_keyframe_019</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_018: keyframe at 19.718</li><li>ev_ocr_018: ocr at 19.718</li><li>ev_keyframe_019: keyframe at 21.235</li><li>ev_ocr_019: ocr at 21.235</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_020_22.752s.jpg" alt="22.752-25.786 shot: A plan screen shows &#x27;Choose a plan&#x27;, monthly/yearly toggle, &#x27;Save up to 50% with annual billing&#x27;, Pro pricing around $14.5 USD/mo, &#x27;Start your free trial&#x27;, 3,600 credits per year, team workspace with two seats, brand templates, and six social account connections." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">22.752-25.786 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>A plan screen shows &#x27;Choose a plan&#x27;, monthly/yearly toggle, &#x27;Save up to 50% with annual billing&#x27;, Pro pricing around $14.5 USD/mo, &#x27;Start your free trial&#x27;, 3,600 credits per year, team workspace with two seats, brand templates, and six social account connections.</p>
+            <h3>Why it works</h3>
+            <p>The ad turns the demo into a direct-response offer and makes the trial, annual discount, and creator/team feature bundle visible.</p>
+
+            <h3>Mechanism</h3>
+            <p>discounted trial offer</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_020</span><span class="chip">ev_ocr_020</span><span class="chip">ev_keyframe_021</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_020: keyframe at 22.752</li><li>ev_ocr_020: ocr at 22.752</li><li>ev_keyframe_021: keyframe at 24.269</li><li>ev_ocr_021: ocr at 24.269</li><li>ev_keyframe_022: keyframe at 25.786</li><li>ev_ocr_022: ocr at 25.786</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_023_27.302s.jpg" alt="27.302-28.819 shot: The closing screen overlays the OpusClip logo on the blurred beach scene with App Store copy, the line &#x27;Create 10x Faster&#x27;, and a &#x27;Get Clips&#x27; button." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">27.302-28.819 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>The closing screen overlays the OpusClip logo on the blurred beach scene with App Store copy, the line &#x27;Create 10x Faster&#x27;, and a &#x27;Get Clips&#x27; button.</p>
+            <h3>Why it works</h3>
+            <p>The close compresses the desired action into a mobile download and speed promise, but the &#x27;10x faster&#x27; claim is not substantiated inside the visible evidence.</p>
+
+            <h3>Mechanism</h3>
+            <p>mobile-install speed CTA</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the mechanism into a creator workflow demo where Submagic visibly turns raw footage into captioned, branded, zoomed, publish-ready clips.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_023</span><span class="chip">ev_ocr_023</span><span class="chip">ev_keyframe_024</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_023: keyframe at 27.302</li><li>ev_ocr_023: ocr at 27.302</li><li>ev_keyframe_024: keyframe at 28.819</li><li>ev_ocr_024: ocr at 28.819</li></ul>
+      </details>
+
+          </div>
+        </article>
+    </div>
+      </details>
+      <details>
+        <summary>Full proof ladder</summary>
+        <h3>Proof ladder</h3>
+
+      <table>
+        <thead><tr><th>#</th><th>Claim</th><th>Proof type</th><th>Weakness</th><th>Evidence</th></tr></thead>
+        <tbody>
+            <tr>
+              <td>1</td>
+              <td>The ad can hold attention as entertainment before revealing software.</td>
+              <td>street chess challenge setup with microphone, beach location, and dialogue captions</td>
+              <td>The chess setup is engaging but loosely related to clip editing until the creator identity is introduced.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li><li>ev_keyframe_003</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>The target user has creator-workflow pain.</td>
+              <td>sampled captions about selling courses, running a page, and editing himself</td>
+              <td>The report has no complete transcript, so the exact conversation is reconstructed from sampled captions.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_006</li><li>ev_keyframe_010</li><li>ev_keyframe_011</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>The AI can identify and rank promising clips.</td>
+              <td>phone UI with chess-video thumbnails and green ranking numbers</td>
+              <td>The ranking scores are visible but not explained or validated against performance data.</td>
+              <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_ocr_015</li><li>ev_keyframe_016</li><li>ev_ocr_016</li><li>ev_keyframe_017</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>The product helps with editing polish and social posting.</td>
+              <td>editing screen with caption/graphic controls and an add-post screen with social accounts</td>
+              <td>The screens show capability cues, but the finished exported clip quality is not clearly demonstrated.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_018</li><li>ev_ocr_018</li><li>ev_keyframe_019</li><li>ev_ocr_019</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>The offer is positioned as a trial with annual discount and creator/team features.</td>
+              <td>pricing screen with Pro plan, free trial, annual billing savings, credits, seats, templates, and social connections</td>
+              <td>Pricing and credit details may be time-sensitive and were not verified outside the creative.</td>
+              <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_020</li><li>ev_ocr_020</li><li>ev_keyframe_021</li><li>ev_ocr_021</li><li>ev_keyframe_022</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>The app promises faster clip creation.</td>
+              <td>OpusClip end card with App Store CTA and &#x27;Create 10x Faster&#x27; copy</td>
+              <td>The 10x claim is visible as ad copy but not substantiated with measurement or comparison evidence.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_023</li><li>ev_keyframe_024</li><li>ev_ocr_024</li></ul>
+      </details>
+    </td>
+            </tr>
+            </tbody>
+      </table>
+
+      </details>
+      <details>
+        <summary>Core-understanding notes</summary>
+        <div class="story-grid">
+          <article class="mini-card"><div class="label">Human truth</div><p>Creators do not only want more editing features; they want the confidence that their best moments will be found, shaped, and posted without spending the whole day managing clips.</p></article>
+          <article class="mini-card"><div class="label">Skeptic read</div><p>A skeptical viewer may like the skit but question whether the AI rankings produce genuinely better clips, whether posting is as automatic as implied, whether the 10x speed claim is measured, and whether the visible price or plan details are current.</p></article>
+          <article class="mini-card"><div class="label">Counterfactuals</div><p>If the ad opened directly on pricing, it would lose the native entertainment hook and creator empathy. If the demo showed an exported before-after clip before pricing, the quality proof would likely feel stronger. If the ranking screen were replaced by a generic AI claim, the mechanism would become less tangible. If the skit stayed in chess too long, the product reveal would feel disconnected from the editing pain.</p></article>
+          <article class="mini-card"><div class="label">Tension stack</div><p>Attention tension: the viewer expects a chess challenge, so the product reveal has room to surprise (ev_keyframe_001, ev_keyframe_003). Identity tension: the player is not just a chess player; sampled captions identify him as someone selling courses and running a page (ev_keyframe_006, ev_keyframe_010). Labor tension: he says he edits it himself too, making the pain concrete before the phone demo appears (ev_keyframe_011, ev_keyframe_012). Proof need: the app must show more than generic AI, so the demo displays ranked chess clips, editing controls, and posting UI (ev_keyframe_015, ev_keyframe_018, ev_keyframe_019). Conversion tension: the ad asks for trial/download action after showing pricing, annual savings, credits, and App Store CTA (ev_keyframe_020, ev_keyframe_023, ev_keyframe_024).</p></article>
+        </div>
+        <h3>Viewer state timeline</h3>
+
+      <table>
+        <thead><tr><th>Time</th><th>Viewer state</th><th>Trigger</th><th>Evidence</th></tr></thead>
+        <tbody>
+            <tr>
+              <td>0.000-1.000</td>
+              <td>watching a challenge</td>
+              <td>A beach chess scene and microphone approach create a familiar street-content setup.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li><li>ev_keyframe_003</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>1.517-7.584</td>
+              <td>identifying the creator</td>
+              <td>The conversation shifts from chess skill to selling courses and running a page.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_004</li><li>ev_keyframe_006</li><li>ev_keyframe_010</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>9.101-13.651</td>
+              <td>recognizing the pain</td>
+              <td>The player says he edits himself and reacts to the phone reveal.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_011</li><li>ev_keyframe_012</li><li>ev_keyframe_014</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>15.168-18.202</td>
+              <td>evaluating AI selection</td>
+              <td>The app displays ranked chess clips and captions that say the AI knows, chooses, and ranks them.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_016</li><li>ev_keyframe_017</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>19.718-21.235</td>
+              <td>testing workflow completeness</td>
+              <td>The demo shows caption/graphic editing and an add-post screen, suggesting the workflow continues beyond clip discovery.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_018</li><li>ev_keyframe_019</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>22.752-28.819</td>
+              <td>conversion check</td>
+              <td>The creative shows plan pricing, free trial, annual savings, App Store CTA, and a speed promise.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_020</li><li>ev_keyframe_021</li><li>ev_keyframe_023</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+            </tr>
+            </tbody>
+      </table>
+
+      </details>
+      <details>
+        <summary>Full score matrix</summary>
+        <table>
+          <thead>
+            <tr><th>Dimension</th><th>Score</th><th>Weakness / next improvement</th><th>Evidence</th></tr>
+          </thead>
+          <tbody>
+      <tr>
+        <td><strong>Copycat Safety</strong><br><span class="muted">high confidence</span></td>
+        <td>1/3<div class="score-bar"><div class="score-bar-fill" style="width:33%"></div></div></td>
+        <td>The surface execution is tightly tied to OpusClip, the chess skit, and visible product UI; only the strategic mechanism should transfer.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_015</li><li>ev_keyframe_020</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Cta Urgency</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The free trial, discount, and app CTA are visible, but there is no deadline or proof of urgency beyond offer framing.</td>
+        <td>
+      <details>
+        <summary>6 evidence IDs</summary>
+        <ul><li>ev_keyframe_020</li><li>ev_ocr_020</li><li>ev_keyframe_021</li><li>ev_ocr_021</li><li>ev_keyframe_023</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Pacing</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The ad covers many steps in 30 seconds; the proof is energetic but crowded.</td>
+        <td>
+      <details>
+        <summary>6 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_011</li><li>ev_keyframe_015</li><li>ev_keyframe_018</li><li>ev_keyframe_020</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Problem Clarity</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The editing burden is visible, but the exact pain relies on sampled captions rather than a full transcript.</td>
+        <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_006</li><li>ev_keyframe_010</li><li>ev_keyframe_011</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Proof Specificity</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The UI proof is specific, but output quality, ranking method, and time-saved claims are not independently substantiated.</td>
+        <td>
+      <details>
+        <summary>6 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_ocr_015</li><li>ev_keyframe_016</li><li>ev_ocr_016</li><li>ev_keyframe_018</li><li>ev_keyframe_019</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Friction Reduction</strong><br><span class="muted">medium confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The workflow appears compressed from selection to posting, but the exported result is not shown clearly.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_018</li><li>ev_keyframe_019</li><li>ev_keyframe_020</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Hook Strength</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The street-challenge setup is native and clear, though it needs the creator-workflow pivot to justify the chess premise.</td>
+        <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li><li>ev_keyframe_003</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Product Visibility</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The product appears across ranking, editing, posting, pricing, and end-card moments.</td>
+        <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_018</li><li>ev_keyframe_019</li><li>ev_keyframe_020</li><li>ev_keyframe_023</li></ul>
+      </details>
+    </td>
+      </tr>
+    </tbody>
+        </table>
+      </details>
+      <details>
+        <summary>Platform fit</summary>
+        <div class="platform-grid">
+      <article class="mini-card">
+        <div class="label">Tiktok</div>
+        <h3>3/3 fit</h3>
+        <p>The street challenge, large captions, quick human setup, and phone UI demo fit TikTok&#x27;s native discovery patterns, with the caveat that product proof is crowded (ev_keyframe_001, ev_keyframe_015, ev_keyframe_018).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Reels</div>
+        <h3>3/3 fit</h3>
+        <p>The beach skit, vertical captions, creator-workflow pain, and clean app CTA are Reels-compatible, especially for creator and marketer audiences (ev_keyframe_003, ev_keyframe_011, ev_keyframe_023).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Shorts</div>
+        <h3>2/3 fit</h3>
+        <p>The hook can work on Shorts, but the product reveal and pricing sequence may need a clearer before-after result to hold viewers through the full 30 seconds (ev_keyframe_015, ev_keyframe_020, ev_keyframe_024).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Meta Paid</div>
+        <h3>2/3 fit</h3>
+        <p>The demo and offer are suitable for Meta paid testing, but claims around AI ranking and 10x faster creation should be substantiated or softened for compliance and trust (ev_keyframe_015, ev_keyframe_024).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Linkedin</div>
+        <h3>1/3 fit</h3>
+        <p>The creator-productivity problem can fit LinkedIn, but the beach chess skit and mobile app-store close feel more casual than a business feed usually rewards (ev_keyframe_001, ev_keyframe_023).</p>
+      </article>
+    </div>
+      </details>
+      <details>
+        <summary>Drop-off and risk notes</summary>
+        <div class="list-grid">
+          <div class="mini-card"><div class="label">Likely drop-off points</div><ul><li>Viewers who do not care about chess may drop before the ad reveals that the real problem is clip editing and distribution (ev_keyframe_001, ev_keyframe_006, ev_keyframe_011).</li><li>Creators may understand the ranked clip UI but still hesitate because the ad does not clearly show the finished output quality before pricing appears (ev_keyframe_015, ev_keyframe_018, ev_keyframe_020).</li><li>Skeptical viewers may discount the &#x27;Create 10x Faster&#x27; promise because the creative shows a speed claim but not a measured comparison or time study (ev_keyframe_024).</li></ul></div>
+          <div class="mini-card"><div class="label">Risks and unknowns</div><ul><li>No performance metrics were provided, so this report treats all judgments as creative-signal hypotheses only.</li><li>The video has audio, but no transcript was generated; sampled visual captions and UI screens are the evidence base (ev_manifest_000).</li><li>OCR is noisy on several product screens, so visible keyframe inspection carries more weight than raw OCR text (ev_ocr_015, ev_ocr_018, ev_ocr_019).</li><li>The visible price, annual discount, App Store state, and plan features may be time-sensitive and were not verified outside the creative (ev_keyframe_020, ev_keyframe_021).</li><li>The AI ranking and 10x speed claims are visible advertising claims, not validated performance facts (ev_keyframe_015, ev_keyframe_024).</li><li>For Submagic adaptation, use only the mechanism; do not copy OpusClip brand identity, product UI, ranking screen, chess setup, creator/interviewer likeness, captions, music, or exact claims.</li></ul></div>
+        </div>
+      </details>
+    </section>
+
+    <footer>
+      Creative-signal report only. Use performance metrics before treating any score as proven market truth.
+    </footer>
+  </main>
+</body>
+</html>

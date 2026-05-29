@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gruns Symptom-Ladder UGC Ad</title>
+  <style>
+    :root {
+      --shell: #FFFCF7;
+      --paper: #FFFFFF;
+      --ink: #0B0B0D;
+      --muted: #5F5F6D;
+      --line: #ECECEF;
+      --soft: #F7F7F8;
+      --accent: #FF4F01;
+      --accent-soft: #FFF2EA;
+      --deep: #26211F;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--shell);
+      color: var(--ink);
+      font: 15px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .shell { max-width: 1120px; margin: 0 auto; padding: 18px 16px 44px; }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 900;
+    }
+    .brand-dot {
+      width: 30px;
+      height: 30px;
+      border-radius: 9px;
+      background: var(--accent);
+      box-shadow: 0 8px 24px rgba(255, 79, 1, .24);
+    }
+    .hero {
+      padding: 24px 18px 22px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      margin: 8px auto 10px;
+      max-width: 980px;
+      font-size: clamp(30px, 3.8vw, 52px);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+    h2 { margin-bottom: 12px; font-size: 22px; letter-spacing: 0; }
+    h3 { font-size: 16px; letter-spacing: 0; }
+    .hero-copy {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .section {
+      margin-top: 14px;
+      padding: 18px;
+      border-radius: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 28px rgba(38, 33, 31, .04);
+    }
+    .core-read {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .intent-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      align-items: start;
+    }
+    .intent-card {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .intent-card.primary {
+      background: var(--accent-soft);
+      border-color: rgba(255, 79, 1, .24);
+    }
+    .intent-card p {
+      margin-top: 8px;
+    }
+    .intent-facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 8px;
+      align-items: start;
+    }
+    .intent-fact {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .intent-fact p {
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 1.42;
+    }
+    .mechanism-filmstrip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+    }
+    .function-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .function-chip, .mechanism-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .function-chip {
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+    }
+    .function-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--function-accent);
+      flex: 0 0 auto;
+    }
+    .mechanism-card {
+      --function-accent: #7A7A86;
+      --function-soft: var(--soft);
+      display: grid;
+      grid-template-rows: auto auto;
+      align-content: start;
+      border: 1px solid color-mix(in srgb, var(--function-accent) 38%, var(--line));
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--paper);
+    }
+    .function-hook, .function-cta { --function-accent: var(--accent); --function-soft: var(--accent-soft); }
+    .function-pain { --function-accent: #D97706; --function-soft: #FFF7E8; }
+    .function-proof { --function-accent: #2563EB; --function-soft: #EFF6FF; }
+    .function-risk { --function-accent: #DC2626; --function-soft: #FFF1F2; }
+    .mechanism-shot {
+      height: 220px;
+      background: var(--deep);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.72);
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+    .mechanism-shot img {
+      width: auto;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .mechanism-copy {
+      padding: 10px;
+      background: linear-gradient(180deg, var(--function-soft), var(--paper) 78%);
+      border-top: 1px solid var(--line);
+    }
+    .mechanism-copy h3 {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .mechanism-title {
+      margin-top: 4px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+    .mechanism-note {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .mini-card {
+      min-height: 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .mini-card.accent {
+      background: var(--accent-soft);
+      border-color: rgba(255, 79, 1, .24);
+    }
+    .label, .timeline-meta, .chip, summary {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .mini-card p { margin-top: 8px; }
+    .contact-sheet {
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--deep);
+      display: block;
+    }
+    .timeline {
+      display: grid;
+      gap: 12px;
+    }
+    .timeline-card {
+      display: grid;
+      grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+      gap: 14px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+    .phone-frame {
+      padding: 8px;
+      border-radius: 22px;
+      background: var(--deep);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+    }
+    .shot {
+      overflow: hidden;
+      aspect-ratio: 9 / 16;
+      border-radius: 14px;
+      background: #151515;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.78);
+      text-align: center;
+    }
+    .shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #111;
+      display: block;
+    }
+    .timeline-copy { display: grid; gap: 10px; align-content: start; }
+    .timeline-copy p { color: #26262d; }
+    .story-grid, .platform-grid, .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+    }
+    .shift {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #8A2B00;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    details {
+      padding-top: 2px;
+    }
+    summary {
+      cursor: pointer;
+    }
+    .details-hub details {
+      border-top: 1px solid var(--line);
+      padding: 12px 0;
+    }
+    .details-hub h2 + details {
+      border-top: 0;
+      padding-top: 0;
+    }
+    details ul { margin-top: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .score-bar {
+      width: 92px;
+      height: 9px;
+      margin-top: 7px;
+      border-radius: 999px;
+      background: #F0F0F1;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: inherit;
+    }
+    .muted { color: var(--muted); }
+    ul { margin: 0; padding-left: 18px; }
+    li + li { margin-top: 7px; }
+    footer { color: var(--muted); margin-top: 18px; font-size: 13px; text-align: center; }
+    @media (max-width: 820px) {
+      .timeline-card, .shift, .intent-grid { grid-template-columns: 1fr; }
+      .intent-facts { grid-template-columns: 1fr; }
+      .hero, .section { padding: 18px; border-radius: 18px; }
+      .topbar { align-items: flex-start; flex-direction: column; }
+    }
+    @media print {
+      body { background: white; }
+      .shell { max-width: none; padding: 0; }
+      .section { box-shadow: none; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand-mark"><span class="brand-dot"></span>Submagic</div>
+      <div>Creative intelligence report</div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Deconstruct</div>
+      <h1>Gruns Symptom-Ladder UGC Ad</h1>
+      <p class="hero-copy">The creative converts a vague greens habit into a symptom checklist, then positions one packet as the convenient bundled answer.</p>
+    </section>
+
+    <section class="section">
+      <h2>Why this creative exists</h2>
+      <div class="intent-grid">
+        <article class="intent-card primary">
+          <div class="label">Hypothesis</div>
+          <p>If viewers connect skipped greens with common discomforts, one daily packet will feel like a convenient fix and increase click or purchase intent.</p>
+        </article>
+        <div class="intent-facts">
+          <article class="intent-fact"><div class="label">Audience</div><p>Health-curious, convenience-seeking adults or parents who know they should eat greens but do not consistently do it.</p></article>
+          <article class="intent-fact"><div class="label">Funnel</div><p>Cold prospecting direct-response creative with conversion intent.</p></article>
+          <article class="intent-fact"><div class="label">Likely KPI</div><p>Click-through, offer-page visits, first purchase, CAC, and ROAS.</p></article>
+          <article class="intent-fact"><div class="label">Awareness</div><p>Problem-aware to solution-aware.</p></article>
+          <article class="intent-fact"><div class="label">Confidence</div><p>medium</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Creative mechanism</h2>
+      <div class="function-legend"><span class="function-chip function-hook"><span class="function-dot"></span>Hook</span><span class="function-chip function-pain"><span class="function-dot"></span>Pain</span><span class="function-chip function-proof"><span class="function-dot"></span>Proof</span><span class="function-chip function-cta"><span class="function-dot"></span>CTA</span><span class="function-chip function-risk"><span class="function-dot"></span>Risk</span></div><div class="mechanism-filmstrip">
+            <article class="mechanism-card function-hook">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.000-0.500 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Hook</div>
+                <h3>Step 1 / 0.000-0.500</h3>
+                <p class="mechanism-title">symptom-led hook</p>
+                <p class="mechanism-note">The viewer is pushed into a quick self-check: the ad reframes a vague nutrition habit as a list of embarrassing or uncomfortable daily problems.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-pain">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_005_2.000s.jpg" alt="2.000-8.070 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Pain</div>
+                <h3>Step 2 / 2.000-8.070</h3>
+                <p class="mechanism-title">diagnostic ladder</p>
+                <p class="mechanism-note">The repetition turns scattered symptoms into a checklist, making the viewer wait for their own problem to appear.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_012_9.415s.jpg" alt="9.415-12.105 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 3 / 9.415-12.105</h3>
+                <p class="mechanism-title">bundle proof pivot</p>
+                <p class="mechanism-note">The ad tries to convert the symptom checklist into a bundled-product answer, using the product label as a proof cue.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-proof">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_015_13.450s.jpg" alt="13.450-16.140 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>Proof</div>
+                <h3>Step 4 / 13.450-16.140</h3>
+                <p class="mechanism-title">friction reducer</p>
+                <p class="mechanism-note">After the health-problem setup, the ad reduces usage friction by promising taste, ease, and family acceptance.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-cta">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_018_17.485s.jpg" alt="17.485-20.175 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>CTA</div>
+                <h3>Step 5 / 17.485-20.175</h3>
+                <p class="mechanism-title">package-value and link transition</p>
+                <p class="mechanism-note">The product moves from health answer to tangible purchase unit: a big bag, many daily packs, and a direct link cue.</p>
+              </div>
+            </article>
+
+            <article class="mechanism-card function-cta">
+              <div class="mechanism-shot"><img src="../evidence/keyframes/frame_021_21.520s.jpg" alt="21.520-25.555 mechanism step shot" loading="lazy"></div>
+              <div class="mechanism-copy">
+                <div class="mechanism-kicker"><span class="function-dot"></span>CTA</div>
+                <h3>Step 6 / 21.520-25.555</h3>
+                <p class="mechanism-title">urgency close</p>
+                <p class="mechanism-note">The ad closes with scarcity and urgency, but the sale and sell-out claims are not independently proven in the video.</p>
+              </div>
+            </article>
+            </div>
+    </section>
+
+    <section class="section core-thesis-section">
+      <h2>Core Read</h2>
+      <div class="core-read">
+        <article class="mini-card accent"><div class="label">Core thesis</div><p>The creative converts a vague greens habit into a symptom checklist, then positions one packet as the convenient bundled answer.</p></article>
+        <article class="mini-card accent"><div class="label">Belief shift</div><p>The viewer is moved from &#x27;greens are optional&#x27; to &#x27;my daily discomforts might be solvable through one easy supplement routine.&#x27;</p></article>
+        <article class="mini-card accent"><div class="label">Submagic transfer</div><p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What to steal / What not to copy</h2>
+      <div class="story-grid">
+        <div class="mini-card"><div class="label">What to steal</div><ul><li>Open with a concrete self-check instead of a generic product promise.</li><li>Use repeated physical labels to make invisible pain feel inspectable.</li><li>Bridge from pain to product with a clear bundled-solution moment.</li></ul></div>
+        <div class="mini-card"><div class="label">What not to copy</div><ul><li>Do not borrow the brand, health claims, creator identity, captions, or scarcity language.</li><li>Do not make unsupported performance or outcome claims.</li><li>Do not let the diagnostic ladder run longer than the proof can support.</li></ul></div>
+        <div class="mini-card"><div class="label">Test next</div><ul><li>Test a shorter three-problem ladder against the full five-problem ladder.</li><li>Test putting the product proof before the fourth symptom card.</li><li>Test verified social proof instead of unverified sell-out urgency.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Top diagnostics</h2>
+      <div class="story-grid">
+        <div class="mini-card"><div class="label">Top strengths</div><ul><li>Product Visibility: 3/3 - The packet and bag are repeatedly shown after the setup.</li><li>Problem Clarity: 3/3 - The cups make the pain stack easy to scan.</li><li>Hook Strength: 3/3 - The hook is visually legible and problem-specific, but the first proof should arrive sooner.</li></ul></div>
+        <div class="mini-card"><div class="label">Top weaknesses</div><ul><li>Copycat Safety: 1/3 - The surface execution is heavily tied to the competitor brand, product claims, and creator setup; only the mechanism should transfer.</li><li>Proof Specificity: 1/3 - The supplement facts panel is a proof cue, but the claims are not readable or independently supported.</li><li>Cta Urgency: 2/3 - The CTA is explicit, but the sale and sell-out proof is unsupported.</li></ul></div>
+        <article class="mini-card"><div class="label">Proof gap</div><p>The proof is thin because symptom-to-nutrient links, family acceptance, sale urgency, and sell-out claims are asserted rather than verified.</p></article>
+      </div>
+    </section>
+
+    <section class="section details-hub">
+      <h2>Details</h2>
+      <details>
+        <summary>Key shots</summary>
+        <div class="timeline">
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.000-0.500 shot: The creator stands in a kitchen behind five clear cups labeled with symptom notes; the top caption says &#x27;If you don&#x27;t eat your GREENS..&#x27; and the first cup reads &#x27;CAN&#x27;T POOP?&#x27;. A red overlay maps &#x27;Can&#x27;t [poop]?&#x27; to &#x27;Zinc&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">0.000-0.500 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator stands in a kitchen behind five clear cups labeled with symptom notes; the top caption says &#x27;If you don&#x27;t eat your GREENS..&#x27; and the first cup reads &#x27;CAN&#x27;T POOP?&#x27;. A red overlay maps &#x27;Can&#x27;t [poop]?&#x27; to &#x27;Zinc&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The viewer is pushed into a quick self-check: the ad reframes a vague nutrition habit as a list of embarrassing or uncomfortable daily problems.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature...</p>
+            <p class="muted">4 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_005_2.000s.jpg" alt="2.000-8.070 shot: The creator repeats the cup reveal pattern: &#x27;Feeling sick?&#x27; maps to vitamin A and C, &#x27;Low energy?&#x27; maps to iron, &#x27;Brain fog?&#x27; maps to vitamin E, and &#x27;Body aches?&#x27; maps to niacin/niacine in red overlays." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">2.000-8.070 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator repeats the cup reveal pattern: &#x27;Feeling sick?&#x27; maps to vitamin A and C, &#x27;Low energy?&#x27; maps to iron, &#x27;Brain fog?&#x27; maps to vitamin E, and &#x27;Body aches?&#x27; maps to niacin/niacine in red overlays.</p>
+            <h3>Why it works</h3>
+            <p>The repetition turns scattered symptoms into a checklist, making the viewer wait for their own problem to appear.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature...</p>
+            <p class="muted">6 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_015_13.450s.jpg" alt="13.450-16.140 shot: The creator holds a Gruns daily packet close to camera while captions say it &#x27;actually tastes really good,&#x27; is &#x27;easy to eat,&#x27; and that &#x27;you and your kids will enjoy them&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">13.450-16.140 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator holds a Gruns daily packet close to camera while captions say it &#x27;actually tastes really good,&#x27; is &#x27;easy to eat,&#x27; and that &#x27;you and your kids will enjoy them&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>After the health-problem setup, the ad reduces usage friction by promising taste, ease, and family acceptance.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature...</p>
+            <p class="muted">5 Evidence sources</p>
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_021_21.520s.jpg" alt="21.520-25.555 shot: The creator returns to a close-up with several packets and captions say there is a &#x27;massive sale,&#x27; it &#x27;ends in a couple days,&#x27; the product has been &#x27;selling out like crazy,&#x27; and viewers should &#x27;try to get them if you can&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">21.520-25.555 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator returns to a close-up with several packets and captions say there is a &#x27;massive sale,&#x27; it &#x27;ends in a couple days,&#x27; the product has been &#x27;selling out like crazy,&#x27; and viewers should &#x27;try to get them if you can&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The ad closes with scarcity and urgency, but the sale and sell-out claims are not independently proven in the video.</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature...</p>
+            <p class="muted">6 Evidence sources</p>
+          </div>
+        </article>
+
+        </div>
+      </details>
+
+      <details>
+        <summary>Contact sheet</summary>
+        <img class="contact-sheet" src="../evidence/keyframes/contact_sheet.jpg" alt="Contact sheet of sampled creative keyframes" loading="lazy">
+      </details>
+
+      <details>
+        <summary>Creative intent evidence</summary>
+        <div class="story-grid">
+          <article class="mini-card"><div class="label">Offer strategy</div><p>Use a symptom self-check to create personal relevance, then use product proof and sale urgency to push action.</p></article>
+          <article class="mini-card"><div class="label">Marketer job-to-be-done</div><p>Turn a vague nutrition habit into an urgent, personal reason to try a convenient supplement pack.</p></article>
+          <div class="mini-card"><div class="label">Intent unknowns</div><ul><li>No media-buy targeting, landing-page analytics, spend, CAC, ROAS, or conversion data were provided.</li><li>The report infers funnel and KPI from visible creative signals only.</li></ul></div>
+          <div class="mini-card"><div class="label">Intent evidence</div>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_012</li><li>ev_keyframe_020</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </div>
+        </div>
+      </details>
+      <details>
+        <summary>Full evidence timeline</summary>
+        <h3>Evidence timeline</h3>
+        <div class="timeline">
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_001_0.000s.jpg" alt="0.000-0.500 shot: The creator stands in a kitchen behind five clear cups labeled with symptom notes; the top caption says &#x27;If you don&#x27;t eat your GREENS..&#x27; and the first cup reads &#x27;CAN&#x27;T POOP?&#x27;. A red overlay maps &#x27;Can&#x27;t [poop]?&#x27; to &#x27;Zinc&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">0.000-0.500 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator stands in a kitchen behind five clear cups labeled with symptom notes; the top caption says &#x27;If you don&#x27;t eat your GREENS..&#x27; and the first cup reads &#x27;CAN&#x27;T POOP?&#x27;. A red overlay maps &#x27;Can&#x27;t [poop]?&#x27; to &#x27;Zinc&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The viewer is pushed into a quick self-check: the ad reframes a vague nutrition habit as a list of embarrassing or uncomfortable daily problems.</p>
+
+            <h3>Mechanism</h3>
+            <p>symptom-led hook</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_001</span><span class="chip">ev_ocr_001</span><span class="chip">ev_keyframe_002</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_001: keyframe at 0.000</li><li>ev_ocr_001: ocr at 0.000</li><li>ev_keyframe_002: keyframe at 0.500</li><li>ev_ocr_002: ocr at 0.500</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_005_2.000s.jpg" alt="2.000-8.070 shot: The creator repeats the cup reveal pattern: &#x27;Feeling sick?&#x27; maps to vitamin A and C, &#x27;Low energy?&#x27; maps to iron, &#x27;Brain fog?&#x27; maps to vitamin E, and &#x27;Body aches?&#x27; maps to niacin/niacine in red overlays." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">2.000-8.070 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator repeats the cup reveal pattern: &#x27;Feeling sick?&#x27; maps to vitamin A and C, &#x27;Low energy?&#x27; maps to iron, &#x27;Brain fog?&#x27; maps to vitamin E, and &#x27;Body aches?&#x27; maps to niacin/niacine in red overlays.</p>
+            <h3>Why it works</h3>
+            <p>The repetition turns scattered symptoms into a checklist, making the viewer wait for their own problem to appear.</p>
+
+            <h3>Mechanism</h3>
+            <p>diagnostic ladder</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_005</span><span class="chip">ev_ocr_005</span><span class="chip">ev_keyframe_008</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_005: keyframe at 2.000</li><li>ev_ocr_005: ocr at 2.000</li><li>ev_keyframe_008: keyframe at 4.035</li><li>ev_keyframe_009: keyframe at 5.380</li><li>ev_keyframe_011: keyframe at 8.070</li><li>ev_ocr_011: ocr at 8.070</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_012_9.415s.jpg" alt="9.415-12.105 shot: The camera switches to handheld product footage near the cups and a Gruns packet; captions say &#x27;if you guys didn&#x27;t know&#x27; and &#x27;these Gruns gummies have all those vitamins and minerals I just listed&#x27; while the bag&#x27;s supplement facts panel is shown." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">9.415-12.105 / medium confidence</div>
+            <h3>What happens</h3>
+            <p>The camera switches to handheld product footage near the cups and a Gruns packet; captions say &#x27;if you guys didn&#x27;t know&#x27; and &#x27;these Gruns gummies have all those vitamins and minerals I just listed&#x27; while the bag&#x27;s supplement facts panel is shown.</p>
+            <h3>Why it works</h3>
+            <p>The ad tries to convert the symptom checklist into a bundled-product answer, using the product label as a proof cue.</p>
+
+            <h3>Mechanism</h3>
+            <p>bundle proof pivot</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_012</span><span class="chip">ev_ocr_012</span><span class="chip">ev_keyframe_013</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_012: keyframe at 9.415</li><li>ev_ocr_012: ocr at 9.415</li><li>ev_keyframe_013: keyframe at 10.760</li><li>ev_keyframe_014: keyframe at 12.105</li><li>ev_ocr_014: ocr at 12.105</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_015_13.450s.jpg" alt="13.450-16.140 shot: The creator holds a Gruns daily packet close to camera while captions say it &#x27;actually tastes really good,&#x27; is &#x27;easy to eat,&#x27; and that &#x27;you and your kids will enjoy them&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">13.450-16.140 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator holds a Gruns daily packet close to camera while captions say it &#x27;actually tastes really good,&#x27; is &#x27;easy to eat,&#x27; and that &#x27;you and your kids will enjoy them&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>After the health-problem setup, the ad reduces usage friction by promising taste, ease, and family acceptance.</p>
+
+            <h3>Mechanism</h3>
+            <p>friction reducer</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_015</span><span class="chip">ev_keyframe_016</span><span class="chip">ev_ocr_016</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_015: keyframe at 13.450</li><li>ev_keyframe_016: keyframe at 14.795</li><li>ev_ocr_016: ocr at 14.795</li><li>ev_keyframe_017: keyframe at 16.140</li><li>ev_ocr_017: ocr at 16.140</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_018_17.485s.jpg" alt="17.485-20.175 shot: The creator opens a large Gruns bag full of small packets; captions say &#x27;if you wanna grab yourself this huge bag,&#x27; &#x27;that comes with 28 of these small packs,&#x27; and &#x27;I put a link right here for you&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">17.485-20.175 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator opens a large Gruns bag full of small packets; captions say &#x27;if you wanna grab yourself this huge bag,&#x27; &#x27;that comes with 28 of these small packs,&#x27; and &#x27;I put a link right here for you&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The product moves from health answer to tangible purchase unit: a big bag, many daily packs, and a direct link cue.</p>
+
+            <h3>Mechanism</h3>
+            <p>package-value and link transition</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_018</span><span class="chip">ev_ocr_018</span><span class="chip">ev_keyframe_019</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_018: keyframe at 17.485</li><li>ev_ocr_018: ocr at 17.485</li><li>ev_keyframe_019: keyframe at 18.830</li><li>ev_keyframe_020: keyframe at 20.175</li><li>ev_ocr_020: ocr at 20.175</li></ul>
+      </details>
+
+          </div>
+        </article>
+
+
+        <article class="timeline-card">
+          <div class="phone-frame"><div class="shot"><img src="../evidence/keyframes/frame_021_21.520s.jpg" alt="21.520-25.555 shot: The creator returns to a close-up with several packets and captions say there is a &#x27;massive sale,&#x27; it &#x27;ends in a couple days,&#x27; the product has been &#x27;selling out like crazy,&#x27; and viewers should &#x27;try to get them if you can&#x27;." width="480" height="848" loading="lazy"></div></div>
+          <div class="timeline-copy">
+            <div class="timeline-meta">21.520-25.555 / high confidence</div>
+            <h3>What happens</h3>
+            <p>The creator returns to a close-up with several packets and captions say there is a &#x27;massive sale,&#x27; it &#x27;ends in a couple days,&#x27; the product has been &#x27;selling out like crazy,&#x27; and viewers should &#x27;try to get them if you can&#x27;.</p>
+            <h3>Why it works</h3>
+            <p>The ad closes with scarcity and urgency, but the sale and sell-out claims are not independently proven in the video.</p>
+
+            <h3>Mechanism</h3>
+            <p>urgency close</p>
+
+            <h3>Submagic lesson</h3>
+            <p>Translate the structure into creator-workflow pain: labeled editing bottlenecks become a visible Submagic feature ladder and proof scene.</p>
+
+      <div class="chip-row"><span class="chip">ev_keyframe_021</span><span class="chip">ev_keyframe_022</span><span class="chip">ev_ocr_022</span></div>
+      <details>
+        <summary>Evidence sources</summary>
+        <ul><li>ev_keyframe_021: keyframe at 21.520</li><li>ev_keyframe_022: keyframe at 22.865</li><li>ev_ocr_022: ocr at 22.865</li><li>ev_keyframe_023: keyframe at 24.210</li><li>ev_keyframe_024: keyframe at 25.555</li><li>ev_ocr_024: ocr at 25.555</li></ul>
+      </details>
+
+          </div>
+        </article>
+    </div>
+      </details>
+      <details>
+        <summary>Full proof ladder</summary>
+        <h3>Proof ladder</h3>
+
+      <table>
+        <thead><tr><th>#</th><th>Claim</th><th>Proof type</th><th>Weakness</th><th>Evidence</th></tr></thead>
+        <tbody>
+            <tr>
+              <td>1</td>
+              <td>Skipping greens is associated in the creative with common discomforts.</td>
+              <td>visual symptom props and headline</td>
+              <td>The association is a persuasive setup, not verified medical proof.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_ocr_001</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Each named discomfort can be mapped to a nutrient.</td>
+              <td>red overlay mappings beside labeled cups</td>
+              <td>The mappings are asserted quickly without citations or dosage context.</td>
+              <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_002</li><li>ev_keyframe_005</li><li>ev_keyframe_008</li><li>ev_keyframe_009</li><li>ev_keyframe_011</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>The product contains the vitamins and minerals just listed.</td>
+              <td>product packet, bag, and supplement facts panel</td>
+              <td>The panel is visible but not readable enough to independently verify every listed nutrient.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_013</li><li>ev_keyframe_014</li><li>ev_ocr_014</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>The product reduces adoption friction by tasting good and being easy to eat.</td>
+              <td>creator testimonial captions with packet held close to camera</td>
+              <td>Taste and ease are subjective claims from the creator.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_016</li><li>ev_ocr_016</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>The purchase unit offers many small daily packs.</td>
+              <td>open bag and captioned 28-pack claim</td>
+              <td>The video shows multiple packs but does not independently prove the exact count.</td>
+              <td>
+      <details>
+        <summary>2 evidence IDs</summary>
+        <ul><li>ev_keyframe_018</li><li>ev_keyframe_019</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>There is urgency because of a sale, deadline, and sell-out pressure.</td>
+              <td>captioned urgency close</td>
+              <td>No inventory, price, or campaign source is shown.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_021</li><li>ev_keyframe_022</li><li>ev_keyframe_023</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+            </tr>
+            </tbody>
+      </table>
+
+      </details>
+      <details>
+        <summary>Core-understanding notes</summary>
+        <div class="story-grid">
+          <article class="mini-card"><div class="label">Human truth</div><p>People often know they should eat better, but they respond faster when a broad health habit is connected to a specific annoyance they already feel.</p></article>
+          <article class="mini-card"><div class="label">Skeptic read</div><p>A skeptical viewer may reject the ad because the nutrient mappings, health implications, sale deadline, and sell-out pressure are visible claims but not substantiated with citations, pricing, inventory proof, or third-party validation.</p></article>
+          <article class="mini-card"><div class="label">Counterfactuals</div><p>If the product proof appeared earlier, the ad would likely feel less like unsupported symptom mapping and more like a concrete supplement demo. If the symptom ladder used fewer examples, the hook could feel sharper and leave more time for credible proof. If the urgency close included visible price or inventory context, the scarcity claim would feel less generic. If the creator opened with the bag instead of the symptom cups, the ad would likely lose its strongest self-diagnostic hook.</p></article>
+          <article class="mini-card"><div class="label">Tension stack</div><p>Fear: the viewer may recognize one of the symptom labels and feel they are neglecting a basic health habit (ev_keyframe_001, ev_keyframe_005, ev_keyframe_008, ev_keyframe_011). Desire: the viewer wants a simpler routine than cooking or consistently eating greens (ev_keyframe_016, ev_ocr_016). Objection: supplements can taste bad or be hard for a family to adopt, so the creator claims taste, ease, and kid acceptance (ev_keyframe_015, ev_keyframe_017). Proof need: the product must plausibly contain the listed nutrients, so the bag and supplement facts panel are shown, though the label is not fully legible (ev_keyframe_013, ev_keyframe_014). Urgency pressure: the ad adds sale, deadline, and sell-out claims at the end, but those claims are unverified inside the video (ev_keyframe_021, ev_keyframe_022, ev_keyframe_023, ev_keyframe_024).</p></article>
+        </div>
+        <h3>Viewer state timeline</h3>
+
+      <table>
+        <thead><tr><th>Time</th><th>Viewer state</th><th>Trigger</th><th>Evidence</th></tr></thead>
+        <tbody>
+            <tr>
+              <td>0.000-0.500</td>
+              <td>self-check</td>
+              <td>A blunt greens headline and symptom cups make the viewer scan for a problem they recognize.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_ocr_001</li><li>ev_keyframe_002</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>2.000-8.070</td>
+              <td>diagnostic momentum</td>
+              <td>The creator repeats symptom-to-nutrient reveals across multiple cups.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_005</li><li>ev_keyframe_008</li><li>ev_keyframe_009</li><li>ev_keyframe_011</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>9.415-12.105</td>
+              <td>solution recognition</td>
+              <td>The product packet and supplement facts appear after the symptom list.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_013</li><li>ev_keyframe_014</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>13.450-16.140</td>
+              <td>friction check</td>
+              <td>Taste, ease, and family enjoyment are stated while the packet is held in hand.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_016</li><li>ev_keyframe_017</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>17.485-20.175</td>
+              <td>purchase sizing</td>
+              <td>The bag is opened and the 28 small packs claim is introduced before the link cue.</td>
+              <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_018</li><li>ev_keyframe_019</li><li>ev_keyframe_020</li></ul>
+      </details>
+    </td>
+            </tr>
+
+            <tr>
+              <td>21.520-25.555</td>
+              <td>urgency pressure</td>
+              <td>The closing captions stack sale, deadline, sell-out, and &#x27;get them if you can&#x27; language.</td>
+              <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_021</li><li>ev_keyframe_022</li><li>ev_keyframe_023</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+            </tr>
+            </tbody>
+      </table>
+
+      </details>
+      <details>
+        <summary>Full score matrix</summary>
+        <table>
+          <thead>
+            <tr><th>Dimension</th><th>Score</th><th>Weakness / next improvement</th><th>Evidence</th></tr>
+          </thead>
+          <tbody>
+      <tr>
+        <td><strong>Copycat Safety</strong><br><span class="muted">high confidence</span></td>
+        <td>1/3<div class="score-bar"><div class="score-bar-fill" style="width:33%"></div></div></td>
+        <td>The surface execution is heavily tied to the competitor brand, product claims, and creator setup; only the mechanism should transfer.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_002</li><li>ev_keyframe_018</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Proof Specificity</strong><br><span class="muted">medium confidence</span></td>
+        <td>1/3<div class="score-bar"><div class="score-bar-fill" style="width:33%"></div></div></td>
+        <td>The supplement facts panel is a proof cue, but the claims are not readable or independently supported.</td>
+        <td>
+      <details>
+        <summary>4 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_013</li><li>ev_keyframe_014</li><li>ev_ocr_014</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Cta Urgency</strong><br><span class="muted">high confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The CTA is explicit, but the sale and sell-out proof is unsupported.</td>
+        <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_020</li><li>ev_keyframe_021</li><li>ev_keyframe_022</li><li>ev_keyframe_023</li><li>ev_keyframe_024</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Friction Reduction</strong><br><span class="muted">high confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>Taste and ease are addressed, but they remain creator assertions.</td>
+        <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_015</li><li>ev_keyframe_016</li><li>ev_keyframe_017</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Pacing</strong><br><span class="muted">medium confidence</span></td>
+        <td>2/3<div class="score-bar"><div class="score-bar-fill" style="width:67%"></div></div></td>
+        <td>The repeated symptom pattern builds momentum but may overstay before the product appears.</td>
+        <td>
+      <details>
+        <summary>6 evidence IDs</summary>
+        <ul><li>ev_keyframe_002</li><li>ev_keyframe_005</li><li>ev_keyframe_008</li><li>ev_keyframe_009</li><li>ev_keyframe_011</li><li>ev_keyframe_012</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Hook Strength</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The hook is visually legible and problem-specific, but the first proof should arrive sooner.</td>
+        <td>
+      <details>
+        <summary>3 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_ocr_001</li><li>ev_keyframe_002</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Problem Clarity</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The cups make the pain stack easy to scan.</td>
+        <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_001</li><li>ev_keyframe_005</li><li>ev_keyframe_008</li><li>ev_keyframe_009</li><li>ev_keyframe_011</li></ul>
+      </details>
+    </td>
+      </tr>
+
+
+      <tr>
+        <td><strong>Product Visibility</strong><br><span class="muted">high confidence</span></td>
+        <td>3/3<div class="score-bar"><div class="score-bar-fill" style="width:100%"></div></div></td>
+        <td>The packet and bag are repeatedly shown after the setup.</td>
+        <td>
+      <details>
+        <summary>5 evidence IDs</summary>
+        <ul><li>ev_keyframe_012</li><li>ev_keyframe_017</li><li>ev_keyframe_018</li><li>ev_keyframe_019</li><li>ev_keyframe_020</li></ul>
+      </details>
+    </td>
+      </tr>
+    </tbody>
+        </table>
+      </details>
+      <details>
+        <summary>Platform fit</summary>
+        <div class="platform-grid">
+      <article class="mini-card">
+        <div class="label">Tiktok</div>
+        <h3>3/3 fit</h3>
+        <p>Native talking-head framing, large captions, prop-led hook, and direct link language fit TikTok patterns, though health proof remains weak (ev_keyframe_001, ev_keyframe_020, ev_keyframe_024).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Reels</div>
+        <h3>2/3 fit</h3>
+        <p>The vertical kitchen demo and readable top captions fit Reels, but the long symptom ladder may need tighter compression for cold paid placements (ev_keyframe_005, ev_keyframe_008, ev_keyframe_011).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Shorts</div>
+        <h3>2/3 fit</h3>
+        <p>The self-check hook can work on Shorts, but product proof does not appear clearly until around 9.415s, which may be late for low-intent viewers (ev_keyframe_012).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Meta Paid</div>
+        <h3>1/3 fit</h3>
+        <p>Meta paid would likely need stronger compliance review and substantiation for symptom, nutrient, sale, and sell-out claims (ev_keyframe_002, ev_keyframe_014, ev_keyframe_021, ev_keyframe_023).</p>
+      </article>
+
+
+      <article class="mini-card">
+        <div class="label">Linkedin</div>
+        <h3>0/3 fit</h3>
+        <p>The consumer supplement hook, bathroom-adjacent symptom language, and scarcity close do not naturally fit LinkedIn&#x27;s business context (ev_keyframe_001, ev_keyframe_024).</p>
+      </article>
+    </div>
+      </details>
+      <details>
+        <summary>Drop-off and risk notes</summary>
+        <div class="list-grid">
+          <div class="mini-card"><div class="label">Likely drop-off points</div><ul><li>Viewers who do not identify with the first symptom may wait for the next cup, but the repeated ladder could lose them before product proof appears at 9.415s (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_012).</li><li>Health-skeptical viewers may drop when nutrient mappings are asserted without sources or dosage context (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_011).</li><li>Viewers who dislike scarcity tactics may discount the final sale and sell-out claims because no external proof is shown (ev_keyframe_021, ev_keyframe_022, ev_keyframe_023, ev_keyframe_024).</li></ul></div>
+          <div class="mini-card"><div class="label">Risks and unknowns</div><ul><li>No performance metrics were provided, so this report treats all judgments as creative-signal hypotheses only.</li><li>The video contains health-adjacent symptom and nutrient claims; this deconstruction records the claims as visible ad content, not as medical facts (ev_keyframe_002, ev_keyframe_005, ev_keyframe_008, ev_keyframe_011).</li><li>The sale, deadline, and sell-out claims are visible in captions but not independently verified (ev_keyframe_021, ev_keyframe_022, ev_keyframe_023, ev_keyframe_024).</li><li>OCR was noisy for several mid-roll and end-card captions, so keyframe inspection carries more weight than raw OCR in those sections (ev_ocr_012, ev_ocr_018, ev_ocr_022, ev_ocr_024).</li><li>Only the mechanism should be adapted for Submagic; the brand identity, product claims, exact symptom labels, creator likeness, kitchen setup, caption wording, and urgency language should not be copied.</li></ul></div>
+        </div>
+      </details>
+    </section>
+
+    <footer>
+      Creative-signal report only. Use performance metrics before treating any score as proven market truth.
+    </footer>
+  </main>
+</body>
+</html>

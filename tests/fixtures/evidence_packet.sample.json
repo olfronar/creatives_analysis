@@ -28,10 +28,20 @@
       "observation": "The first future observation must describe the hook with a timestamp.",
       "confidence": "medium",
       "artifact": "outputs/ad1/evidence/manifest.json"
+    },
+    {
+      "evidence_id": "ev_keyframe_001",
+      "timestamp": "0.000",
+      "source": "keyframe",
+      "observation": "Sample opening frame for the visual report timeline.",
+      "confidence": "high",
+      "artifact": "outputs/ad1/evidence/keyframes/frame_001_0.000s.jpg"
     }
   ],
   "artifacts": {
-    "manifest": "outputs/ad1/evidence/manifest.json"
+    "manifest": "outputs/ad1/evidence/manifest.json",
+    "keyframes_dir": "outputs/ad1/evidence/keyframes",
+    "contact_sheet": "outputs/ad1/evidence/keyframes/contact_sheet.jpg"
   },
   "reports_generated": []
 }

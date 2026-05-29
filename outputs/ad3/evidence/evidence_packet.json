@@ -1,0 +1,281 @@
+{
+  "analysis_run": {
+    "extractor": "creatives-extract",
+    "run_id": "run_46c8667c094e4cc291c3bcfe86781e9f",
+    "schema_version": "evidence_packet.v2",
+    "source_sha256": "ca679cfc8141bfb6b104a512515a38f2b493f46d1e0d0cefbbd2021893dd2456"
+  },
+  "artifacts": {
+    "keyframes_dir": "outputs/ad3/evidence/keyframes",
+    "manifest": "outputs/ad3/evidence/manifest.json",
+    "ocr": "outputs/ad3/evidence/ocr.json",
+    "scene_status": "not_run",
+    "transcript_status": "not_run"
+  },
+  "manifest": {
+    "audio_codec": "aac",
+    "duration_seconds": 59.584,
+    "filename": "ad3.mp4",
+    "fps": 30.0,
+    "has_audio": true,
+    "height": 640,
+    "orientation": "vertical",
+    "path": "creatives/ad3.mp4",
+    "size_bytes": 3063506,
+    "video_codec": "h264",
+    "width": 360
+  },
+  "reports_generated": [],
+  "source_video": "creatives/ad3.mp4",
+  "timeline_evidence": [
+    {
+      "artifact": "outputs/ad3/evidence/manifest.json",
+      "confidence": "high",
+      "evidence_id": "ev_manifest_000",
+      "observation": "ad3.mp4 is a vertical 360x640 video, 59.58s long, fps=30.00, audio=present.",
+      "source": "metadata",
+      "timestamp": "0.000-59.584"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_001_0.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_001",
+      "observation": "Sampled keyframe at 0.000.",
+      "source": "keyframe",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_002_0.500s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_002",
+      "observation": "Sampled keyframe at 0.500.",
+      "source": "keyframe",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_003_1.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_003",
+      "observation": "Sampled keyframe at 1.000.",
+      "source": "keyframe",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_004_2.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_004",
+      "observation": "Sampled keyframe at 2.000.",
+      "source": "keyframe",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_005_3.000s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_005",
+      "observation": "Sampled keyframe at 3.000.",
+      "source": "keyframe",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_006_4.256s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_006",
+      "observation": "Sampled keyframe at 4.256.",
+      "source": "keyframe",
+      "timestamp": "4.256"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_007_8.512s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_007",
+      "observation": "Sampled keyframe at 8.512.",
+      "source": "keyframe",
+      "timestamp": "8.512"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_008_12.768s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_008",
+      "observation": "Sampled keyframe at 12.768.",
+      "source": "keyframe",
+      "timestamp": "12.768"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_009_17.024s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_009",
+      "observation": "Sampled keyframe at 17.024.",
+      "source": "keyframe",
+      "timestamp": "17.024"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_010_21.280s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_010",
+      "observation": "Sampled keyframe at 21.280.",
+      "source": "keyframe",
+      "timestamp": "21.280"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_011_25.536s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_011",
+      "observation": "Sampled keyframe at 25.536.",
+      "source": "keyframe",
+      "timestamp": "25.536"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_012_29.792s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_012",
+      "observation": "Sampled keyframe at 29.792.",
+      "source": "keyframe",
+      "timestamp": "29.792"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_013_34.048s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_013",
+      "observation": "Sampled keyframe at 34.048.",
+      "source": "keyframe",
+      "timestamp": "34.048"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_014_38.304s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_014",
+      "observation": "Sampled keyframe at 38.304.",
+      "source": "keyframe",
+      "timestamp": "38.304"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_015_42.560s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_015",
+      "observation": "Sampled keyframe at 42.560.",
+      "source": "keyframe",
+      "timestamp": "42.560"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_016_46.816s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_016",
+      "observation": "Sampled keyframe at 46.816.",
+      "source": "keyframe",
+      "timestamp": "46.816"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_017_51.072s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_017",
+      "observation": "Sampled keyframe at 51.072.",
+      "source": "keyframe",
+      "timestamp": "51.072"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/keyframes/frame_018_55.328s.jpg",
+      "confidence": "high",
+      "evidence_id": "ev_keyframe_018",
+      "observation": "Sampled keyframe at 55.328.",
+      "source": "keyframe",
+      "timestamp": "55.328"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_001",
+      "observation": "OCR text: \u201cA\n\nEpic Marketing Hack\nj\n\nOVER 10,000",
+      "source": "ocr",
+      "timestamp": "0.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_002",
+      "observation": "OCR text: A\n\n\u00bb\nEpic Marketing Hack",
+      "source": "ocr",
+      "timestamp": "0.500"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_003",
+      "observation": "OCR text: A\n\nA\nEpic Marketing Hack\n\nMARKETERS",
+      "source": "ocr",
+      "timestamp": "1.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_004",
+      "observation": "OCR text: A\n\n\u00bb\nEpic Marketing Hack\n\nBY THIS TOOL",
+      "source": "ocr",
+      "timestamp": "2.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_005",
+      "observation": "OCR text: a dos\n\n\u2018alone en\n\n> Tong vided, 10 viral Clips. Create 10% faeter.x\n\n2a 93492\n\u00a9 ido BH Bes Yom \u00a9",
+      "source": "ocr",
+      "timestamp": "3.000"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_006",
+      "observation": "OCR text: 1 long video, ian viral clips. Create 10x faster.\n\n+",
+      "source": "ocr",
+      "timestamp": "4.256"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_009",
+      "observation": "OCR text: eaad",
+      "source": "ocr",
+      "timestamp": "17.024"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_011",
+      "observation": "OCR text: sccm!\n\u2014\u2014\n\nws |\neS ee\nie\n\n0. cEr",
+      "source": "ocr",
+      "timestamp": "25.536"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_012",
+      "observation": "OCR text: > @ \u00a9 Simca | nt | 4706\n\nwonge AN\n\nnlp Ast gurls Meo \"\n\n\u00a9 Nevo",
+      "source": "ocr",
+      "timestamp": "29.792"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_015",
+      "observation": "OCR text: ), 10 viral clips. Crez",
+      "source": "ocr",
+      "timestamp": "42.560"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_016",
+      "observation": "OCR text: us\ns the\nal\n\nn the\n\n2s And\n\nng SO RA\ns are\n\ntop \u00bb\n\n$ auto \\ Pa\nAND POST IT\n\nther PS Ada Ral\n\nfeah\n\nee O on6\n\nt have\n\na",
+      "source": "ocr",
+      "timestamp": "46.816"
+    },
+    {
+      "artifact": "outputs/ad3/evidence/ocr.json",
+      "confidence": "medium",
+      "evidence_id": "ev_ocr_017",
+      "observation": "OCR text: Q) #31 Overcoming\n\u2018ail. Purpose",
+      "source": "ocr",
+      "timestamp": "51.072"
+    }
+  ],
+  "video_id": "ad3"
+}

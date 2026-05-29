@@ -1,0 +1,491 @@
+{
+  "video_id": "ad3",
+  "creative_signal_only": true,
+  "cold_watch": {
+    "immediate_felt_reaction": "Fast UGC tutorial energy: a creator points at the camera under a bold 'Epic Marketing Hack' label and frames the tool as a shortcut for marketers.",
+    "moment_of_curiosity": "By 3.000-4.256s, the product page shows the concrete promise: one long video can become ten viral clips and creation is claimed to be 10x faster.",
+    "moment_of_confusion_or_boredom": "The middle turns into a dense feature walkthrough; small editor menus and repeated pointing make the workflow feel harder to parse around 25.536-34.048s.",
+    "most_memorable_image": "The presenter pointing at the OpusClip interface while a long video turns into a grid of short clips and later a 'Publish Social' action."
+  },
+  "evidence_timeline": [
+    {
+      "time": "0.000-2.000",
+      "observation": "A face-to-camera creator opens with a large 'Epic Marketing Hack' sticker and sequential captions around 'OVER 10,000', 'MARKETERS', and 'BY THIS TOOL'.",
+      "viewer_perception": "The viewer is cued to expect a shortcut that other marketers already know about, not a generic software walkthrough.",
+      "mechanism": "authority-flavored hack hook",
+      "narrative_function": "hook",
+      "evidence_ids": [
+        "ev_keyframe_001",
+        "ev_keyframe_002",
+        "ev_keyframe_003",
+        "ev_keyframe_004",
+        "ev_ocr_001",
+        "ev_ocr_003",
+        "ev_ocr_004"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "3.000-4.256",
+      "observation": "The screen cuts to the OpusClip product page with the headline '1 long video, 10 viral clips. Create 10x faster' and a visual grid of generated clips.",
+      "viewer_perception": "The vague hack becomes a concrete output-volume promise: one source video can be turned into many social-ready assets.",
+      "mechanism": "volume-unlock proof promise",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_005",
+        "ev_keyframe_006",
+        "ev_ocr_005",
+        "ev_ocr_006"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "17.024",
+      "observation": "A dark 'Add social accounts' modal shows YouTube, TikTok, LinkedIn, Facebook, Instagram, and X options over a scheduling-style calendar.",
+      "viewer_perception": "The product is positioned as an end-to-end social workflow rather than only a clip generator.",
+      "mechanism": "workflow expansion",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_009",
+        "ev_ocr_009"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "25.536",
+      "observation": "The editor view shows a vertical podcast clip beside a panel of caption or visual presets, including repeated 'TO GET STARTED' and 'WITH AI' cards.",
+      "viewer_perception": "The viewer sees customization and AI-styled polish, but the small UI also increases reading load on mobile.",
+      "mechanism": "feature breadth as proof",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_011",
+        "ev_ocr_011"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "29.792-34.048",
+      "observation": "The walkthrough highlights AI-enhance controls such as removing filler words, removing pauses, speech enhancement, AI B-roll, auto stock, AI hooks, and AI emoji.",
+      "viewer_perception": "The product starts to feel like a labor-saving editing stack, not just an automatic clipping tool.",
+      "mechanism": "manual-labor compression",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_012",
+        "ev_keyframe_013",
+        "ev_ocr_012"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "46.816",
+      "observation": "A close UI shot shows action buttons including 'Publish Social', 'Export XML', and 'Download HD' while the creator caption says 'AND POST IT'.",
+      "viewer_perception": "The workflow resolves into distribution: the promised output is not just edited, it can be moved toward publishing.",
+      "mechanism": "workflow completion",
+      "narrative_function": "cta",
+      "evidence_ids": [
+        "ev_keyframe_016",
+        "ev_ocr_016"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "51.072",
+      "observation": "The ad shows creator-style clips and a preview grid around text including '#31 Overcoming Purpose' and the caption fragment 'DOES ITS MAGIC'.",
+      "viewer_perception": "The body tries to add social-proof texture and result credibility by showing clips that appear to have been selected or generated.",
+      "mechanism": "result preview plus borrowed creator context",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_017",
+        "ev_ocr_017"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "time": "55.328",
+      "observation": "The creator returns in a close-up with the caption 'TRY IT FOR FREE'.",
+      "viewer_perception": "The viewer receives a low-friction next step after seeing the workflow tour.",
+      "mechanism": "risk-reducing trial CTA",
+      "narrative_function": "cta",
+      "evidence_ids": [
+        "ev_keyframe_018"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "core_mechanism": {
+    "name": "marketer hack into workflow compression",
+    "why_it_catches_attention": "The first seconds combine a creator close-up, a bold hack label, and marketer social proof, all visible before the product explanation starts.",
+    "why_it_might_persuade": "The ad quickly moves from social proof to a visible product promise: one long video, multiple clips, AI polishing features, publishing, and a free-trial CTA.",
+    "what_cannot_be_copied": "Do not copy the OpusClip UI, the 'Epic Marketing Hack' framing, the creator likeness, the exact captions, the product claims, or any borrowed creator clips."
+  },
+  "creative_intent": {
+    "creative_label": "OpusClip marketer volume-hack UGC ad",
+    "creative_type": "UGC-style product walkthrough / long-to-short clipping offer ad",
+    "likely_hypothesis": "If marketers see peer-adoption language followed by a visible long-video-to-many-clips workflow, they will believe the tool can multiply content output and start a free trial.",
+    "target_audience": "Creators, marketers, and social teams already making long-form or podcast-style video but struggling to repurpose it into short-form clips.",
+    "awareness_stage": "Problem-aware to solution-aware; the ad assumes viewers understand the pain of creating many social clips.",
+    "funnel_stage": "Cold prospecting with product education and free-trial activation intent.",
+    "likely_kpi": "Landing-page clicks, free-trial starts, uploaded-video starts, and early activation rather than proven ROAS.",
+    "offer_strategy": "Turn speed and output volume into a visible product tour, then reduce commitment with a free-trial CTA.",
+    "marketer_job_to_be_done": "Make an AI clipping tool feel like a complete content-production workflow, not another editor to learn.",
+    "evidence_ids": [
+      "ev_keyframe_001",
+      "ev_keyframe_006",
+      "ev_keyframe_009",
+      "ev_keyframe_016",
+      "ev_keyframe_018",
+      "ev_ocr_006"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "No spend, targeting, retention, click, trial, CAC, or ROAS data is available.",
+      "No reliable transcript is available, so spoken-copy interpretation is limited.",
+      "The visible '10x faster' and marketer-count claims are not independently sourced in the packet.",
+      "Landing page, offer terms, and audience targeting are unknown."
+    ]
+  },
+  "distilled_core": {
+    "core_thesis": "The ad sells OpusClip as a marketer shortcut by making one long video feel like the input for many publishable clips.",
+    "mechanism_formula": "peer-proof hook -> volume promise -> AI feature stack -> publishing completion -> free-trial CTA",
+    "belief_shift_summary": "The viewer is moved from 'repurposing long content is slow' to 'one AI workflow can find, polish, and publish multiple clips.'",
+    "why_it_works": "It uses time-pressure and output-volume psychology, then gives the claim a visible interface to make the shortcut feel operational.",
+    "where_it_breaks": "The body becomes a feature tour, and the biggest claims are not backed by a clean uninterrupted before-after result.",
+    "submagic_transfer": "Show one raw long-form asset entering Submagic, then quickly reveal captions, Magic Clips, B-roll, zooms, and brand-safe platform variants.",
+    "steal": [
+      "Open with a persona-specific shortcut, not a generic feature.",
+      "Make one-source-to-many-clips visible by the first product beat.",
+      "Resolve the workflow with publishing or export proof before the CTA."
+    ],
+    "avoid": [
+      "Do not reuse the competitor's wording, UI sequence, creator style, captions, or claims.",
+      "Do not bury the before-after result under a long list of AI features."
+    ],
+    "test_next": [
+      "Test raw podcast to three branded Submagic clips in the first five seconds.",
+      "Test an agency variant focused on Brand Kit plus client-ready exports.",
+      "Test a split screen of manual edit steps collapsing into Auto Edit."
+    ]
+  },
+  "core_understanding": {
+    "human_truth": "Marketers know their long videos contain short-form value, but finding clips, editing them, and publishing them everywhere feels like too much recurring labor.",
+    "belief_shift": {
+      "before": "Repurposing one long video into many useful social clips is a slow editing project.",
+      "after": "A single AI workflow can identify, polish, and push multiple clips toward publication.",
+      "bridge": "The ad moves from marketer social proof to product UI, AI editing controls, platform connections, publishing actions, and a free trial."
+    },
+    "tension_stack": [
+      "Creators and marketers want more output without adding more editing hours, supported by the one-long-video-to-ten-clips promise in ev_keyframe_006.",
+      "The viewer wants AI speed but needs visible workflow proof before trusting claims like 10x faster in ev_ocr_006.",
+      "A marketer's real job is not just clipping; it includes social platforms and publishing, which the ad surfaces in ev_keyframe_009 and ev_keyframe_016.",
+      "The trial CTA needs low risk because the strongest claims remain visible product claims rather than verified performance evidence, as seen in ev_keyframe_018."
+    ],
+    "proof_ladder": [
+      {
+        "claim": "The tool is already relevant to many marketers.",
+        "proof_type": "creator hook plus on-screen adoption language",
+        "evidence_ids": [
+          "ev_keyframe_001",
+          "ev_keyframe_003",
+          "ev_keyframe_004",
+          "ev_ocr_001",
+          "ev_ocr_003",
+          "ev_ocr_004"
+        ],
+        "weakness": "The marketer-count claim is visible in the creative but not independently sourced in the evidence packet."
+      },
+      {
+        "claim": "One long video can become multiple short clips quickly.",
+        "proof_type": "product-page promise and clip grid",
+        "evidence_ids": [
+          "ev_keyframe_005",
+          "ev_keyframe_006",
+          "ev_ocr_006"
+        ],
+        "weakness": "The ad shows the promise and interface, but not a fully traced before-after export of the same source clip."
+      },
+      {
+        "claim": "The workflow can connect to major social platforms.",
+        "proof_type": "social-account modal and calendar surface",
+        "evidence_ids": [
+          "ev_keyframe_009"
+        ],
+        "weakness": "The connection surface is shown, but successful scheduling or posting is not demonstrated in detail."
+      },
+      {
+        "claim": "AI can reduce manual editing work inside the clip editor.",
+        "proof_type": "AI-enhance and preset panels",
+        "evidence_ids": [
+          "ev_keyframe_011",
+          "ev_keyframe_012",
+          "ev_keyframe_013"
+        ],
+        "weakness": "Feature visibility is strong, but the viewer must infer output quality from menus rather than finished clip comparison."
+      },
+      {
+        "claim": "The workflow can end in publishing or exporting.",
+        "proof_type": "publish/export UI and free-trial CTA",
+        "evidence_ids": [
+          "ev_keyframe_016",
+          "ev_keyframe_018"
+        ],
+        "weakness": "The CTA is clear, but exact free-trial terms and signup friction are not visible."
+      }
+    ],
+    "viewer_state_timeline": [
+      {
+        "time": "0.000-2.000",
+        "state": "curious but guarded",
+        "trigger": "The creator, 'Epic Marketing Hack' label, and marketer-count captions create a fast social-proof hook.",
+        "evidence_ids": [
+          "ev_keyframe_001",
+          "ev_keyframe_003",
+          "ev_ocr_001"
+        ]
+      },
+      {
+        "time": "3.000-4.256",
+        "state": "promise recognition",
+        "trigger": "The product page states the one-long-video-to-ten-clips payoff and shows a clip grid.",
+        "evidence_ids": [
+          "ev_keyframe_005",
+          "ev_keyframe_006",
+          "ev_ocr_006"
+        ]
+      },
+      {
+        "time": "17.024",
+        "state": "scope expansion",
+        "trigger": "Social-account options make the product feel connected to distribution, not only editing.",
+        "evidence_ids": [
+          "ev_keyframe_009"
+        ]
+      },
+      {
+        "time": "25.536-34.048",
+        "state": "evaluating feature credibility",
+        "trigger": "Caption presets and AI-enhance controls give proof of breadth while increasing visual complexity.",
+        "evidence_ids": [
+          "ev_keyframe_011",
+          "ev_keyframe_012",
+          "ev_keyframe_013"
+        ]
+      },
+      {
+        "time": "46.816-51.072",
+        "state": "looking for workflow payoff",
+        "trigger": "Publish/export buttons and creator-preview clips suggest the output can become a real posted asset.",
+        "evidence_ids": [
+          "ev_keyframe_016",
+          "ev_keyframe_017"
+        ]
+      },
+      {
+        "time": "55.328",
+        "state": "low-risk decision point",
+        "trigger": "The close-up free-trial CTA asks for action after the product tour.",
+        "evidence_ids": [
+          "ev_keyframe_018"
+        ]
+      }
+    ],
+    "skeptic_read": "A skeptical viewer may accept that OpusClip has many AI features but question the unsupported marketer-count and speed claims in ev_ocr_001 and ev_ocr_006.",
+    "transfer_principle_for_submagic": "Translate the mechanism into a Submagic workflow proof: one raw long-form recording becomes several captioned, B-roll-enhanced, zoomed, brand-consistent clips with a visible export or publishing step.",
+    "counterfactuals": [
+      "Showing a clear before-after output by the 4.256s product beat in ev_keyframe_006 would reduce proof debt.",
+      "Condensing the 25.536-34.048 feature sequence in ev_keyframe_011 through ev_keyframe_013 would make the body less visually dense.",
+      "Pairing the 55.328s free-trial CTA in ev_keyframe_018 with the finished clip result would connect the ask more tightly to the proof."
+    ]
+  },
+  "scores": [
+    {
+      "dimension": "hook_strength",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_003",
+        "ev_ocr_001"
+      ],
+      "confidence": "high",
+      "improvement_note": "The first frame is legible and persona-specific, but the adoption claim needs sourcing before reuse."
+    },
+    {
+      "dimension": "promise_clarity",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_005",
+        "ev_keyframe_006",
+        "ev_ocr_006"
+      ],
+      "confidence": "high",
+      "improvement_note": "The payoff is clear by 4.256s: one long video, many clips, faster creation."
+    },
+    {
+      "dimension": "brand_product_integration",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_005",
+        "ev_keyframe_006",
+        "ev_keyframe_009"
+      ],
+      "confidence": "high",
+      "improvement_note": "The product surface appears early and stays central to the story."
+    },
+    {
+      "dimension": "proof_credibility",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_006",
+        "ev_keyframe_012",
+        "ev_keyframe_016",
+        "ev_keyframe_017"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The UI proof is visible, but claims and final-output quality are not independently demonstrated."
+    },
+    {
+      "dimension": "message_hierarchy",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_006",
+        "ev_keyframe_012"
+      ],
+      "confidence": "medium",
+      "improvement_note": "Hook and promise align, while the middle feature stack asks viewers to read too much small UI."
+    },
+    {
+      "dimension": "pacing_edit_rhythm",
+      "score": 2,
+      "evidence": [
+        "ev_manifest_000",
+        "ev_keyframe_011",
+        "ev_keyframe_013",
+        "ev_keyframe_016"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The ad keeps changing screens, but a 59.584s length and dense middle create retention risk."
+    },
+    {
+      "dimension": "core_story_idea",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_006",
+        "ev_keyframe_009",
+        "ev_keyframe_016"
+      ],
+      "confidence": "high",
+      "improvement_note": "The idea is clear: one long video becomes many social clips, then moves toward publishing."
+    },
+    {
+      "dimension": "cta_strength",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_018"
+      ],
+      "confidence": "high",
+      "improvement_note": "The free CTA is legible and low risk, but it arrives late and away from the product proof."
+    },
+    {
+      "dimension": "caption_readability",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_011",
+        "ev_keyframe_012",
+        "ev_ocr_012"
+      ],
+      "confidence": "medium",
+      "improvement_note": "Large spoken captions are readable; editor UI labels and OCR-heavy moments are harder on mobile."
+    },
+    {
+      "dimension": "audience_fit",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_003",
+        "ev_keyframe_006",
+        "ev_keyframe_009",
+        "ev_keyframe_016"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The ad directly addresses marketers and shows creator/social workflow surfaces."
+    },
+    {
+      "dimension": "human_truth",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_006",
+        "ev_keyframe_012",
+        "ev_keyframe_016"
+      ],
+      "confidence": "medium",
+      "improvement_note": "It understands that output volume, editing labor, and publishing overhead are one connected pain."
+    },
+    {
+      "dimension": "swappability",
+      "score": 1,
+      "evidence": [
+        "ev_keyframe_006",
+        "ev_keyframe_012",
+        "ev_keyframe_016"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The mechanism is strategically useful but could describe many AI video editors unless Submagic-specific proof is added."
+    },
+    {
+      "dimension": "copycat_ip_risk",
+      "score": 1,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_005",
+        "ev_keyframe_018"
+      ],
+      "confidence": "high",
+      "improvement_note": "Direct adaptation would risk copying competitor wording, UI, creator styling, and claims; only the mechanism should transfer."
+    },
+    {
+      "dimension": "creative_intent_clarity",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_006",
+        "ev_keyframe_018"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The visible intent is clear: convert marketer interest into free-trial exploration through workflow proof."
+    }
+  ],
+  "platform_fit": {
+    "tiktok": {
+      "fit_score": 2,
+      "notes": "Native UGC delivery and first-frame hook fit TikTok, but the 59.584s runtime and dense UI tour around ev_keyframe_011 to ev_keyframe_013 create retention risk."
+    },
+    "reels": {
+      "fit_score": 2,
+      "notes": "Vertical framing and creator-led captions fit Reels, while small interface text in ev_keyframe_012 and ev_keyframe_013 may be hard to parse in-feed."
+    },
+    "shorts": {
+      "fit_score": 2,
+      "notes": "The promise is understandable early via ev_keyframe_006, but the middle relies on feature scanning rather than a tight before-after payoff."
+    },
+    "meta_paid": {
+      "fit_score": 2,
+      "notes": "The hook, product surface, and free-trial CTA support paid conversion behavior, but claim sourcing and final-output proof are weak for scale."
+    },
+    "linkedin": {
+      "fit_score": 2,
+      "notes": "The marketer workflow is relevant to LinkedIn, yet the UGC style would need stronger agency, team, or business-output framing."
+    }
+  },
+  "drop_off_hypotheses": [
+    "Viewers may drop during the 8.512-21.280s transition if the social and persona references feel less concrete than the early output promise in ev_keyframe_006 and ev_keyframe_009.",
+    "The 25.536-34.048s feature stack may overload mobile viewers because ev_keyframe_011, ev_keyframe_012, and ev_keyframe_013 require reading small UI labels.",
+    "Lower-retention viewers may miss the publishing proof and free CTA because they appear late in a 59.584s creative, after ev_keyframe_016 and ev_keyframe_018."
+  ],
+  "risks_and_unknowns": [
+    "No performance metrics are available, so this report treats all judgments as creative-signal hypotheses only.",
+    "No reliable transcript is available; the report relies on timestamped visual keyframes and OCR evidence.",
+    "The visible '10,000 marketers' and '10x faster' claims in ev_ocr_001 and ev_ocr_006 should not be reused without source verification.",
+    "The safest Submagic adaptation is mechanism-level workflow compression; copying the OpusClip UI, creator style, captions, music, or exact claims would create copycat/IP risk.",
+    "Platform fit is inferred from the video artifact only; no placement, spend, audience, or retention data is available."
+  ]
+}

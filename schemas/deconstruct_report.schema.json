@@ -10,6 +10,9 @@
     "cold_watch",
     "evidence_timeline",
     "core_mechanism",
+    "creative_intent",
+    "distilled_core",
+    "core_understanding",
     "scores",
     "platform_fit",
     "drop_off_hypotheses",
@@ -53,6 +56,9 @@
           "observation": { "type": "string", "minLength": 1 },
           "viewer_perception": { "type": "string", "minLength": 1 },
           "mechanism": { "type": "string", "minLength": 1 },
+          "narrative_function": {
+            "enum": ["hook", "pain", "proof", "cta", "risk"]
+          },
           "evidence_ids": {
             "type": "array",
             "minItems": 1,
@@ -76,6 +82,241 @@
         "why_it_catches_attention": { "type": "string", "minLength": 1 },
         "why_it_might_persuade": { "type": "string", "minLength": 1 },
         "what_cannot_be_copied": { "type": "string", "minLength": 1 }
+      }
+    },
+    "creative_intent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "creative_label",
+        "creative_type",
+        "likely_hypothesis",
+        "target_audience",
+        "awareness_stage",
+        "funnel_stage",
+        "likely_kpi",
+        "offer_strategy",
+        "marketer_job_to_be_done",
+        "evidence_ids",
+        "confidence",
+        "unknowns"
+      ],
+      "properties": {
+        "creative_label": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 100
+        },
+        "creative_type": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 140
+        },
+        "likely_hypothesis": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 260
+        },
+        "target_audience": {
+          "type": "string",
+          "minLength": 16,
+          "maxLength": 220
+        },
+        "awareness_stage": {
+          "type": "string",
+          "minLength": 4,
+          "maxLength": 120
+        },
+        "funnel_stage": {
+          "type": "string",
+          "minLength": 4,
+          "maxLength": 140
+        },
+        "likely_kpi": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 180
+        },
+        "offer_strategy": {
+          "type": "string",
+          "minLength": 16,
+          "maxLength": 240
+        },
+        "marketer_job_to_be_done": {
+          "type": "string",
+          "minLength": 16,
+          "maxLength": 240
+        },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^ev_[a-z0-9_]+$" }
+        },
+        "confidence": { "enum": ["low", "medium", "high"] },
+        "unknowns": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 180
+          }
+        }
+      }
+    },
+    "distilled_core": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "core_thesis",
+        "mechanism_formula",
+        "belief_shift_summary",
+        "why_it_works",
+        "where_it_breaks",
+        "submagic_transfer",
+        "steal",
+        "avoid",
+        "test_next"
+      ],
+      "properties": {
+        "core_thesis": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 240
+        },
+        "mechanism_formula": {
+          "type": "string",
+          "minLength": 12,
+          "maxLength": 180
+        },
+        "belief_shift_summary": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 220
+        },
+        "why_it_works": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 220
+        },
+        "where_it_breaks": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 220
+        },
+        "submagic_transfer": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 260
+        },
+        "steal": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 140
+          }
+        },
+        "avoid": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 140
+          }
+        },
+        "test_next": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 160
+          }
+        }
+      }
+    },
+    "core_understanding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "human_truth",
+        "belief_shift",
+        "tension_stack",
+        "proof_ladder",
+        "viewer_state_timeline",
+        "skeptic_read",
+        "transfer_principle_for_submagic",
+        "counterfactuals"
+      ],
+      "properties": {
+        "human_truth": { "type": "string", "minLength": 1 },
+        "belief_shift": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["before", "after", "bridge"],
+          "properties": {
+            "before": { "type": "string", "minLength": 1 },
+            "after": { "type": "string", "minLength": 1 },
+            "bridge": { "type": "string", "minLength": 1 }
+          }
+        },
+        "tension_stack": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "proof_ladder": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["claim", "proof_type", "evidence_ids", "weakness"],
+            "properties": {
+              "claim": { "type": "string", "minLength": 1 },
+              "proof_type": { "type": "string", "minLength": 1 },
+              "evidence_ids": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "type": "string", "pattern": "^ev_[a-z0-9_]+$" }
+              },
+              "weakness": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "viewer_state_timeline": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["time", "state", "trigger", "evidence_ids"],
+            "properties": {
+              "time": { "type": "string", "minLength": 1 },
+              "state": { "type": "string", "minLength": 1 },
+              "trigger": { "type": "string", "minLength": 1 },
+              "evidence_ids": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "type": "string", "pattern": "^ev_[a-z0-9_]+$" }
+              }
+            }
+          }
+        },
+        "skeptic_read": { "type": "string", "minLength": 1 },
+        "transfer_principle_for_submagic": { "type": "string", "minLength": 1 },
+        "counterfactuals": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
       }
     },
     "scores": {

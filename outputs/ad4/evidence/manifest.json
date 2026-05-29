@@ -1,0 +1,13 @@
+{
+  "audio_codec": "aac",
+  "duration_seconds": 27.633333,
+  "filename": "ad4.mp4",
+  "fps": 30.0,
+  "has_audio": true,
+  "height": 832,
+  "orientation": "vertical",
+  "path": "creatives/ad4.mp4",
+  "size_bytes": 4257909,
+  "video_codec": "h264",
+  "width": 464
+}

@@ -13,7 +13,8 @@
       "observation": "Sample timestamped hook evidence.",
       "viewer_perception": "The viewer recognizes repetitive editing labor.",
       "mechanism": "workflow compression",
-      "evidence_ids": ["ev_manifest_000"],
+      "narrative_function": "hook",
+      "evidence_ids": ["ev_keyframe_001"],
       "confidence": "medium"
     }
   ],
@@ -23,11 +24,77 @@
     "why_it_might_persuade": "It promises visible reduction in manual work.",
     "what_cannot_be_copied": "Any competitor wording, visual identity, or exact proof scene."
   },
+  "creative_intent": {
+    "creative_label": "Raw Clip Workflow Compression Ad",
+    "creative_type": "UGC / creator workflow demo / direct response",
+    "likely_hypothesis": "If creators see raw footage become publishable quickly, they will believe the tool can remove repetitive editing work.",
+    "target_audience": "Short-form creators and agencies with recurring editing bottlenecks.",
+    "awareness_stage": "Problem-aware to solution-aware.",
+    "funnel_stage": "Cold prospecting with conversion intent.",
+    "likely_kpi": "Click-through, sign-up starts, trial activation, and CAC/ROAS.",
+    "offer_strategy": "Turn an annoying workflow into visible speed proof before asking for the click.",
+    "marketer_job_to_be_done": "Make the product feel like an output multiplier, not another editing app.",
+    "evidence_ids": ["ev_keyframe_001", "ev_ocr_001"],
+    "confidence": "medium",
+    "unknowns": ["No media-buy data or landing-page analytics are available."]
+  },
+  "distilled_core": {
+    "core_thesis": "The creative turns a familiar editing bottleneck into a visible before-after promise that makes speed feel believable.",
+    "mechanism_formula": "raw-work pain -> visible transformation -> workflow compression -> action prompt",
+    "belief_shift_summary": "The viewer moves from 'this clip still needs too much work' to 'this can become publishable with a faster editing system.'",
+    "why_it_works": "It anchors the promise in a concrete workflow pain before asking the viewer to believe the product claim.",
+    "where_it_breaks": "The proof weakens if the finished edited output is not shown clearly enough before the viewer loses patience.",
+    "submagic_transfer": "Show raw footage becoming a captioned, cut, zoomed, publishable short inside the first few seconds.",
+    "steal": [
+      "Open on a creator pain that is already emotionally expensive.",
+      "Make the transformation visual before explaining features."
+    ],
+    "avoid": [
+      "Do not copy competitor wording, visuals, claims, creator likeness, or music.",
+      "Do not let feature lists replace visible before-after proof."
+    ],
+    "test_next": [
+      "Test a first-three-seconds before-after edit reveal against a pain-only hook."
+    ]
+  },
+  "core_understanding": {
+    "human_truth": "Creators know raw clips can be valuable but feel trapped by the repetitive labor required to make them publishable.",
+    "belief_shift": {
+      "before": "A raw clip still requires too much manual editing to publish consistently.",
+      "after": "A raw clip can become a polished short quickly when the editing workflow is compressed.",
+      "bridge": "Visible captions, zooms, cuts, and B-roll turn hidden editing labor into a concrete transformation."
+    },
+    "tension_stack": [
+      "The creator wants higher output volume without lowering perceived quality.",
+      "The creator distrusts generic AI editor claims unless the workflow proof is visible."
+    ],
+    "proof_ladder": [
+      {
+        "claim": "Manual editing work can be compressed.",
+        "proof_type": "before-after workflow scene",
+        "evidence_ids": ["ev_keyframe_001"],
+        "weakness": "The sample fixture needs a clearer finished-video proof frame."
+      }
+    ],
+    "viewer_state_timeline": [
+      {
+        "time": "0.0-3.0",
+        "state": "recognition",
+        "trigger": "The opening frames a familiar editing bottleneck.",
+        "evidence_ids": ["ev_keyframe_001"]
+      }
+    ],
+    "skeptic_read": "A skeptical creator may reject the promise if the finished output is not shown quickly.",
+    "transfer_principle_for_submagic": "Turn invisible editing labor into a visible before-after workflow compression demo.",
+    "counterfactuals": [
+      "Showing the final edited clip in the first three seconds would make the promise more concrete."
+    ]
+  },
   "scores": [
     {
       "dimension": "hook_strength",
       "score": 2,
-      "evidence": ["ev_manifest_000"],
+      "evidence": ["ev_keyframe_001"],
       "confidence": "medium",
       "improvement_note": "Real analysis must cite first-frame and first-caption evidence."
     }

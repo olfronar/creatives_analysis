@@ -1,0 +1,425 @@
+{
+  "video_id": "ad5",
+  "creative_signal_only": true,
+  "cold_watch": {
+    "immediate_felt_reaction": "The ad feels like a playable mobile game loop: one tiny avatar makes a huge frozen map become manageable.",
+    "moment_of_curiosity": "Curiosity peaks when the ad reveals survivors queued outside the gate after the player has started building the base.",
+    "moment_of_confusion_or_boredom": "The middle stretch repeats clearing, spending, and upgrading without a new verbal promise, so non-game viewers may lose the thread.",
+    "most_memorable_image": "Long survivor lines waiting outside a small warm base carved into an enormous snowy forest."
+  },
+  "evidence_timeline": [
+    {
+      "time": "0.0-0.5",
+      "observation": "A tiny parka-wearing avatar starts in a small fenced clearing with a lit campfire, a green resource counter at 0, and dense snowy forest filling almost the entire vertical frame.",
+      "viewer_perception": "The viewer immediately understands scale, scarcity, and a survival problem that can be acted on with one controllable character.",
+      "mechanism": "overwhelm-to-control opening",
+      "narrative_function": "hook",
+      "evidence_ids": [
+        "ev_manifest_000",
+        "ev_keyframe_001",
+        "ev_keyframe_002"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "2.0-5.6",
+      "observation": "The avatar carves a narrow path through the snow-packed tree wall and then harvests a bright green tree patch beside a build tile.",
+      "viewer_perception": "The map changes visibly after each action, making progress feel tactile and easy to understand without voiceover.",
+      "mechanism": "manual action creates visible terrain change",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_004",
+        "ev_keyframe_005",
+        "ev_keyframe_007"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "8.5-14.1",
+      "observation": "The camera returns to the campfire hub, where a building icon with a 120 requirement appears while the avatar continues clearing snowy trees nearby.",
+      "viewer_perception": "The viewer sees a simple resource gate: clear space, gather materials, then unlock the next structure.",
+      "mechanism": "next-unlock prompt",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_008",
+        "ev_keyframe_010"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "19.7-25.4",
+      "observation": "A large queue of yellow-jacket survivors waits outside the base gate while the avatar applies green resource bundles to the entrance tile.",
+      "viewer_perception": "The base is no longer just decoration; there is external pressure from people waiting to be rescued or admitted.",
+      "mechanism": "queued demand turns building into rescue pressure",
+      "narrative_function": "pain",
+      "evidence_ids": [
+        "ev_keyframe_012",
+        "ev_keyframe_014"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "28.2-33.8",
+      "observation": "Inside the base, snowy land has become bright green forest, workers move through the clearing, and green cash bundles flow into the gate tile while survivors wait outside.",
+      "viewer_perception": "The creative rewards attention with a clear before-after state: the frozen camp is becoming alive and productive.",
+      "mechanism": "environment healing as progress proof",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_015",
+        "ev_keyframe_017"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "36.6-39.5",
+      "observation": "A blue-roofed hut and sawmill-like machine appear, with the avatar spending green currency and carrying a long stack of wood to a 100-cost tile.",
+      "viewer_perception": "The ad layers a production loop on top of the rescue loop, suggesting depth without explaining menus or strategy systems.",
+      "mechanism": "base-building escalation",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_018",
+        "ev_keyframe_019"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "42.3-47.9",
+      "observation": "The base now contains campfire, hut, sawmill, stacked lumber, green forest patches, survivor lanes, and a 200 resource counter while the avatar spends on another tile.",
+      "viewer_perception": "The player fantasy shifts from surviving alone to managing a growing settlement with multiple simultaneous needs.",
+      "mechanism": "single-worker loop expands into system management",
+      "narrative_function": "proof",
+      "evidence_ids": [
+        "ev_keyframe_020",
+        "ev_keyframe_021",
+        "ev_keyframe_022"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "50.7",
+      "observation": "A zoomed-out view shows a multi-room base carved out of the snow forest, long survivor queues, and multiple 300-cost build tiles still waiting.",
+      "viewer_perception": "The unfinished build pads create completion tension: the viewer can imagine the next upgrades before the ad ends.",
+      "mechanism": "unfinished-map tension",
+      "narrative_function": "risk",
+      "evidence_ids": [
+        "ev_keyframe_023"
+      ],
+      "confidence": "high"
+    },
+    {
+      "time": "53.6",
+      "observation": "The end card overlays stacked gameplay screenshots, Whiteout Survival branding, a large partially readable headline, and a partially readable NO.1 winter-theme claim.",
+      "viewer_perception": "The ad shifts from simulated play to app-store style proof, but the headline legibility is weaker than the gameplay demonstration.",
+      "mechanism": "brand-and-store close",
+      "narrative_function": "cta",
+      "evidence_ids": [
+        "ev_keyframe_024",
+        "ev_ocr_024"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "core_mechanism": {
+    "name": "overwhelm-to-order rescue loop",
+    "why_it_catches_attention": "It opens with extreme visual imbalance: one tiny controllable worker against an oversized frozen wilderness.",
+    "why_it_might_persuade": "The ad repeatedly shows small actions producing visible world changes, new buildings, queues, resources, and unfinished upgrade prompts.",
+    "what_cannot_be_copied": "Do not copy Whiteout Survival branding, winter art direction, specific UI, gameplay screenshots, music, captions, claims, or end-card composition."
+  },
+  "creative_intent": {
+    "creative_label": "Whiteout Survival Rescue Base Loop Ad",
+    "creative_type": "Playable-style mobile game demo / progression fantasy / direct response",
+    "likely_hypothesis": "If cold mobile game viewers see one worker convert a hostile frozen map into a functioning rescue base, they will understand the core loop and feel pulled to install.",
+    "target_audience": "Casual mobile players who like survival, idle resource loops, base building, and visible map-cleanup progression.",
+    "awareness_stage": "Genre-aware to product-aware mobile game viewers.",
+    "funnel_stage": "Cold prospecting with install intent.",
+    "likely_kpi": "Click-through rate, store visits, cost per install, and early gameplay engagement.",
+    "offer_strategy": "Replace a discount or feature list with a satisfying playable-looking loop and a branded end card.",
+    "marketer_job_to_be_done": "Make the game instantly legible as a rescue-and-build loop before the viewer scrolls away.",
+    "evidence_ids": [
+      "ev_manifest_000",
+      "ev_keyframe_001",
+      "ev_keyframe_007",
+      "ev_keyframe_012",
+      "ev_keyframe_018",
+      "ev_keyframe_024"
+    ],
+    "confidence": "medium",
+    "unknowns": [
+      "No media-buy, store-page, install, retention, or ROAS data is available.",
+      "The video does not prove whether the shown gameplay matches the first playable session.",
+      "End-card text is partially unreadable in the sampled frame."
+    ]
+  },
+  "distilled_core": {
+    "core_thesis": "The creative sells the game as a rescue-and-build loop where one tiny action turns frozen chaos into visible order.",
+    "mechanism_formula": "isolation hook -> tactile clearing -> rescue pressure -> base upgrades -> branded install close",
+    "belief_shift_summary": "The viewer moves from seeing an overwhelming frozen wilderness to believing the game offers immediate control, rescue stakes, and steady settlement growth.",
+    "why_it_works": "It exploits completion pressure, visible before-after progress, and the pleasure of turning a hostile map into a productive base.",
+    "where_it_breaks": "The midsection can feel repetitive, and the final proof card is less legible than the gameplay loop.",
+    "submagic_transfer": "For Submagic, translate the mechanism into a raw-to-publishable workflow: show one creator action triggering visible captions, cuts, zooms, and output growth.",
+    "steal": [
+      "Open with an overwhelming state that one action can fix.",
+      "Show visible state change after every beat.",
+      "Use queued demand to create urgency."
+    ],
+    "avoid": [
+      "Do not copy the winter map, UI, brand, or game screenshots.",
+      "Do not use unverifiable ranking claims.",
+      "Do not let the close card become less readable than the demo."
+    ],
+    "test_next": [
+      "Test a shorter version that reaches survivor pressure before 15 seconds.",
+      "Test a clearer end card with one readable install reason.",
+      "Test a Submagic workflow demo built around queued creator clips."
+    ]
+  },
+  "core_understanding": {
+    "human_truth": "People enjoy feeling that a chaotic system can be made safe, productive, and complete through a series of small obvious actions.",
+    "belief_shift": {
+      "before": "This is an overwhelming frozen world with scarce resources and too many unknown needs.",
+      "after": "This is a legible loop: clear, gather, unlock, rescue, build, and repeat toward a bigger base.",
+      "bridge": "Each visual beat turns a small action into a visible map change, resource spend, or new structure."
+    },
+    "tension_stack": [
+      "The avatar is tiny compared with the huge snowy forest.",
+      "The resource counter begins at 0, making scarcity explicit.",
+      "Build tiles show numeric costs that are not yet affordable.",
+      "Survivors queue outside the gate, giving the base-building a human deadline.",
+      "Unfinished pads remain visible near the end, keeping completion pressure open."
+    ],
+    "proof_ladder": [
+      {
+        "claim": "The world starts hostile and resource-scarce.",
+        "proof_type": "first-frame scale contrast and zero resource UI",
+        "evidence_ids": [
+          "ev_keyframe_001",
+          "ev_keyframe_002"
+        ],
+        "weakness": "The opening has no explicit caption explaining the goal."
+      },
+      {
+        "claim": "Player actions visibly change the map.",
+        "proof_type": "path clearing and harvesting animation",
+        "evidence_ids": [
+          "ev_keyframe_004",
+          "ev_keyframe_005",
+          "ev_keyframe_007"
+        ],
+        "weakness": "The ad does not show whether these actions are actual player controls or staged creative."
+      },
+      {
+        "claim": "The base has external rescue pressure.",
+        "proof_type": "survivor queue and gate resource payment",
+        "evidence_ids": [
+          "ev_keyframe_012",
+          "ev_keyframe_014",
+          "ev_keyframe_017"
+        ],
+        "weakness": "The survivors' exact role is inferred visually, not stated in text."
+      },
+      {
+        "claim": "The loop escalates into base management.",
+        "proof_type": "hut, sawmill, lumber stacks, multiple build pads, and resource counters",
+        "evidence_ids": [
+          "ev_keyframe_018",
+          "ev_keyframe_019",
+          "ev_keyframe_020",
+          "ev_keyframe_022",
+          "ev_keyframe_023"
+        ],
+        "weakness": "The ad shows many objects but no clear feature explanation."
+      },
+      {
+        "claim": "The brand and install prompt arrive after the gameplay proof.",
+        "proof_type": "stacked screenshot end card and Whiteout Survival branding",
+        "evidence_ids": [
+          "ev_keyframe_024",
+          "ev_ocr_024"
+        ],
+        "weakness": "The sampled end-card text is partly unreadable."
+      }
+    ],
+    "viewer_state_timeline": [
+      {
+        "time": "0.0-0.5",
+        "state": "orientation",
+        "trigger": "Tiny avatar, warm campfire, resource counter at 0, and overwhelming snow forest.",
+        "evidence_ids": [
+          "ev_keyframe_001",
+          "ev_keyframe_002"
+        ]
+      },
+      {
+        "time": "2.0-5.6",
+        "state": "agency",
+        "trigger": "Path clearing and harvesting create visible progress.",
+        "evidence_ids": [
+          "ev_keyframe_004",
+          "ev_keyframe_005",
+          "ev_keyframe_007"
+        ]
+      },
+      {
+        "time": "19.7-25.4",
+        "state": "pressure",
+        "trigger": "Survivors queue outside the gate while the avatar spends resources to unlock access.",
+        "evidence_ids": [
+          "ev_keyframe_012",
+          "ev_keyframe_014"
+        ]
+      },
+      {
+        "time": "36.6-47.9",
+        "state": "competence",
+        "trigger": "Hut, sawmill, lumber stacks, and resource payments make the player look increasingly capable.",
+        "evidence_ids": [
+          "ev_keyframe_018",
+          "ev_keyframe_019",
+          "ev_keyframe_020",
+          "ev_keyframe_022"
+        ]
+      },
+      {
+        "time": "50.7-53.6",
+        "state": "completion itch",
+        "trigger": "Zoomed-out base and end card show unfinished pads, screenshots, and brand close.",
+        "evidence_ids": [
+          "ev_keyframe_023",
+          "ev_keyframe_024"
+        ]
+      }
+    ],
+    "skeptic_read": "A skeptical viewer may read this as polished ad-only gameplay because the loop is highly simplified, UI costs jump quickly, and the end-card ranking claim is not independently substantiated in the video.",
+    "transfer_principle_for_submagic": "Do not borrow the game surface; borrow the psychological loop of overwhelming starting state, one obvious action, visible transformation, queued demand, and an unfinished next step.",
+    "counterfactuals": [
+      "If survivor pressure appeared earlier, the creative would likely become more emotionally legible before the first retention drop.",
+      "If the ad opened with only the end card, it would lose the tactile proof that makes the loop understandable.",
+      "If every resource action had a clearer before-after label, non-game viewers might understand the stakes faster."
+    ]
+  },
+  "scores": [
+    {
+      "dimension": "hook_strength",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_002"
+      ],
+      "confidence": "high",
+      "improvement_note": "The first frame is visually strong, but a clearer goal cue could broaden comprehension."
+    },
+    {
+      "dimension": "core_loop_clarity",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_004",
+        "ev_keyframe_007",
+        "ev_keyframe_018",
+        "ev_keyframe_019"
+      ],
+      "confidence": "high",
+      "improvement_note": "The clear-gather-build loop is readable from visuals alone."
+    },
+    {
+      "dimension": "emotional_pressure",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_012",
+        "ev_keyframe_014",
+        "ev_keyframe_021"
+      ],
+      "confidence": "high",
+      "improvement_note": "Survivor queues add stakes, but they arrive after several purely mechanical beats."
+    },
+    {
+      "dimension": "progression_proof",
+      "score": 3,
+      "evidence": [
+        "ev_keyframe_015",
+        "ev_keyframe_018",
+        "ev_keyframe_020",
+        "ev_keyframe_023"
+      ],
+      "confidence": "high",
+      "improvement_note": "The base visibly grows from campfire to multi-structure settlement."
+    },
+    {
+      "dimension": "pacing_efficiency",
+      "score": 2,
+      "evidence": [
+        "ev_manifest_000",
+        "ev_keyframe_007",
+        "ev_keyframe_010",
+        "ev_keyframe_017"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The 56-second runtime gives proof depth but repeats harvesting and spending beats."
+    },
+    {
+      "dimension": "end_card_clarity",
+      "score": 1,
+      "evidence": [
+        "ev_keyframe_024",
+        "ev_ocr_024"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The gameplay screenshots are clear, but headline and ranking copy are partly unreadable in the sampled end frame."
+    },
+    {
+      "dimension": "submagic_transferability",
+      "score": 2,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_007",
+        "ev_keyframe_012",
+        "ev_keyframe_023"
+      ],
+      "confidence": "medium",
+      "improvement_note": "The state-change mechanism transfers well; the game surface and brand assets do not."
+    },
+    {
+      "dimension": "copycat_risk_control",
+      "score": 1,
+      "evidence": [
+        "ev_keyframe_001",
+        "ev_keyframe_024"
+      ],
+      "confidence": "high",
+      "improvement_note": "Any adaptation must avoid the Whiteout Survival brand, winter map, UI, screenshots, and ranking claim."
+    }
+  ],
+  "platform_fit": {
+    "tiktok": {
+      "fit_score": 3,
+      "notes": "Strong vertical visual hook and satisfying loop; survivor stakes should arrive sooner for short attention spans."
+    },
+    "reels": {
+      "fit_score": 2,
+      "notes": "The visual transformation fits Reels, but small UI and late end-card text may be harder to read on quick scroll."
+    },
+    "shorts": {
+      "fit_score": 2,
+      "notes": "The loop is understandable, but the runtime is long for a purely mechanical demo without spoken structure."
+    },
+    "meta_paid": {
+      "fit_score": 3,
+      "notes": "Playable-style progression and install-oriented end card fit paid mobile-game acquisition creative."
+    },
+    "linkedin": {
+      "fit_score": 0,
+      "notes": "The creative is consumer mobile-game acquisition and has no business or professional framing."
+    }
+  },
+  "drop_off_hypotheses": [
+    "Non-game viewers may drop during the first 8 seconds if they do not infer the goal from the campfire, resource counter, and clearing action.",
+    "The 14-34 second stretch may lose attention because it repeats clearing, spending, and waiting-line beats before a major new payoff.",
+    "The final CTA may underperform relative to the gameplay proof because the sampled end-card copy is less legible than the gameplay visuals."
+  ],
+  "risks_and_unknowns": [
+    "No real performance metrics are provided, so all scores are creative-signal judgments only.",
+    "The video does not establish whether the shown loop is representative of actual first-session gameplay.",
+    "The OCR is mostly noisy, so visual evidence carries most claims.",
+    "The partially readable NO.1 winter-theme claim should not be reused without independent substantiation.",
+    "Submagic adaptation should borrow the transformation mechanism, not the competitor's script, visuals, captions, brand identity, gameplay, music, or proprietary claims."
+  ]
+}
