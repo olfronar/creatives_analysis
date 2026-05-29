@@ -7,7 +7,7 @@ The project turns competitor short-form video creatives into structured evidence
 - `deconstruct` - precise creative deconstruction of competitor ads.
 - `adapt` - Submagic-native adaptation ideas for creators and agencies.
 
-V1 is intentionally infrastructure-first. It creates the research notes, prompt contracts, rubrics, schemas, extraction tooling, and HTML report renderer needed for later analysis, but it does not generate deconstruct or adapt reports for the existing `creatives/ad1.mp4` through `creatives/ad5.mp4` files unless a deconstruction task is explicitly run.
+The repository contains the reusable analysis infrastructure plus committed example output reports. Source competitor videos are expected locally in `creatives/`, but they are not included in git.
 
 ## Principles
 
@@ -22,14 +22,21 @@ V1 is intentionally infrastructure-first. It creates the research notes, prompt 
 
 ## What Is Included
 
-- Source competitor videos in `creatives/`.
+- Local source-video slot in `creatives/`; MP4 source videos are ignored and not distributed.
 - Research notes on creative deconstruction, Submagic positioning, and the proposed pipeline.
 - Prompt modules for evidence extraction, deconstruction, adaptation, validation, and synthesis.
 - Rubrics for short-form creative quality, platform fit, and Submagic adaptation.
 - JSON schemas and sample fixtures for evidence packets, reports, variants, and validation results.
 - Python CLI tooling for environment checks, metadata inventory, evidence extraction scaffolding, and schema validation.
 - A deterministic HTML deconstruction report renderer that pairs timeline insights with evidence shots, contact sheets, proof ladders, and Submagic-transfer notes when evidence is available.
+- Example `outputs/` reports with extracted still frames, OCR/evidence JSON, and HTML deconstruction views.
 - A stricter artifact graph: evidence IDs, cold-watch perception, mechanism deconstruction, Submagic proof scenes, swappability checks, and schema-backed validation.
+
+## Public Artifacts Notice
+
+Source competitor videos are not included in this repository. The committed `outputs/` examples may include sampled still frames, OCR snippets, brand names, and analysis derived from short-form ads. These artifacts are included only for creative-analysis reference and report-format review.
+
+See [NOTICE.md](NOTICE.md) for the repository publication notice.
 
 ## Setup
 
@@ -79,7 +86,7 @@ Deconstruct JSON must include `core_understanding`: human truth, belief shift, t
 - `templates/html/` - structural HTML report template guide.
 - `src/creatives_analysis/` - `uv`-run Python tooling.
 - `tests/fixtures/` - schema sample fixtures.
-- `outputs/` - future generated evidence and reports.
+- `outputs/` - committed example evidence and reports, plus future generated evidence and reports.
 
 ## Research Anchors
 
@@ -108,4 +115,4 @@ uv run creatives-validate
 uv run creatives-render-report --deconstruct tests/fixtures/deconstruct_report.sample.json --evidence tests/fixtures/evidence_packet.sample.json --output /tmp/deconstruct_report.html
 ```
 
-The expected default state is that `outputs/` contains no generated reports until an explicit extraction, deconstruction, or render command is run.
+The public repository includes selected example outputs so HTML reports can be reviewed online. Future generated outputs should still be reviewed before commit, especially for source-video leakage, private data, and third-party asset exposure.
