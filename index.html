@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative Deconstruction Reports</title>
+  <style>
+    :root {
+      --shell: #fffcf7;
+      --paper: #ffffff;
+      --ink: #0b0b0d;
+      --muted: #5f5f6d;
+      --line: #ececef;
+      --accent: #ff4f01;
+      --accent-soft: #fff2ea;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: var(--shell);
+      color: var(--ink);
+      font: 16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      max-width: 820px;
+      font-size: clamp(38px, 6vw, 72px);
+      line-height: 0.96;
+      letter-spacing: 0;
+    }
+    .intro {
+      max-width: 760px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 19px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 36px;
+    }
+    .card {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-height: 100%;
+      overflow: hidden;
+      color: inherit;
+      text-decoration: none;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: 0 16px 42px rgba(32, 24, 18, 0.07);
+    }
+    .card:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 4px;
+    }
+    .thumb {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      object-fit: cover;
+      background: var(--accent-soft);
+      border-bottom: 1px solid var(--line);
+    }
+    .body {
+      padding: 18px;
+    }
+    .meta {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    .summary {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .open {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 18px;
+      color: var(--ink);
+      font-weight: 850;
+    }
+    .open::after {
+      content: "->";
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a {
+      color: var(--ink);
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Creative deconstruction workspace</p>
+    <h1>Short-form ad reports for human plus Codex review.</h1>
+    <p class="intro">Evidence-backed HTML reports rendered from validated deconstruction JSON and sampled keyframes. Source MP4 files are not included in this repository.</p>
+
+    <section class="grid" aria-label="Creative deconstruction reports">
+      <a class="card" href="outputs/ad1/reports/deconstruct.html">
+        <img class="thumb" src="outputs/ad1/evidence/keyframes/contact_sheet.jpg" alt="Contact sheet for Gruns Symptom-Ladder UGC Ad" loading="lazy">
+        <div class="body">
+          <p class="meta">ad1 / supplement UGC</p>
+          <h2>Gruns Symptom-Ladder UGC Ad</h2>
+          <p class="summary">A vague greens habit becomes a symptom checklist, then one packet is positioned as the bundled answer.</p>
+          <span class="open">Open report</span>
+        </div>
+      </a>
+
+      <a class="card" href="outputs/ad2/reports/deconstruct.html">
+        <img class="thumb" src="outputs/ad2/evidence/keyframes/contact_sheet.jpg" alt="Contact sheet for OpusClip Chess Hustle AI-Clips Demo Ad" loading="lazy">
+        <div class="body">
+          <p class="meta">ad2 / creator workflow</p>
+          <h2>OpusClip Chess Hustle AI-Clips Demo Ad</h2>
+          <p class="summary">A beach chess skit hides an AI repurposing pitch, then turns creator workload into ranked clips.</p>
+          <span class="open">Open report</span>
+        </div>
+      </a>
+
+      <a class="card" href="outputs/ad3/reports/deconstruct.html">
+        <img class="thumb" src="outputs/ad3/evidence/keyframes/contact_sheet.jpg" alt="Contact sheet for OpusClip marketer volume-hack UGC ad" loading="lazy">
+        <div class="body">
+          <p class="meta">ad3 / marketer volume</p>
+          <h2>OpusClip Marketer Volume-Hack UGC Ad</h2>
+          <p class="summary">One long video is framed as the input for many publishable clips, reducing output anxiety for marketers.</p>
+          <span class="open">Open report</span>
+        </div>
+      </a>
+
+      <a class="card" href="outputs/ad4/reports/deconstruct.html">
+        <img class="thumb" src="outputs/ad4/evidence/keyframes/contact_sheet.jpg" alt="Contact sheet for Captions App Lazy Editor Workflow Shortcut UGC" loading="lazy">
+        <div class="body">
+          <p class="meta">ad4 / editing shortcut</p>
+          <h2>Captions App Lazy Editor Workflow Shortcut UGC</h2>
+          <p class="summary">Editing avoidance is normalized, then resolved through visible AI-edit workflow proof inside the app.</p>
+          <span class="open">Open report</span>
+        </div>
+      </a>
+
+      <a class="card" href="outputs/ad5/reports/deconstruct.html">
+        <img class="thumb" src="outputs/ad5/evidence/keyframes/contact_sheet.jpg" alt="Contact sheet for Whiteout Survival Rescue Base Loop Ad" loading="lazy">
+        <div class="body">
+          <p class="meta">ad5 / playable game ad</p>
+          <h2>Whiteout Survival Rescue Base Loop Ad</h2>
+          <p class="summary">One tiny rescue action turns frozen chaos into visible order through a compact build-and-save loop.</p>
+          <span class="open">Open report</span>
+        </div>
+      </a>
+    </section>
+
+    <footer>
+      <p>See <a href="NOTICE.md">NOTICE.md</a> for source-video and reference-screenshot publication notes.</p>
+    </footer>
+  </main>
+</body>
+</html>
